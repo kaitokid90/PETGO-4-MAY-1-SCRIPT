@@ -19,7 +19,7 @@ getgenv().petsGoConfig = {
     DIAMOND_EGG = false,  -- true = Diamond Egg, false = F2P Egg	
     MINE_ALL_ORES = false,
 
-    PICKAXE_ENCHANTS = {"Speed", "Loot"},
+    PICKAXE_ENCHANTS = {"Strength", "Speed", "Loot"},
     
     
     
