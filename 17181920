@@ -14,7 +14,7 @@ getgenv().petsGoConfig = {
     WEBHOOK_URL = "https://discord.com/api/webhooks/1319761068008149095/OHmPh-mzBb17TBNXXdhjLkJadsaweMFR2c53BsZQ_YwkJjaBGjvRcJVmlqfjPIBm9KWa",
     MAILING_WEBHOOK_URL = "https://discord.com/api/webhooks/1319761068008149095/OHmPh-mzBb17TBNXXdhjLkJadsaweMFR2c53BsZQ_YwkJjaBGjvRcJVmlqfjPIBm9KWa",
     DISCORD_ID = "885836894032764968",  -- Required!!! (For public-webhook)
-    WEBHOOK_ODDS = 800000000, -- Minimum Pet Odds To Trigger Webhook
+    WEBHOOK_ODDS = 1000000000, -- Minimum Pet Odds To Trigger Webhook
 
     DIAMOND_EGG = false,  -- true = Diamond Egg, false = F2P Egg	
     MINE_ALL_ORES = false,
@@ -25,8 +25,8 @@ getgenv().petsGoConfig = {
     
     MAILING = true,  -- Auto mail   
     MAIL_FISHING_ROD = true,  -- true = mail, false = keep fishing rod on account (FASTER Fishing)
-    MAIL_WEBHOOK_ODDS = 800000000, -- Minimum Pet Odds To Trigger MAIL Webhook
-    MAIL_PET_ODDS = 800000000,  -- Minimum Pet Odds To Mail
+    MAIL_WEBHOOK_ODDS = 1000000000, -- Minimum Pet Odds To Trigger MAIL Webhook
+    MAIL_PET_ODDS = 1000000000,  -- Minimum Pet Odds To Mail
     MAIL_GEMS_MIN = 1,  -- Minimum Gems to mail out
 
     MIN_MAIL_AMOUNT = {  -- Rare items not listed, default min 1
