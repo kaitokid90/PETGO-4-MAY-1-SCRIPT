@@ -1,4 +1,5 @@
 getgenv().petsGoConfig = {
+     AUTO_RESTART = true,
     -- true/false
     IGNORE_FULL_CHARGE_MEGA_EGG = true,
     -- Event config
