@@ -7,6 +7,7 @@ getgenv().petsGoConfig = {
     CONSUME_ALL_THIEVING_CHEST = false,
     CONSUME_INSTA_LUCK_4 = true,
     IGNORE_DICE_COMBO = false, -- Consume Insta Luck 3 without combo
+
     WEBHOOK_URL = "https://discord.com/api/webhooks/1319761068008149095/OHmPh-mzBb17TBNXXdhjLkJadsaweMFR2c53BsZQ_YwkJjaBGjvRcJVmlqfjPIBm9KWa",
     MAILING_WEBHOOK_URL = "https://discord.com/api/webhooks/1319761068008149095/OHmPh-mzBb17TBNXXdhjLkJadsaweMFR2c53BsZQ_YwkJjaBGjvRcJVmlqfjPIBm9KWa",
     DISCORD_ID = "885836894032764968",  -- Required!!! (For public-webhook)
