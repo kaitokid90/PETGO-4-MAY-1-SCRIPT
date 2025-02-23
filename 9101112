@@ -1,18 +1,12 @@
 getgenv().petsGoConfig = {
      AUTO_RESTART = true,
-    -- true/false
-    IGNORE_FULL_CHARGE_MEGA_EGG = true,
-    -- Event config
-    -- true will open event gift bag/egg
-    -- false will auto mail gift bag/egg
     CONSUME_CORRUPTED_HUGE_BAIT = true,
     CONSUME_ALL_ENCHANT_SAFE = true,
-    CONSUME_ALL_MINING_CHEST = false,
-    CONSUME_EVENT_GIFT_BAG = false,
-    CONSUME_EVENT_EGG = false, -- Hype eggs not included
-    CONSUME_EVENT_TICKET = false,
+    CONSUME_ALL_MINING_CHEST = true,
+    CONSUME_EVENT_EGG = true, -- Hype eggs not included
+    CONSUME_ALL_THIEVING_CHEST = false,
     CONSUME_INSTA_LUCK_4 = true,
-    IGNORE_DICE_COMBO = true,
+    IGNORE_DICE_COMBO = false, -- Consume Insta Luck 3 without combo
 
     WEBHOOK_URL = "https://discord.com/api/webhooks/1319761068008149095/OHmPh-mzBb17TBNXXdhjLkJadsaweMFR2c53BsZQ_YwkJjaBGjvRcJVmlqfjPIBm9KWa",
     MAILING_WEBHOOK_URL = "https://discord.com/api/webhooks/1319761068008149095/OHmPh-mzBb17TBNXXdhjLkJadsaweMFR2c53BsZQ_YwkJjaBGjvRcJVmlqfjPIBm9KWa",
