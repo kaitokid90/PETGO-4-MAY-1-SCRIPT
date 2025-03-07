@@ -8,6 +8,9 @@ getgenv().petsGoConfig = {
     CONSUME_INSTA_LUCK_4 = true,
     IGNORE_DICE_COMBO = false, -- Consume Insta Luck 3 without combo
     CONSUME_VAULT_KEY = true,
+    CONSUME_KRAKEN_TENTACLE = true,
+    CONSUME_BUCKET_O_CHUM = true,
+    CONSUME_ALL_FISHING_CHEST = false,
 
     WEBHOOK_URL = "https://discord.com/api/webhooks/1319761068008149095/OHmPh-mzBb17TBNXXdhjLkJadsaweMFR2c53BsZQ_YwkJjaBGjvRcJVmlqfjPIBm9KWa",
     MAILING_WEBHOOK_URL = "https://discord.com/api/webhooks/1319761068008149095/OHmPh-mzBb17TBNXXdhjLkJadsaweMFR2c53BsZQ_YwkJjaBGjvRcJVmlqfjPIBm9KWa",
