@@ -11,6 +11,7 @@ getgenv().petsGoConfig = {
     CONSUME_KRAKEN_TENTACLE = true,
     CONSUME_BUCKET_O_CHUM = true,
     CONSUME_ALL_FISHING_CHEST = false,
+    CONSUME_EVENT_GIFT_BAG = false,
 
     WEBHOOK_URL = "https://discord.com/api/webhooks/1319761068008149095/OHmPh-mzBb17TBNXXdhjLkJadsaweMFR2c53BsZQ_YwkJjaBGjvRcJVmlqfjPIBm9KWa",
     MAILING_WEBHOOK_URL = "https://discord.com/api/webhooks/1319761068008149095/OHmPh-mzBb17TBNXXdhjLkJadsaweMFR2c53BsZQ_YwkJjaBGjvRcJVmlqfjPIBm9KWa",
