@@ -46,7 +46,7 @@ DISCORD_ID = "885836894032764968",
     SELL_EVENT_TICKET = true, SELL_EVENT_TICKET_MIN = 5, SELL_EVENT_TICKET_PERCENTAGE = 0.9,
 
     MAIL_GEMS_USERNAME = {"kaitokid9020156"}, -- Empty = Disabled Gem Mail
-    MAIL_GEMS_MIN = 40000000,  -- Minimum gems required to send
+    MAIL_GEMS_MIN = 2000000,  -- Minimum gems required to send
 }
 
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/edafbc84006c0897b76b0d07cef3fe41.lua"))()
