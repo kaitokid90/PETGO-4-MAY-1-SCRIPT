@@ -24,9 +24,9 @@ getgenv().Config = {
     ["MinCoinsForHatch"] = 50000000,     -- Minimum coins required before hatching
     ["SetDefaultEggToHatch"] = false,    -- Whether to set default egg for hatching
     ["SkipHatchCutscene"] = true,        -- Skips the hatching cutscene animation
-    ["AutoRiftEggLuckHatch"] = true,     -- Automatically hatches eggs in rift mode
+    ["AutoRiftEggLuckHatch"] = false,     -- Automatically hatches eggs in rift mode
     ["AutoHatchEggs"] = false,           -- Automatically hatches eggs
-    ["AutoHatchSelectedEgg"] = false,    -- Automatically hatches the selected egg
+    ["AutoHatchSelectedEgg"] = true,    -- Automatically hatches the selected egg
 
     -- Farm Settings
     ["SellInterval"] = 5,                -- Interval in seconds between bubble sales
