@@ -18,7 +18,7 @@ getgenv().Config = {
     ["AutoCheckChests"] = true,          -- Automatically checks and claims chests
 
     -- Egg Settings
-    ["SelectedEgg"] = "Void Egg",     -- The egg to hatch when AutoHatchSelectedEgg is enabled
+    ["SelectedEgg"] = "Rainbow Egg",     -- The egg to hatch when AutoHatchSelectedEgg is enabled
     ["ESpamDuration"] = 3,               -- Duration in seconds to spam E key when hatching
     ["MaxHatchAttempts"] = 100,          -- Maximum number of hatch attempts per egg
     ["MinCoinsForHatch"] = 50000000,     -- Minimum coins required before hatching
