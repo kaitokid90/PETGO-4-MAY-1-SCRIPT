@@ -6,7 +6,7 @@ getgenv().Settings = {
         ["Notifications"] = {
             Webhook = "https://discord.com/api/webhooks/1361262645851848844/vILSbMkaorS6y39e3aKXhfdPAPiLwa6RzLICqM55KB3omdr1qrmV6235H-mONsgIC5LV",
             DiscordID = "885836894032764968",
-            Difficulty = 200000,
+            Difficulty = 100000,
         },
         ["Rifts"] = {
             FindRifts = true,
