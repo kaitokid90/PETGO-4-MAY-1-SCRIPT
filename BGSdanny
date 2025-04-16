@@ -4,7 +4,7 @@ getgenv().Config = {
     FPS                    = 5, -- Force FPS
     BypassLoadingScreen    = true, -- Bỏ qua màn hình loading khi vào game
     AntiAFK                = true, -- Chống bị kick vì AFK
-    Disable3DRendering     = false, -- Tắt render 3D (Performance Mode)
+    Disable3DRendering     = true, -- Tắt render 3D (Performance Mode)
     DisableHatchCutscene   = true, -- Bỏ qua hoạt cảnh mở trứng
 
     -- Automation Features (BGSI.lua)
