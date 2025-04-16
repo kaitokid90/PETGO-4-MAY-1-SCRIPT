@@ -1,7 +1,7 @@
 script_key = "tCSvtQmueunCfEfnFdaPyRVxFupkflfy";
 getgenv().Config = {
     -- General & Performance
-    FPS                    = 5, -- Force FPS
+    FPS                    = 10, -- Force FPS
     BypassLoadingScreen    = true, -- Bỏ qua màn hình loading khi vào game
     AntiAFK                = true, -- Chống bị kick vì AFK
     Disable3DRendering     = true, -- Tắt render 3D (Performance Mode)
