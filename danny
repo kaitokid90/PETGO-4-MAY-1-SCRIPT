@@ -1,0 +1,53 @@
+script_key = "tCSvtQmueunCfEfnFdaPyRVxFupkflfy";
+getgenv().Config = {
+    -- General & Performance
+    FPS                    = 5, -- Force FPS
+    BypassLoadingScreen    = true, -- Bỏ qua màn hình loading khi vào game
+    AntiAFK                = true, -- Chống bị kick vì AFK
+    Disable3DRendering     = false, -- Tắt render 3D (Performance Mode)
+    DisableHatchCutscene   = true, -- Bỏ qua hoạt cảnh mở trứng
+
+    -- Automation Features (BGSI.lua)
+    AutoClaimDailyRewards  = true, -- Tự động nhận thưởng hàng ngày
+    AutoUnlockZones        = true, -- Tự động mở khóa khu vực (theo thứ tự)
+    AutoBlowSellBubble     = true, -- Tự động thổi và bán bong bóng
+    AutoBuyFlavorGum       = true, -- Tự động mua Flavor & Gum tốt nhất chưa sở hữu
+    AutoClaimIndex         = true, -- Tự động nhận thưởng Index (khi đủ pet trong trứng)
+    AutoClaimQuests        = true, -- Tự động nhận thưởng nhiệm vụ (Bubbles & Hatches)
+    AutoClaimSeason        = true, -- Tự động nhận thưởng Season Pass
+    AutoDoggyJump          = true, -- Tự động nhận thưởng Doggy Jump
+    AutoEquipBestFlavorGum = true, -- Tự động trang bị Flavor & Gum tốt nhất đang sở hữu
+    AutoOpenItemsPowerups  = true, -- Tự động mở Mystery Box & Season Egg
+    AutoClaimPlayTime      = true, -- Tự động nhận thưởng thời gian chơi
+    AutoClaimRiftGift      = true, -- Tự động nhận thưởng Rift Gift
+    AutoUpgradeMastery     = true, -- Tự động nâng cấp Mastery
+    AutoWheelSpin          = true, -- Tự động quay bánh xe may mắn (Free & Ticket)
+    AutoEquipBestPets      = true, -- Tự động trang bị Pet mạnh nhất
+    AutoConsumePotions     = true, -- Tự động sử dụng Potion tốt nhất chưa kích hoạt
+    AutoPickups            = true, -- Tự động nhặt vật phẩm trên bản đồ
+
+    -- Automation Features (Auto.lua - Task Logic)
+    ["Rifts"] = {
+        AlwaysFindRifts = true, -- True: Chỉ hatch egg khi có đảo Rift. False: Ưu tiên Rift, Vị trí Egg mặc định.
+        Targets = {"Aura Egg"}, -- Các egg sẽ *luôn* tìm rift nếu AlwaysFindRifts = true
+    },
+
+    FindDuck = "Nightmare Egg",
+
+    -- Webhook Configuration (From Webhook.lua)
+    EnableWebhookNotifier = true, -- Bật/tắt webhook thông báo hatch pet
+
+    Note = "PC-Main", -- Note
+
+    WebhookURL = "https://discord.com/api/webhooks/1361998811018432742/uQW-QgEe_3fomz6XUzfV-o8aisJiyFTblSNy9y9tUmQ4pdW4x4eST7B_CVq2xdHbec9U", -- Thay URL của bạn vào đây
+
+    WebhookRarity = { 
+        -- "Common",
+        -- "Unique",
+        -- "Rare",
+        "Legendary", 
+         "Mythic",
+        "Secret"
+     }, -- Rarity filter
+}
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/0cf205a620e81d1f3c3d3f75474ab32f.lua"))()
