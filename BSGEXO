@@ -2,20 +2,37 @@ getgenv().Settings = {
     ["Egg Settings"] = {
         OpenEggs = true,
         Egg = "Best",
+        --// Supports ANY egg ("Rainbow Egg", "Infinity Egg", ...). Keep "Best" for new accounts.
         
         ["Notifications"] = {
             Webhook = "https://discord.com/api/webhooks/1361262645851848844/vILSbMkaorS6y39e3aKXhfdPAPiLwa6RzLICqM55KB3omdr1qrmV6235H-mONsgIC5LV",
             DiscordID = "885836894032764968",
-            Difficulty = 100000,
+            Difficulty = "100k", --// Minimum Difficulty for Webhook Notifications
         },
+
         ["Rifts"] = {
-            FindRifts = true,
-            SortByMultiplier = true, --// false will still sort multi, but out of BEST egg.
-            Targets = {},
-            --// No targets will let the script automatically find the top 3 best eggs.
+            FindRifts = false,
+            SortByMultiplier = true, 
+            --// true --> Sort by Multiplier out of ALL Targetted Rifts.
+            --// false --> Sort by Multiplier out of BEST Targetted Rifts.
+            
+            Targets = {"Aura Egg", "Nightmare Egg"},
+            --// Targets = {} will automatically find the Top 3 BEST Rifts to hatch.
         },
     },
     
+    ["Debug"] = {
+        DisableUI = true,
+    },
+}
+loadstring(game:HttpGet("https://system-exodus.com/scripts/BGSI/OneClick.lua"))()
+
+
+--[[
+	Want to Enchant your Pets?
+	Add these EXTRA Config options anywhere inside Settings.
+	Do NOT include this text
+
     ["Enchant Settings"] = {
         EnchantPets = false,
         
@@ -24,8 +41,5 @@ getgenv().Settings = {
             ["Team Up"] = {Tier = 1, HigherTiers = true},
         },
     },
-    ["Debug"] = {
-        DisableUI = true,
-    },
-}
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/aab9fba1c9d41f8edf82e1d0bd14b1ea.lua"))()
+
+]]--
