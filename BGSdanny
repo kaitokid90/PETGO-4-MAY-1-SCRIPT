@@ -1,11 +1,12 @@
 wait(30)
-script_key = "WzQElwqGVUIVoZDvGmcHdQjwZqiSTjdy";
+script_key = "tCSvtQmueunCfEfnFdaPyRVxFupkflfy";
 getgenv().Config = {
-    FPS                    = "",
+    FPS                    = 6,
     BypassLoadingScreen    = true,
     AntiAFK                = true,
-    Disable3DRendering     = false,
+    Disable3DRendering     = true,
     DisableHatchCutscene   = true,
+    HideUI                 = true,
     AutoClaimDailyRewards  = true,
     AutoUnlockZones        = true,
     AutoBlowSellBubble     = true,
@@ -23,6 +24,8 @@ getgenv().Config = {
     AutoEquipBestPets      = true,
     AutoConsumePotions     = true,
     AutoPickups            = true,
+    enablePrintLogs        = false,
+    enableWarnLogs         = true,
 
     ["Rifts"] = {
         AlwaysFindRifts = true,
@@ -35,7 +38,7 @@ getgenv().Config = {
     ["Webhook"] = {
         Enable = true,
         Note = "PC-Main",
-        URL = "", -- Thay URL của bạn vào đây
+        URL = "https://discord.com/api/webhooks/1361998811018432742/uQW-QgEe_3fomz6XUzfV-o8aisJiyFTblSNy9y9tUmQ4pdW4x4eST7B_CVq2xdHbec9U", -- Thay URL của bạn vào đây
         Rarity = {
             -- "Common",
             -- "Unique",
@@ -43,7 +46,7 @@ getgenv().Config = {
             "Legendary",
             "Secret"
         },
-        Legendary = 100000,
+        Legendary = 10,
     }
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/0cf205a620e81d1f3c3d3f75474ab32f.lua"))()
