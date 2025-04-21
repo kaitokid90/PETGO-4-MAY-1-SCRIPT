@@ -11,35 +11,18 @@ getgenv().Settings = {
         },
 
         ["Rifts"] = {
-            FindRifts = false,
-            SortByMultiplier = true, 
+            FindRifts = true,
+            SortByMultiplier = false, 
             --// true --> Sort by Multiplier out of ALL Targetted Rifts.
             --// false --> Sort by Multiplier out of BEST Targetted Rifts.
             
-            Targets = {"Aura Egg", "Nightmare Egg"},
+            Targets = {"Aura Egg", "Hell Egg"},
             --// Targets = {} will automatically find the Top 3 BEST Rifts to hatch.
         },
     },
     
     ["Debug"] = {
-        DisableUI = true,
+        DisableUI = false,
     },
 }
 loadstring(game:HttpGet("https://system-exodus.com/scripts/BGSI/OneClick.lua"))()
-
-
---[[
-	Want to Enchant your Pets?
-	Add these EXTRA Config options anywhere inside Settings.
-	Do NOT include this text
-
-    ["Enchant Settings"] = {
-        EnchantPets = false,
-        
-        ["Require All Enchants"] = true,
-        ["Enchants Needed"] = {
-            ["Team Up"] = {Tier = 1, HigherTiers = true},
-        },
-    },
-
-]]--
