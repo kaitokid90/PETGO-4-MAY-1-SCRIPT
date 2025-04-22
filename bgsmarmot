@@ -14,16 +14,21 @@ getgenv().bgsInfConfig = {
     LEGENDARY_TIER_TO_DELETE = 2,
 
     ENCHANT_TEAMUP = true,
-    ENCHANT_TEAMUP_TIER = 1,
+    ENCHANT_TEAMUP_TIER = 2,
 
-    RIFT_EGGS = {"Aura Egg", "Bunny Egg", "Pastel Egg", "Nightmare Egg"},
-    HATCH_1X_EGG = "Pastel Egg", 
+    RIFT_EGGS = {"Aura Egg", "Bunny Egg", "Pastel Egg"},
+    HATCH_1X_EGG = "Common Egg", 
 
     WEBHOOK_URL = "https://discord.com/api/webhooks/1363110963896778862/x-20ChjAUGRG5NAYkuqt5ian3-_eLw4s8-MwPCGntkL8WssaWNfMv3gaEzGQmHljz12K",
     DISCORD_ID = "885836894032764968",
-    WEBHOOK_RARITY = { Common = false, Unique = false, Rare = false, Epic = false, Legendary = true, Secret = true },
-    LEGENDARY_TIER = 3,  
+    WEBHOOK_ODDS = 5000000,
     SHOW_PET_WEBHOOK_USERNAME = true,
+
+    MASTERY_BUFFS_LEVEL = 20,  -- Buffs Level To Reach Before Hatching Secret Etc
+    IGNORE_MYSTERY_BOX_GEM_CAP = false,  -- true = Use Mystery Box Even When Gems Capped
+    IGNORE_STARTER_HATCH = false,  -- Ignore Starter Hatch (For P2W/Progressed Accounts)
+    FARM_MIN_GEMS = 100000000,  -- Farms Minimum Gems Before Hatching 1x Egg
+    MIN_COINS_BEFORE_HATCHING = 90000000000,  -- Doesn't affect fresh account grind
 }
 
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/e2d15fd8d5fd053a359cc3e296c68150.lua"))()
