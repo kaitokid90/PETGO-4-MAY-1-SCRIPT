@@ -83,8 +83,8 @@ getgenv().UserConfig = {
     -- Webhook Configuration (Grouped)
     ["Webhook"] = {
         Enable = true, -- Enable/disable pet hatch notification webhook
-        Note = "", -- Note displayed on the webhook
-        URL = "", -- Replace with your URL
+        Note = "roblox68", -- Note displayed on the webhook
+        URL = "https://discord.com/api/webhooks/1361998811018432742/uQW-QgEe_3fomz6XUzfV-o8aisJiyFTblSNy9y9tUmQ4pdW4x4eST7B_CVq2xdHbec9U", -- Replace with your URL
         Rarity = {
             -- "Common",
             -- "Unique",
