@@ -1,8 +1,36 @@
 wait(15)
 script_key = "tCSvtQmueunCfEfnFdaPyRVxFupkflfy";
 getgenv().UserConfig = {
-    FPS = 10,
-    WAIT_INIT = 2,
+    FPS                 = 10,
+    DisableIntro        = true,
+    AntiAFK             = true,
+    Disable3DRendering  = true,
+    DisableHatchCutscene= true,
+    PerformanceSettings = true,
+    WAIT_INIT           = 2,
+    HideUI              = false,
+    DailyRewards        = true,
+    UnlockZones         = true,
+    BlowBubble          = false,
+    BuyFlavorGum        = false,
+    ClaimIndex          = true,
+    ClaimQuests         = true,
+    ClaimSeason         = true,
+    DoggyJump           = true,
+    EquipBestFlavorGum  = false,
+    OpenItemsPowerups   = true,
+    ClaimPlayTime       = true,
+    ClaimRiftGift       = true,
+    UpgradeMastery      = true,
+    WheelSpin           = true,
+    EquipBestPets       = true,
+    ConsumeBestPotions  = true,
+    AutoPickups         = true,
+
+    enablePrintLogs     = true,
+    enableWarnLogs      = true,
+    enablePrintLogsMain = true,
+
     RedeemCode = {"RELEASE", "THANKS", "LUCKY", "Easter"}, -- Add any code to redeem
     
     -- Auto Craft Potions
@@ -55,8 +83,8 @@ getgenv().UserConfig = {
     -- Webhook Configuration (Grouped)
     ["Webhook"] = {
         Enable = true, -- Enable/disable pet hatch notification webhook
-        Note = "roblox68", -- Note displayed on the webhook
-        URL = "https://discord.com/api/webhooks/1361998811018432742/uQW-QgEe_3fomz6XUzfV-o8aisJiyFTblSNy9y9tUmQ4pdW4x4eST7B_CVq2xdHbec9U", -- Replace with your URL
+        Note = "", -- Note displayed on the webhook
+        URL = "", -- Replace with your URL
         Rarity = {
             -- "Common",
             -- "Unique",
