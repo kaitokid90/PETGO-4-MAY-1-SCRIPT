@@ -2,7 +2,7 @@ wait(15)
 script_key = "tCSvtQmueunCfEfnFdaPyRVxFupkflfy";
 getgenv().UserConfig = {
     FPS = 10,
-
+    WAIT_INIT = 2,
     RedeemCode = {"RELEASE", "THANKS", "LUCKY", "Easter"}, -- Add any code to redeem
     
     -- Auto Craft Potions
