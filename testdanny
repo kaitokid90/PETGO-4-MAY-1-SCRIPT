@@ -1,7 +1,7 @@
 wait(15)
 script_key = "MQRjOWZRPSjnSAUlcvQnOGYECXWAYZpq";
 getgenv().UserConfig = {
-    FPS                 = 10,
+    FPS                 = "",
     DisableIntro        = true,
     AntiAFK             = false,
     Disable3DRendering  = true,
