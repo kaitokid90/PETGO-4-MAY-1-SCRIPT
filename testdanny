@@ -27,9 +27,9 @@ getgenv().UserConfig = {
     ConsumeBestPotions  = true,
     AutoPickups         = true,
 
-    enablePrintLogs     = true,
-    enableWarnLogs      = true,
-    enablePrintLogsMain = true,
+    enablePrintLogs     = false,
+    enableWarnLogs      = false,
+    enablePrintLogsMain = false,
 
     RedeemCode = {"RELEASE", "THANKS", "LUCKY", "Easter"}, -- Add any code to redeem
     
