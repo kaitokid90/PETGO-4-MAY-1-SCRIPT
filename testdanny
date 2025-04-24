@@ -1,0 +1,99 @@
+wait(15)
+script_key = "MQRjOWZRPSjnSAUlcvQnOGYECXWAYZpq";
+getgenv().UserConfig = {
+    FPS                 = 10,
+    DisableIntro        = true,
+    AntiAFK             = true,
+    Disable3DRendering  = true,
+    DisableHatchCutscene= true,
+    PerformanceSettings = true,
+    WAIT_INIT           = 2,
+    HideUI              = false,
+    DailyRewards        = true,
+    UnlockZones         = false,
+    BlowBubble          = false,
+    BuyFlavorGum        = false,
+    ClaimIndex          = false,
+    ClaimQuests         = false,
+    ClaimSeason         = false,
+    DoggyJump           = false,
+    EquipBestFlavorGum  = false,
+    OpenItemsPowerups   = false,
+    ClaimPlayTime       = false,
+    ClaimRiftGift       = false,
+    UpgradeMastery      = false,
+    WheelSpin           = false,
+    EquipBestPets       = false,
+    ConsumeBestPotions  = false,
+    AutoPickups         = true,
+
+    enablePrintLogs     = true,
+    enableWarnLogs      = true,
+    enablePrintLogsMain = true,
+
+    RedeemCode = {"RELEASE", "THANKS", "LUCKY", "Easter"}, -- Add any code to redeem
+    
+    -- Auto Craft Potions
+    ["Craft Potions"] = {
+        Enable = true,
+        MinGems = 20000,
+        ["Potion Needed"] = {
+            --{"Coins", Level = 2}, -- Min 2
+            --{"Speed", Level = 3},
+            {"Lucky", Level = 4},
+            {"Mythic", Level = 5} -- Max 5
+        }
+    },
+
+    -- Farm Mastery First
+    ["Mastery"] = { 
+        Pets = 15, -- Max 15
+        Buffs = 15, -- Max 20
+        Shops = 0 -- Max 10
+    },
+
+    -- Auto Enchant
+    ["Enchant"] = { 
+        Enable = true,
+        ["Rarity Needed"] = {
+            {"Legendary", MinDifficult = 100000},
+            "Mythic",
+            "Secret"
+        },
+        ["Reroll Needed"] = {
+            -- ["Gleaming"] = {MinLevel = 1, HigherLevels = true},
+            -- ["Looter"] = {MinLevel = 2, HigherLevels = true},
+            -- ["Bubbler"] = {MinLevel = 3, HigherLevels = true},
+            -- ["High Roller"] = {MinLevel = 3, HigherLevels = true},
+            -- ["Infinity"] = {MinLevel = 4, HigherLevels = true},
+            -- ["Magnetism"] = {MinLevel = 4, HigherLevels = true},
+            ["Team Up"] = {MinLevel = 5, HigherLevels = true}
+        }
+    },
+
+    -- Automation Features
+    ["Rifts"] = {
+        AlwaysFindRifts = true,
+        Targets = {"Bunny Egg", "Pastel Egg", "Nightmare Egg", "Hell Egg", "Void Egg"}, -- Any Egg
+        Luck = 10 -- Minimum luck required for a rift target
+    },
+
+    FindDuck = "Pastel Egg", -- Target egg for hatching
+
+    -- Webhook Configuration (Grouped)
+    ["Webhook"] = {
+        Enable = true, -- Enable/disable pet hatch notification webhook
+        Note = "roblox68", -- Note displayed on the webhook
+        URL = "https://discord.com/api/webhooks/1361998811018432742/uQW-QgEe_3fomz6XUzfV-o8aisJiyFTblSNy9y9tUmQ4pdW4x4eST7B_CVq2xdHbec9U", -- Replace with your URL
+        Rarity = {
+            -- "Common",
+            -- "Unique",
+            -- "Rare",
+            -- "Epic",
+            "Legendary",
+            "Secret"
+        }, -- General rarity filter
+        Legendary = 100000, -- Threshold for Legendary (e.g., 100k = 1/100,000) - only send if chance >= threshold
+    }
+}
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/0cf205a620e81d1f3c3d3f75474ab32f.lua"))()
