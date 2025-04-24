@@ -1,7 +1,7 @@
 wait(15)
 script_key = "MQRjOWZRPSjnSAUlcvQnOGYECXWAYZpq";
 getgenv().UserConfig = {
-    FPS                 = 20,
+    FPS                 = 10,
     DisableIntro        = true,
     AntiAFK             = false,
     Disable3DRendering  = true,
@@ -10,21 +10,21 @@ getgenv().UserConfig = {
     WAIT_INIT           = 2,
     HideUI              = false,
     DailyRewards        = true,
-    UnlockZones         = false,
+    UnlockZones         = true,
     BlowBubble          = false,
     BuyFlavorGum        = false,
-    ClaimIndex          = false,
-    ClaimQuests         = false,
-    ClaimSeason         = false,
-    DoggyJump           = false,
+    ClaimIndex          = true,
+    ClaimQuests         = true,
+    ClaimSeason         = true,
+    DoggyJump           = true,
     EquipBestFlavorGum  = false,
-    OpenItemsPowerups   = false,
-    ClaimPlayTime       = false,
-    ClaimRiftGift       = false,
-    UpgradeMastery      = false,
-    WheelSpin           = false,
-    EquipBestPets       = false,
-    ConsumeBestPotions  = false,
+    OpenItemsPowerups   = true,
+    ClaimPlayTime       = true,
+    ClaimRiftGift       = true,
+    UpgradeMastery      = true,
+    WheelSpin           = true,
+    EquipBestPets       = true,
+    ConsumeBestPotions  = true,
     AutoPickups         = true,
 
     enablePrintLogs     = true,
@@ -83,7 +83,7 @@ getgenv().UserConfig = {
     -- Webhook Configuration (Grouped)
     ["Webhook"] = {
         Enable = true, -- Enable/disable pet hatch notification webhook
-        Note = "roblox68", -- Note displayed on the webhook
+        Note = "may 59", -- Note displayed on the webhook
         URL = "https://discord.com/api/webhooks/1361998811018432742/uQW-QgEe_3fomz6XUzfV-o8aisJiyFTblSNy9y9tUmQ4pdW4x4eST7B_CVq2xdHbec9U", -- Replace with your URL
         Rarity = {
             -- "Common",
