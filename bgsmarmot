@@ -14,10 +14,11 @@ getgenv().bgsInfConfig = {
     LEGENDARY_TIER_TO_DELETE = 2,
 
     ENCHANT_TEAMUP = true,
-    ENCHANT_TEAMUP_TIER = 2,
+    ENCHANT_TEAMUP_TIER = 1,
 
-    RIFT_EGGS = {"Aura Egg", "Bunny Egg", "Pastel Egg"},
-    HATCH_1X_EGG = "Common Egg", 
+    RIFT_EGGS = {"Aura Egg", "Throwback Egg", "Bunny Egg", "Pastel Egg", "Nightmare Egg"},
+    HATCH_1X_EGG = "Throwback Egg", 
+
 
     WEBHOOK_URL = "https://discord.com/api/webhooks/1363110963896778862/x-20ChjAUGRG5NAYkuqt5ian3-_eLw4s8-MwPCGntkL8WssaWNfMv3gaEzGQmHljz12K",
     DISCORD_ID = "885836894032764968",
