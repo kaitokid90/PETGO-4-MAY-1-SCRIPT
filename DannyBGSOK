@@ -2,12 +2,13 @@ getgenv().UserConfig = {
     FPS                 = 10,
 
     RedeemCode = {"RELEASE", "THANKS", "LUCKY", "Easter", "Throwback"},
+    AddFriends = true,
 
     ["Detector"] = {
         Enable = true,
         ["Name Needed"] = {"Holy Shock", "Cardinal Bunny"}, -- Blue background
         ["Rarity Needed"] = {
-            {"Legendary", MinDifficult = 100000}, -- Yellow Background
+            {"Legendary", MinDifficult = 500000}, -- Yellow Background
             "Mythic",
             "Secret" -- Red Background
         }
@@ -33,7 +34,7 @@ getgenv().UserConfig = {
     ["Enchant"] = {
         Enable = true,
         ["Rarity Needed"] = {
-            {"Legendary", MinDifficult = 100000},
+            {"Legendary", MinDifficult = 500000},
             "Mythic",
             "Secret"
         },
@@ -66,7 +67,7 @@ getgenv().UserConfig = {
             "Legendary",
             "Secret"
         }, -- General rarity filter
-        Legendary = 100000, -- Threshold for Legendary (e.g., 100k = 1/100,000) - only send if chance >= threshold
+        Legendary = 500000, -- Threshold for Legendary (e.g., 100k = 1/100,000) - only send if chance >= threshold
     }
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/0cf205a620e81d1f3c3d3f75474ab32f.lua"))()
