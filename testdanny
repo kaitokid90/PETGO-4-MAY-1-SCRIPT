@@ -1,16 +1,25 @@
-wait(15)
-script_key = "MQRjOWZRPSjnSAUlcvQnOGYECXWAYZpq";
 getgenv().UserConfig = {
     FPS                 = 10,
 
     RedeemCode = {"RELEASE", "THANKS", "LUCKY", "Easter", "Throwback"},
+    AddFriends = false,
+
+    ["Detector"] = {
+        Enable = true,
+        ["Name Needed"] = {"Holy Shock", "Cardinal Bunny"}, -- Blue background
+        ["Rarity Needed"] = {
+            {"Legendary", MinDifficult = 500000}, -- Yellow Background
+            "Mythic",
+            "Secret" -- Red Background
+        }
+    },
 
     ["Craft Potions"] = {
         Enable = true,
         MinGems = 20000,
         ["Potion Needed"] = {
-            --{"Coins", Level = 2},
-            --{"Speed", Level = 3},
+            --{"Coins", Level = 5},
+            --{"Speed", Level = 5},
             {"Lucky", Level = 5},
             {"Mythic", Level = 5}
         }
@@ -25,7 +34,7 @@ getgenv().UserConfig = {
     ["Enchant"] = {
         Enable = true,
         ["Rarity Needed"] = {
-            {"Legendary", MinDifficult = 100000},
+            {"Legendary", MinDifficult = 500000},
             "Mythic",
             "Secret"
         },
@@ -36,20 +45,20 @@ getgenv().UserConfig = {
         }
     },
 
-    -- Automation Features (Auto.lua - Task Logic)
+    -- Automation Features
     ["Rifts"] = {
         AlwaysFindRifts = true,
-        Targets = {"Throwback Egg","Bunny Egg", "Pastel Egg", "Nightmare Egg", "Hell Egg", "Void Egg"},
+        Targets = {"Throwback Egg", "Bunny Egg", "Pastel Egg", "Nightmare Egg", "Hell Egg", "Void Egg"},
         Luck = 10 -- Minimum luck required for a rift target to be considered
     },
 
     FindDuck = "Throwback Egg", -- Target egg for Priority 7 hatching
 
-    -- Webhook Configuration (Grouped)
+    -- Webhook Configuration
     ["Webhook"] = {
         Enable = true, -- Enable/disable pet hatch notification webhook
-        Note = "test danny 59", -- Note displayed on the webhook
-        URL = "https://discord.com/api/webhooks/1361998811018432742/uQW-QgEe_3fomz6XUzfV-o8aisJiyFTblSNy9y9tUmQ4pdW4x4eST7B_CVq2xdHbec9U", -- Replace with your URL
+        Note = getgenv().DuckHook, -- Note displayed on the webhook 
+        URL = "", -- Replace with your URL
         Rarity = {
             -- "Common",
             -- "Unique",
@@ -58,7 +67,7 @@ getgenv().UserConfig = {
             "Legendary",
             "Secret"
         }, -- General rarity filter
-        Legendary = 100000, -- Threshold for Legendary (e.g., 100k = 1/100,000) - only send if chance >= threshold
+        Legendary = 500000, -- Threshold for Legendary (e.g., 100k = 1/100,000) - only send if chance >= threshold
     }
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/0cf205a620e81d1f3c3d3f75474ab32f.lua"))()
