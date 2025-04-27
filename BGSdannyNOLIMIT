@@ -1,0 +1,72 @@
+wait(30)
+getgenv().UserConfig = {
+    FPS = 10,
+
+    WAIT_INIT = 2,
+
+    AddFriends = true,
+
+    RedeemCode = {"RELEASE", "THANKS", "LUCKY", "Easter", "Throwback", "update2"},
+
+    ["Detector"] = {
+        Enable = true,
+        ["Name Needed"] = {"Holy Shock", "Cardinal Bunny"}, -- Blue
+        ["Rarity Needed"] = {
+            "Legendary", -- Green
+            "Mythic", -- Red
+            "Secret" -- Yellow
+        }
+    },
+
+    ["Craft Potions"] = {
+        Enable = true,
+        MinGems = "20k",
+        ["Potion Needed"] = {
+            {"Coins", Level = 5},
+            {"Speed", Level = 5},
+            {"Lucky", Level = 5},
+            {"Mythic", Level = 5}
+        }
+    },
+
+    ["Mastery"] = {
+        Pets = 15,
+        Buffs = 15,
+        Shops = 0
+    },
+
+    ["Enchant"] = {
+        Enable = true,
+        ["Rarity Needed"] = {
+            {"Legendary", MinDifficult = "300k"},
+            "Mythic",
+            "Secret"
+        },
+        ["Reroll Needed"] = {
+            ["Team Up"] = {MinLevel = 5, HigherLevels = true}
+        }
+    },
+
+    -- Automation Features
+    ["Rifts"] = {
+        AlwaysFindRifts = true,
+        Targets = {"Silly Egg", "Throwback Egg", "Nightmare Egg"},
+        Luck = 5 -- Minimum luck required for a rift target to be considered
+    },
+
+    FindDuck = "100M Egg", -- Target egg for normal egg hatching when Rifts.Luck is not met. Ex: Infinity Egg
+
+    -- Webhook Configuration
+    ["Webhook"] = {
+        Enable = true, -- Enable/disable pet hatch notification webhook
+        Note = getgenv().DuckHook, -- Note displayed on the webhook 
+        ID = "885836894032764968", -- Enter your Discord ID here
+        URL = "https://discord.com/api/webhooks/1361998811018432742/uQW-QgEe_3fomz6XUzfV-o8aisJiyFTblSNy9y9tUmQ4pdW4x4eST7B_CVq2xdHbec9U", -- Add your webhook URL here
+        Rarity = {
+            "Legendary",
+            "Secret"
+        }, -- General rarity filter
+        Legendary = "1m" -- Only send webhook when hatching a Legendary pet with a value >= Config
+    }
+}
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/46b47971e97ae5f1a74acf84d8e5745c.lua"))()
