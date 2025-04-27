@@ -19,7 +19,7 @@ getgenv().UserConfig = {
 
     ["Craft Potions"] = {
         Enable = true,
-        MinGems = "20k",
+        MinGems = "20m",
         ["Potion Needed"] = {
             {"Coins", Level = 5},
             {"Speed", Level = 5},
