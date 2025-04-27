@@ -3,7 +3,7 @@ getgenv().UserConfig = {
 
     WAIT_INIT = 2,
 
-    AddFriends = true,
+    AddFriends = false,
 
     RedeemCode = {"RELEASE", "THANKS", "LUCKY", "Easter", "Throwback", "update2"},
 
