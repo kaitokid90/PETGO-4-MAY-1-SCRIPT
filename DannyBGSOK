@@ -2,7 +2,7 @@ getgenv().UserConfig = {
     FPS                 = 10,
 
     RedeemCode = {"RELEASE", "THANKS", "LUCKY", "Easter", "Throwback"},
-    AddFriends = true,
+    AddFriends = false,
 
     ["Detector"] = {
         Enable = true,
