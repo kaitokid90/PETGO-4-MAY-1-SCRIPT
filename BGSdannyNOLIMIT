@@ -42,7 +42,7 @@ getgenv().UserConfig = {
             "Secret"
         },
         ["Reroll Needed"] = {
-            ["Team Up"] = {MinLevel = 5, HigherLevels = true}
+            ["Team Up"] = {MinLevel = 2, HigherLevels = true}
         }
     },
 
