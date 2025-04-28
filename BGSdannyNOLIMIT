@@ -30,7 +30,7 @@ getgenv().UserConfig = {
 
     ["Mastery"] = {
         Pets = 15,
-        Buffs = 15,
+        Buffs = 20,
         Shops = 0
     },
 
