@@ -48,7 +48,7 @@ getgenv().UserConfig = {
     -- Automation Features
     ["Rifts"] = {
         AlwaysFindRifts = true,
-        Targets = {"Silly Egg", "Throwback Egg", "Nightmare Egg" },
+        Targets = {"Silly Egg", "Throwback Egg" },
         Luck = 5 -- Minimum luck required for a rift target to be considered
     },
 
