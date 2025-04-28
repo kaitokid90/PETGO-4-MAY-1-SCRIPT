@@ -41,15 +41,15 @@ getgenv().UserConfig = {
             "Secret"
         },
         ["Reroll Needed"] = {
-            ["Team Up"] = {MinLevel = 2, HigherLevels = true}
+            ["Team Up"] = {MinLevel = 3, HigherLevels = true}
         }
     },
 
     -- Automation Features
     ["Rifts"] = {
         AlwaysFindRifts = true,
-        Targets = {"Silly Egg", "Throwback Egg", "Nightmare Egg", "Common Egg"},
-        Luck = 10 -- Minimum luck required for a rift target to be considered
+        Targets = {"Silly Egg", "Throwback Egg", "Nightmare Egg", "Aura Egg"},
+        Luck = 5 -- Minimum luck required for a rift target to be considered
     },
 
     FindDuck = "100M Egg", -- Target egg for normal egg hatching when Rifts.Luck is not met. Ex: Infinity Egg
