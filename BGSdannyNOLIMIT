@@ -37,7 +37,7 @@ getgenv().UserConfig = {
     ["Enchant"] = {
         Enable = true,
         ["Rarity Needed"] = {
-            {"Legendary", MinDifficult = "300k"},           
+            {"Legendary", MinDifficult = "100k"},           
             "Secret"
         },
         ["Reroll Needed"] = {
