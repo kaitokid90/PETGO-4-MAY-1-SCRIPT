@@ -15,7 +15,7 @@ getgenv().UserConfig = {
     },
 
     ["Alien Shop"] = {
-        Enable = false,
+        Enable = true,
         ["Min Gems"] = "1m",
         ["Items Needed"] = {
             -- "Mystery Box",
@@ -29,7 +29,7 @@ getgenv().UserConfig = {
         }
     },
     ["Black Market"] = {
-        Enable = false,
+        Enable = true,
         ["Min Gems"] = "1m",
         ["Items Needed"] = {
             -- "Lucky Evolved",
@@ -44,8 +44,8 @@ getgenv().UserConfig = {
     },
 
     ["Craft Potions"] = {
-        Enable = false,
-        MinGems = 20000,
+        Enable = true,
+        ["Min Gems"] = "1m",
         ["Potion Needed"] = {
             {"Coins", Level = 5},
             {"Speed", Level = 5},
@@ -66,7 +66,7 @@ getgenv().UserConfig = {
     },
 
     ["Star Shop"] = {
-        Enable = false,
+        Enable = true,
         MinStars = "1k",
         ["Items Needed"] = {
             "Speed V",
