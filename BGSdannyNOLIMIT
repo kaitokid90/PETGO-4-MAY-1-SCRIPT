@@ -103,7 +103,7 @@ getgenv().UserConfig = {
             "Legendary",
             "Secret"
         }, -- General rarity filter
-        Legendary = "800k", -- Threshold for Legendary (e.g., 100k = 1/100,000) - only send if chance >= threshold    Seraph
+        Legendary = "5m", -- Threshold for Legendary (e.g., 100k = 1/100,000) - only send if chance >= threshold    Seraph
         ["Special Pets"] = {"Avernus", "Patronus", "Overseer", "Seraph"}
     }
 }
