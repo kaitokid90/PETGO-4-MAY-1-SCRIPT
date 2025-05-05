@@ -2,7 +2,7 @@ getgenv().UserConfig = {
     FPS                 = 10,
     AddFriends          = true,
 
-    RedeemCode = {"RELEASE", "THANKS", "LUCKY", "Easter", "Throwback", "update2"},
+    RedeemCode = {"RELEASE", "THANKS", "LUCKY", "Easter", "Throwback", "update2", "sylentlyssorry"},
 
     ["Detector"] = {
         Enable = true,
@@ -83,11 +83,11 @@ getgenv().UserConfig = {
 
     ["Rifts"] = {
         AlwaysFindRifts = true,
-        Targets = {"Silly Egg", "Throwback Egg", "Nightmare Egg"},
-        Luck = 10
+        Targets = {"Silly Egg", "Cyber Egg"},
+        Luck = 5
     },
     ["Min gems"] = "5m", -- Farm min gems trước khi hatch FindDuck
-    FindDuck = "100M Egg", -- Hatch 1x Egg
+    FindDuck = "Cyber Egg",
     ["Enchant Team 1"] = {enable = true, ["team-up"] = 1},
     ["Gems coefficient"] = 24, -- Tìm pets >= tổng hệ số gems thì đi lên Zen farm Mastery và hatch Rainbow
     ["Replace 100M Egg"] = "Nightmare Egg", -- Server không có 100M Egg thì chuyển qua đây hatch dự phòng
