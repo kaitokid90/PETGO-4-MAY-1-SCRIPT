@@ -90,7 +90,7 @@ getgenv().UserConfig = {
     FindDuck = "Cyber Egg",
     ["Enchant Team 1"] = {enable = true, ["team-up"] = 1},
     ["Gems coefficient"] = 24, -- Tìm pets >= tổng hệ số gems thì đi lên Zen farm Mastery và hatch Rainbow
-    ["Replace 100M Egg"] = "Nightmare Egg", -- Server không có 100M Egg thì chuyển qua đây hatch dự phòng
+    ["Replace 100M Egg"] = "Cyber Egg", -- Server không có 100M Egg thì chuyển qua đây hatch dự phòng
     ["Auto Restart"] = true,
 
     ["Webhook"] = {
