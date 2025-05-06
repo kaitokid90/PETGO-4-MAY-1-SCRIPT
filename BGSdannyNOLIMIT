@@ -83,8 +83,8 @@ getgenv().UserConfig = {
 
     ["Rifts"] = {
         AlwaysFindRifts = true,
-        Targets = {"Silly Egg", "Cyber Egg", "Game Egg", "Nightmare Egg", "Void Egg"}, 
-        Luck = 25
+        Targets = {"Silly Egg", "Cyber Egg", "Game Egg", "Nightmare Egg"}, 
+        Luck = 10
     },
     ["Min gems"] = "3m", -- Farm min gems trước khi hatch FindDuck
      FindDuck = "Game Egg",
