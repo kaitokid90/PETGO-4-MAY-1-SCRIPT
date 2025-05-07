@@ -5,7 +5,7 @@ getgenv().UserConfig = {
     RedeemCode = {"RELEASE", "THANKS", "LUCKY", "Easter", "Throwback", "update2", "sylentlyssorry"},
 
     ["Detector"] = {
-        Enable = true,
+        Enable = false,
         ["Name Needed"] = {"Avernus", "Patronus"}, -- Blue
         ["Rarity Needed"] = {
             "Legendary", -- Green
