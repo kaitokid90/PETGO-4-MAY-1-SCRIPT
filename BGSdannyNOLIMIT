@@ -107,4 +107,4 @@ getgenv().UserConfig = {
         ["Special Pets"] = {"Avernus", "Patronus", "Overseer", "Seraph" , "NULLVoid", "Luminosity", "Dragon Plushie", "Jackpot"}  
     }
 }
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/46b47971e97ae5f1a74acf84d8e5745c.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/2a09661279714b3bbb23d083a42c161d.lua"))()
