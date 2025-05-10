@@ -3,6 +3,8 @@ getgenv().UserConfig = {
     AddFriends          = true,
 
     RedeemCode = {"RELEASE", "THANKS", "LUCKY", "Easter", "Throwback", "update2", "sylentlyssorry"},
+    EquipBestFlavorGum  = true, -- false cái này là ko làm quest đc
+    BuyFlavorGum        = true, -- false cái này là ko làm quest đc
     AutoMinigames       = true,
     AutoRollDice        = true,
     ["Super Ticket"]    = "Robot Claw",
