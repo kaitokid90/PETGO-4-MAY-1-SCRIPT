@@ -8,10 +8,10 @@ getgenv().UserConfig = {
     AutoMinigames       = true,
     AutoRollDice        = true,
     ["Super Ticket"]    = "Robot Claw",
-    ["Giant Chest"] = false,
-    ["Void Chest"] = false,
-    ["Golden Chest"] = false,
-    ["Royal Chest"] = false,
+    ["Giant Chest"] = true,
+    ["Void Chest"] = true,
+    ["Golden Chest"] = true,
+    ["Royal Chest"] = true,
 
     ["Detector"] = {
         Enable = false,
