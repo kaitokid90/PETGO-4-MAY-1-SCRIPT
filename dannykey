@@ -92,19 +92,18 @@ getgenv().UserConfig = {
         Shops = 10
     },
 
- FindDuck = "200M Egg",
-["Rifts"] = {
-    AlwaysFindRifts = true,
-    Targets = {"Underworld Egg 1","Underworld Egg 2","Underworld Egg 3"},
-    Luck = 5
-},
-    ["Min gems"] = "3m", -- Farm min gems trước khi hatch FindDuck
-   
-    ["Replace FindDuck"] = "Common Egg", -- Server không có 100M Egg thì chuyển qua đây hatch dự phòng
+   ["Rifts"] = {
+        AlwaysFindRifts = true,
+        Targets = {"Underworld Egg 3","Underworld Egg 2","Underworld Egg 1" }, --add rainbow egg if have secret bounty
+        Luck = 5
+    },
+    ["Min gems"] = "1m",
+    FindDuck = "200M Egg", -- Nightmare Egg, Common Egg, Cyber Egg
+    ["Replace FindDuck"] = "Rainbow Egg",
     ["Best Potions Find Duck"] = true,
     ["Enchant Team 1"] = {enable = true, ["team-up"] = 1},
-    ["Gems coefficient"] = 24,
-    ["Tickets coefficient"] = 100,
+    ["Gems coefficient"] = 1,
+    ["Tickets coefficient"] = 5,
     ["Auto Restart"] = false,
 
     ["Webhook"] = {
