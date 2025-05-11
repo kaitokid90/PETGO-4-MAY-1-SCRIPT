@@ -90,13 +90,14 @@ getgenv().UserConfig = {
         Shops = 10
     },
 
-    ["Rifts"] = {
-        AlwaysFindRifts = true,
-        Targets = {"Silly Egg", "Cyber Egg", "Game Egg", "Nightmare Egg"}, 
-        Luck = 5
-    },
+ FindDuck = "200M Egg",
+["Rifts"] = {
+    AlwaysFindRifts = true,
+    Targets = {"Underworld Egg 1","Underworld Egg 2","Underworld Egg 3"},
+    Luck = 5
+},
     ["Min gems"] = "3m", -- Farm min gems trước khi hatch FindDuck
-     FindDuck = "Common Egg",    
+   
     ["Replace FindDuck"] = "Common Egg", -- Server không có 100M Egg thì chuyển qua đây hatch dự phòng
     ["Best Potions Find Duck"] = true,
     ["Enchant Team 1"] = {enable = true, ["team-up"] = 1},
