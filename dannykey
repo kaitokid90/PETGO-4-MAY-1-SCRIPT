@@ -12,6 +12,8 @@ getgenv().UserConfig = {
     ["Void Chest"] = true,
     ["Golden Chest"] = true,
     ["Royal Chest"] = true,
+    ["Use Super Ticket"] = true,
+    ["Season Challenges"] = true,
 
     ["Detector"] = {
         Enable = false,
