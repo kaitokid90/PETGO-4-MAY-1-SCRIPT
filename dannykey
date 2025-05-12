@@ -29,7 +29,7 @@ getgenv().UserConfig = {
     },
 
     ["Alien Shop"] = {
-        Enable = true,
+        Enable = false,
         ["Min Gems"] = "1m",
         ["Items Needed"] = {
             -- "Mystery Box",
@@ -43,7 +43,7 @@ getgenv().UserConfig = {
         }
     },
     ["Black Market"] = {
-        Enable = true,
+        Enable = false,
         ["Min Gems"] = "1m",
         ["Items Needed"] = {
             -- "Lucky Evolved",
