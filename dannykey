@@ -16,7 +16,7 @@ getgenv().UserConfig = {
     ["Season Challenges"] = true,
     ["Min coins"] = "3b",
     ["Min tickets"] = "5b",
-     ["Secret Bounty"] = {"Prophet", "D0GGY1337", "Queen Kitty"},
+    
 
     ["Detector"] = {
         Enable = false,
@@ -100,6 +100,7 @@ getgenv().UserConfig = {
         Targets = {"Silly Egg", "Underworld Egg 3","Underworld Egg 2","Underworld Egg 1" , "Void Egg" }, --add rainbow egg if have secret bounty
         Luck = 5
     },
+        ["Secret Bounty"] = {"Prophet", "D0GGY1337", "Queen Kitty"},
     ["Min gems"] = "1m",
     FindDuck = "200M Egg", -- Nightmare Egg, Common Egg, Cyber Egg
     ["Replace FindDuck"] = "Rainbow Egg",
