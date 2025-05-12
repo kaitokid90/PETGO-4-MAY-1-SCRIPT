@@ -16,6 +16,7 @@ getgenv().UserConfig = {
     ["Season Challenges"] = true,
     ["Min coins"] = "3b",
     ["Min tickets"] = "5b",
+     ["Secret Bounty"] = {"Prophet", "D0GGY1337", "Queen Kitty"},
 
     ["Detector"] = {
         Enable = false,
