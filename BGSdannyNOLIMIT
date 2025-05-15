@@ -1,8 +1,23 @@
+wait(15)
 getgenv().UserConfig = {
     FPS                 = 10,
     AddFriends          = true,
 
     RedeemCode = {"RELEASE", "THANKS", "LUCKY", "Easter", "Throwback", "update2", "sylentlyssorry"},
+    EquipBestFlavorGum  = true, -- false cái này là ko làm quest đc
+    BuyFlavorGum        = true, -- false cái này là ko làm quest đc
+    AutoMinigames       = true,
+    AutoRollDice        = true,
+    ["Super Ticket"]    = "Robot Claw",
+    ["Giant Chest"] = false,
+    ["Void Chest"] = false,
+    ["Golden Chest"] = false,
+    ["Royal Chest"] = false,
+    ["Use Super Ticket"] = true,
+    ["Season Challenges"] = true,
+    ["Min coins"] = "3b",
+    ["Min tickets"] = "5b",
+    
 
     ["Detector"] = {
         Enable = false,
@@ -15,7 +30,7 @@ getgenv().UserConfig = {
     },
 
     ["Alien Shop"] = {
-        Enable = true,
+        Enable = false,
         ["Min Gems"] = "1m",
         ["Items Needed"] = {
             -- "Mystery Box",
@@ -29,7 +44,7 @@ getgenv().UserConfig = {
         }
     },
     ["Black Market"] = {
-        Enable = true,
+        Enable = false,
         ["Min Gems"] = "1m",
         ["Items Needed"] = {
             -- "Lucky Evolved",
@@ -81,30 +96,33 @@ getgenv().UserConfig = {
         Shops = 10
     },
 
-    ["Rifts"] = {
+   ["Rifts"] = {
         AlwaysFindRifts = true,
-        Targets = {"Silly Egg", "Cyber Egg", "Game Egg", "Nightmare Egg"}, 
+        Targets = {"Silly Egg", "Underworld Egg 3","Underworld Egg 2","Underworld Egg 1" }, --add rainbow egg if have secret bounty
         Luck = 5
     },
-    ["Min gems"] = "3m", -- Farm min gems trước khi hatch FindDuck
-     FindDuck = "Common Egg",
-    ["Enchant Team 1"] = {enable = true, ["team-up"] = 2},
-    ["Gems coefficient"] = 24, -- Tìm pets >= tổng hệ số gems thì đi lên Zen farm Mastery và hatch Rainbow
-    ["Replace FindDuck"] = "Common Egg", -- Server không có 100M Egg thì chuyển qua đây hatch dự phòng
+        ["Secret Bounty"] = {"Prophet", "D0GGY1337", "Queen Kitty"},
+    ["Min gems"] = "1m",
+    FindDuck = "200M Egg", -- Nightmare Egg, Common Egg, Cyber Egg  Void Egg
+    ["Replace FindDuck"] = "Rainbow Egg",
+    ["Best Potions Find Duck"] = true,
+    ["Enchant Team 1"] = {enable = true, ["team-up"] = 1},
+    ["Gems coefficient"] = 1,
+    ["Tickets coefficient"] = 40,
     ["Auto Restart"] = false,
 
     ["Webhook"] = {
         Enable = true, -- Enable/disable pet hatch notification webhook
          Note = getgenv().DuckHook, -- Note displayed on the webhook 
         ID = "885836894032764968", -- Enter your Discord ID here
-        URL = "https://discord.com/api/webhooks/1361998811018432742/uQW-QgEe_3fomz6XUzfV-o8aisJiyFTblSNy9y9tUmQ4pdW4x4eST7B_CVq2xdHbec9U", -- Add your webhook URL here  Dragon Plushie Magmas
+        URL = "https://discord.com/api/webhooks/1361998811018432742/uQW-QgEe_3fomz6XUzfV-o8aisJiyFTblSNy9y9tUmQ4pdW4x4eST7B_CVq2xdHbec9U", -- Add your webhook URL here  Dragon Plushie Magmas 
         
         Rarity = {
             "Legendary",
             "Secret"
         }, -- General rarity filter
         Legendary = "40m", -- Threshold for Legendary (e.g., 100k = 1/100,000) - only send if chance >= threshold     
-        ["Special Pets"] = {"Avernus", "Patronus", "Overseer", "Seraph" , "NULLVoid", "Luminosity", "Dragon Plushie", "Jackpot", "Magmas"}  
+        ["Special Pets"] = {"Avernus", "Patronus", "Overseer", "Seraph" , "NULLVoid", "Luminosity" , "Jackpot"}  
     }
 }
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/46b47971e97ae5f1a74acf84d8e5745c.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/1e15e09d0f28af96718655f60beea8fd.lua"))()
