@@ -1,4 +1,3 @@
-wait(15)
 script_key = "";
 getgenv().UserConfig = {
     FPS                 = 10,
