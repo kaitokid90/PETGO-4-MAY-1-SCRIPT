@@ -1,4 +1,3 @@
-wait(15)
 getgenv().UserConfig = {
     FPS                 = 10,
     AddFriends          = true,
