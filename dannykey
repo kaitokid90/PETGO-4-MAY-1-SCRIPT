@@ -97,16 +97,15 @@ getgenv().UserConfig = {
         Shops = 10
     },
 
-   ["Rifts"] = {
+    ["Rifts"] = {
         AlwaysFindRifts = true,
-        Targets = {"Silly Egg", "Underworld Egg 3","Underworld Egg 2","Underworld Egg 1" }, --add rainbow egg if have secret bounty  D0GGY1337
-        Luck = 5
+        Targets = {"Neon Egg", "Chance Egg", "Underworld Egg 3","Underworld Egg 2","Underworld Egg 1", "Underworld Egg 0", "Cyber Egg","Nightmare Egg"}, -- delete cyber egg and nightmare egg if u want
+        Luck = 5 -- dont change
     },
-        ["Secret Bounty"] = {"Prophet" , "Queen Kitty"},
-    ["Min gems"] = "1m",
-    FindDuck = "200M Egg", -- Nightmare Egg, Common Egg, Cyber Egg  Void Egg
-    ["Replace FindDuck"] = "Rainbow Egg",
-    ["Best Potions Find Duck"] = true,
+    ["Secret Bounty"] = {"Prophet", "D0GGY1337", "Queen Kitty"}, -- delete pet name if you dont want that pet
+    FindDuck = "Chance Egg", -- Nightmare Egg, Common Egg, Cyber Egg, Neon Egg
+    ["Replace FindDuck"] = "Neon Egg",
+    ["Best Potions Find Duck"] = false, --false if there are only few potions 
     ["Enchant Team 1"] = {enable = true, ["team-up"] = 1},
     ["Gems coefficient"] = 1,
     ["Tickets coefficient"] = 40,
