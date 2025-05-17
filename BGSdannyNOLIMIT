@@ -4,7 +4,7 @@ getgenv().UserConfig = {
     FPS                 = 10,
     AddFriends          = true,
 
-    RedeemCode = {"RELEASE", "THANKS", "LUCKY", "Easter", "Throwback", "update2", "sylentlyssorry"},
+   RedeemCode = {"RELEASE", "THANKS", "update2", "sylentlyssorry", "update4"},
     EquipBestFlavorGum  = true, -- false cái này là ko làm quest đc
     BuyFlavorGum        = true, -- false cái này là ko làm quest đc
     AutoMinigames       = true,
