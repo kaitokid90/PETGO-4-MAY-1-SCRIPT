@@ -105,7 +105,7 @@ getgenv().UserConfig = {
     ["Min gems"] = "1m",
     FindDuck = "200M Egg", -- Nightmare Egg, Common Egg, Cyber Egg  Void Egg
     ["Replace FindDuck"] = "Rainbow Egg",
-    ["Best Potions Find Duck"] = true,
+    ["Best Potions Find Duck"] = false,
     ["Enchant Team 1"] = {enable = true, ["team-up"] = 1},
     ["Gems coefficient"] = 1,
     ["Tickets coefficient"] = 40,
