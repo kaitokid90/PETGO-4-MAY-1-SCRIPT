@@ -1,9 +1,10 @@
 wait(15)
+script_key = "";
 getgenv().UserConfig = {
     FPS                 = 10,
     AddFriends          = true,
 
-    RedeemCode = {"RELEASE", "THANKS", "LUCKY", "Easter", "Throwback", "update2", "sylentlyssorry"},
+   RedeemCode = {"RELEASE", "THANKS", "update2", "sylentlyssorry", "update4"},
     EquipBestFlavorGum  = true, -- false cái này là ko làm quest đc
     BuyFlavorGum        = true, -- false cái này là ko làm quest đc
     AutoMinigames       = true,
@@ -15,6 +16,7 @@ getgenv().UserConfig = {
     ["Royal Chest"] = false,
     ["Use Super Ticket"] = true,
     ["Season Challenges"] = true,
+   ["Min gems"] = "1m",
     ["Min coins"] = "3b",
     ["Min tickets"] = "5b",
     
@@ -96,16 +98,15 @@ getgenv().UserConfig = {
         Shops = 10
     },
 
-   ["Rifts"] = {
+    ["Rifts"] = {
         AlwaysFindRifts = true,
-        Targets = {"Silly Egg", "Underworld Egg 3","Underworld Egg 2","Underworld Egg 1" }, --add rainbow egg if have secret bounty
-        Luck = 5
+        Targets = {"Neon Egg", "Chance Egg", "Underworld Egg 3","Underworld Egg 2","Underworld Egg 1", "Underworld Egg 0"}, -- delete cyber egg and nightmare egg if u want
+        Luck = 5 -- dont change
     },
-        ["Secret Bounty"] = {"Prophet", "D0GGY1337", "Queen Kitty"},
-    ["Min gems"] = "1m",
-    FindDuck = "200M Egg", -- Nightmare Egg, Common Egg, Cyber Egg  Void Egg
-    ["Replace FindDuck"] = "Rainbow Egg",
-    ["Best Potions Find Duck"] = false,
+    ["Secret Bounty"] = {"Prophet" , "Queen Kitty"}, -- delete pet name if you dont want that pet
+    FindDuck = "Chance Egg", -- Nightmare Egg, Common Egg, Cyber Egg,   Chance Egg
+    ["Replace FindDuck"] = "Neon Egg",
+    ["Best Potions Find Duck"] = false, --false if there are only few potions 
     ["Enchant Team 1"] = {enable = true, ["team-up"] = 1},
     ["Gems coefficient"] = 1,
     ["Tickets coefficient"] = 40,
@@ -125,4 +126,4 @@ getgenv().UserConfig = {
         ["Special Pets"] = {"Avernus", "Patronus", "Overseer", "Seraph" , "NULLVoid", "Luminosity" , "Jackpot"}  
     }
 }
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/1e15e09d0f28af96718655f60beea8fd.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/8dd8db97191c29c3642659642d2e4ea6.lua"))()
