@@ -16,6 +16,7 @@ getgenv().UserConfig = {
     ["Royal Chest"] = false,
     ["Use Super Ticket"] = true,
     ["Season Challenges"] = true,
+ ["Min gems"] = "1m",
     ["Min coins"] = "3b",
     ["Min tickets"] = "5b",
     
