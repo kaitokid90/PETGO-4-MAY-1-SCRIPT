@@ -1,5 +1,4 @@
 wait(15)
-script_key = "";
 getgenv().UserConfig = {
     FPS                 = 10,
     AddFriends          = true,
@@ -126,4 +125,4 @@ getgenv().UserConfig = {
         ["Special Pets"] = {"Avernus", "Patronus", "Overseer", "Seraph" , "NULLVoid", "Luminosity" , "Jackpot"}  
     }
 }
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/8dd8db97191c29c3642659642d2e4ea6.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/1e15e09d0f28af96718655f60beea8fd.lua"))()
