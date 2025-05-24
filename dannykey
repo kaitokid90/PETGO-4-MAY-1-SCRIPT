@@ -15,7 +15,7 @@ getgenv().UserConfig = {
     ["Golden Chest"] = false,
     ["Royal Chest"] = false,
     ["Use Super Ticket"] = true,
-    ["Season Challenges"] = false,
+    ["Season Challenges"] =  false,
    ["Min gems"] = "1m",
     ["Min coins"] = "3b",
     ["Min tickets"] = "5b",
@@ -101,10 +101,10 @@ getgenv().UserConfig = {
     ["Rifts"] = {
         AlwaysFindRifts = true,
         Targets = {"Neon Egg", "Chance Egg", "Underworld Egg 3","Underworld Egg 2", "Underworld Egg 1", "Underworld Egg 0"}, -- delete cyber egg and nightmare egg if u want
-        Luck = 1 -- dont change
+        Luck = 5 -- dont change
     },
     ["Secret Bounty"] = {"Prophet", "Queen Kitty", "D0GGY1337"}, -- delete pet name if you dont want that pet Queen Kitty
-    FindDuck = "Neon Egg", -- Nightmare Egg, Common Egg, Cyber Egg,   Chance Egg Neon Egg
+    FindDuck = "Chance Egg", -- Nightmare Egg, Common Egg, Cyber Egg,   Chance Egg Neon Egg
     ["Replace FindDuck"] = "Chance Egg",
     ["Best Potions Find Duck"] = true, --false if there are only few potions 
     ["Enchant Team 1"] = {enable = true, ["team-up"] = 1},
