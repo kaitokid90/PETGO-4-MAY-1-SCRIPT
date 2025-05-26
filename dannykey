@@ -100,11 +100,13 @@ getgenv().UserConfig = {
 
     ["Rifts"] = {
         AlwaysFindRifts = true,
-        Targets = {"Neon Egg", "Chance Egg", "Mining Egg","Underworld Egg 2" }, -- delete cyber egg and nightmare egg if u want
-        Luck = 5 -- dont change
+        Targets = { "Mining Egg","Icecream Egg","Fruit Egg" }, -- delete cyber egg and nightmare egg if u want
+        Luck = 10 -- dont change
     },
+    ["Seashells coefficient"] = 24,
+    ["Min seashells"] = "10m",
     ["Secret Bounty"] = {"Overlord Plushie","Everblaze","Beelzebub"}, -- delete pet name if you dont want that pet Queen Kitty
-    FindDuck = "Chance Egg", -- Nightmare Egg, Common Egg, Cyber Egg,   Chance Egg Neon Egg
+    FindDuck = "Icecream Egg", -- Nightmare Egg, Common Egg, Cyber Egg,   Chance Egg Neon Egg
     ["Replace FindDuck"] = "Neon Egg",
     ["Best Potions Find Duck"] = true, --false if there are only few potions 
     ["Enchant Team 1"] = {enable = true, ["team-up"] = 1},
