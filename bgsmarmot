@@ -2,18 +2,20 @@ script_key="LqonGneTQgoKCxTQlofbedDFaggaKnme";
 setfpscap(3)  -- number = fps
 
 getgenv().bgsInfConfig = {
+    SUMMER_EVENT = true,
     ADD_FRIEND = true,
     AUTO_UPDATE_RESTART = true,
     IGNORE_MINIGAME = true,
-
+    
     PURCHASE_ALIENSHOP = true,
     PURCHASE_BLACKMARKET = true,
     PURCHASE_DICE_MERCHANT = true,
+    PURCHASE_EVENT_SHOP = true,
     PURCHASE_STARSHOP_SLOT = 14,
-    RESTOCK_SHOP = "Blackmarket",
+    RESTOCK_SHOP = "Event Shop",
 
     USE_ROYAL_KEY = true,
-    USE_GOLDEN_KEY = false,
+    USE_GOLDEN_KEY = true,
     USE_DICE_KEY = true,
     USE_MYSTERY_BOX = true,
 
@@ -24,11 +26,12 @@ getgenv().bgsInfConfig = {
     DELETE_LEGENDARY_MYTHIC = true,
 
     ENCHANT_TEAMUP = true,
-    ENCHANT_TEAMUP_TIER = 1,
-    
-    AUTO_BOUNTY_RIFT = true,
-    RIFT_EGGS = {"Mining Egg"},
-    HATCH_1X_EGG = {"Mining Egg", "Neon Egg", "Chance Egg"}, 
+    ENCHANT_TEAMUP_TIER = 3,
+
+    IGNORE_EVENT_STARTER_HATCH = false,
+    HATCH_1X_EGG = {"Icecream Egg","Fruit Egg"}, 
+    MIN_SEASHELLS_BEFORE_HATCHING = 1000000000,
+    ALWAYS_INFINITY_ELIXIR = true,
 
     WEBHOOK_URL = "https://discord.com/api/webhooks/1376349996038885607/_39nwscSlQzplQaFs4r1gBqx0Dn3cPdxD0bqmfAIaN22Rl8cJ42tbJ5kciPIdrEH1eJI",
     DISCORD_ID = "885836894032764968",
