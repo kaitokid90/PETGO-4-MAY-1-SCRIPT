@@ -27,8 +27,8 @@ getgenv().bgsInfConfig = {
     ENCHANT_TEAMUP_TIER = 1,
     
     AUTO_BOUNTY_RIFT = true,
-    RIFT_EGGS = {"Underworld Egg", "Cyber Egg", "Nightmare Egg"},
-    HATCH_1X_EGG = {"Chance Egg", "Neon Egg", "Cyber Egg"}, 
+    RIFT_EGGS = {"Mining Egg"},
+    HATCH_1X_EGG = {"Mining Egg", "Neon Egg", "Chance Egg"}, 
 
     WEBHOOK_URL = "https://discord.com/api/webhooks/1376349996038885607/_39nwscSlQzplQaFs4r1gBqx0Dn3cPdxD0bqmfAIaN22Rl8cJ42tbJ5kciPIdrEH1eJI",
     DISCORD_ID = "885836894032764968",
