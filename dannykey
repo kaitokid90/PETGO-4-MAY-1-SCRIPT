@@ -106,8 +106,8 @@ getgenv().UserConfig = {
     ["Seashells coefficient"] = 24,
     ["Min seashells"] = "10m",
     ["Secret Bounty"] = {"Everblaze","Beelzebub"}, -- delete pet name if you dont want that pet Queen Kitty Overlord Plushie
-    FindDuck = "Icecream Egg", -- Nightmare Egg, Common Egg, Cyber Egg,   Chance Egg Neon Egg
-    ["Replace FindDuck"] = "Neon Egg",
+    FindDuck = "Mining Egg", -- Nightmare Egg, Common Egg, Cyber Egg,   Chance Egg Neon Egg
+    ["Replace FindDuck"] = "Icecream Egg",
     ["Best Potions Find Duck"] = true, --false if there are only few potions 
     ["Enchant Team 1"] = {enable = true, ["team-up"] = 1},
     ["Gems coefficient"] = 1,
