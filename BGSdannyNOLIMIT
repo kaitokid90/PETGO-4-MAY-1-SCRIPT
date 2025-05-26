@@ -15,7 +15,7 @@ getgenv().UserConfig = {
     ["Golden Chest"] = false,
     ["Royal Chest"] = false,
     ["Use Super Ticket"] = true,
-    ["Season Challenges"] =  true,
+    ["Season Challenges"] = false,
    ["Min gems"] = "1m",
     ["Min coins"] = "3b",
     ["Min tickets"] = "5b",
@@ -100,13 +100,13 @@ getgenv().UserConfig = {
 
     ["Rifts"] = {
         AlwaysFindRifts = true,
-        Targets = { "Mining Egg" }, -- delete cyber egg and nightmare egg if u want
+        Targets = { "Icecream Egg","Fruit Egg" }, -- delete cyber egg and nightmare egg if u want
         Luck = 10 -- dont change
     },
     ["Seashells coefficient"] = 24,
-    ["Min seashells"] = "1000",
-    ["Secret Bounty"] = {"Everblaze","Beelzebub"}, -- delete pet name if you dont want that pet Queen Kitty Overlord Plushie
-    FindDuck = "Mining Egg", -- Nightmare Egg, Common Egg, Cyber Egg,   Chance Egg Neon Egg
+    ["Min seashells"] = "10m",
+    ["Secret Bounty"] = {"Everblaze","Beelzebub","Overlord Plushie"}, -- delete pet name if you dont want that pet Queen Kitty Overlord Plushie
+    FindDuck = "Fruit Egg", -- Nightmare Egg, Common Egg, Cyber Egg,   Chance Egg Neon Egg
     ["Replace FindDuck"] = "Icecream Egg",
     ["Best Potions Find Duck"] = true, --false if there are only few potions 
     ["Enchant Team 1"] = {enable = true, ["team-up"] = 1},
