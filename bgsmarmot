@@ -1,35 +1,39 @@
-setfpscap(15)  -- number = fps
+script_key="LqonGneTQgoKCxTQlofbedDFaggaKnme";
+setfpscap(3)  -- number = fps
 
 getgenv().bgsInfConfig = {
+    ADD_FRIEND = true,
     AUTO_UPDATE_RESTART = true,
+    IGNORE_MINIGAME = true,
+
     PURCHASE_ALIENSHOP = true,
     PURCHASE_BLACKMARKET = true,
+    PURCHASE_DICE_MERCHANT = true,
     PURCHASE_STARSHOP_SLOT = 14,
     RESTOCK_SHOP = "Blackmarket",
 
     USE_ROYAL_KEY = true,
-    USE_GOLDEN_KEY = true,
+    USE_GOLDEN_KEY = false,
+    USE_DICE_KEY = true,
     USE_MYSTERY_BOX = true,
 
-    RARITY_TO_DELETE = {"Common", "Unique", "Rare", "Epic"},
-    LEGENDARY_TIER_TO_DELETE = 1,
+    RARITY_TO_DELETE = {"Common", "Unique", "Rare", "Epic", "Legendary"},
+    RARITY_TO_SHINY = {"Common", "Unique", "Rare", "Epic", "Legendary"},
+    MAX_LEGENDARY_TIER_TO_DELETE = 2,  -- (DO NOT Delete Tier 3+ shiny & mythic, use PETS_TO_DELETE instead)
+    DELETE_LEGENDARY_SHINY = true,
+    DELETE_LEGENDARY_MYTHIC = true,
 
     ENCHANT_TEAMUP = true,
-    ENCHANT_TEAMUP_TIER = 2,
+    ENCHANT_TEAMUP_TIER = 1,
+    
+    AUTO_BOUNTY_RIFT = true,
+    RIFT_EGGS = {"Underworld Egg", "Cyber Egg", "Nightmare Egg"},
+    HATCH_1X_EGG = {"Chance Egg", "Neon Egg", "Cyber Egg"}, 
 
-    RIFT_EGGS = {"Silly Egg", "Throwback Egg", "Nightmare Egg"},
-    HATCH_1X_EGG = "100M Egg", 
-
-    WEBHOOK_URL = "https://discord.com/api/webhooks/1363110963896778862/x-20ChjAUGRG5NAYkuqt5ian3-_eLw4s8-MwPCGntkL8WssaWNfMv3gaEzGQmHljz12K",
+    WEBHOOK_URL = "https://discord.com/api/webhooks/1376349996038885607/_39nwscSlQzplQaFs4r1gBqx0Dn3cPdxD0bqmfAIaN22Rl8cJ42tbJ5kciPIdrEH1eJI",
     DISCORD_ID = "885836894032764968",
-    WEBHOOK_ODDS = 1000000,
+    WEBHOOK_ODDS = 5000000,
     SHOW_PET_WEBHOOK_USERNAME = true,
-
-    MASTERY_BUFFS_LEVEL = 20,  -- Buffs Level To Reach Before Hatching Secret Etc
-    IGNORE_MYSTERY_BOX_GEM_CAP = false,  -- true = Use Mystery Box Even When Gems Capped
-    IGNORE_STARTER_HATCH = false,  -- Ignore Starter Hatch (For P2W/Progressed Accounts)
-    FARM_MIN_GEMS = 100000000,  -- Farms Minimum Gems Before Hatching 1x Egg
-    MIN_COINS_BEFORE_HATCHING = 90000000000,  -- Doesn't affect fresh account grind
 }
 
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/e2d15fd8d5fd053a359cc3e296c68150.lua"))()
