@@ -104,7 +104,7 @@ getgenv().UserConfig = {
         Luck = 5 -- dont change
     },
     ["Seashells coefficient"] = 24,
-    ["Min seashells"] = "2m",
+    ["Min seashells"] = "20m",
     ["Secret Bounty"] = {"Everblaze","Beelzebub","Overlord Plushie"}, -- delete pet name if you dont want that pet Queen Kitty Overlord Plushie
     FindDuck = "Icecream Egg", -- Nightmare Egg, Common Egg, Cyber Egg,   Chance Egg Neon Egg
     ["Replace FindDuck"] = "Icecream Egg",
