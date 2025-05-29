@@ -53,7 +53,7 @@ getgenv().UserConfig = {
     ["Min tickets"] = "10m",
     ["Min seashells"] = "20m",
     ["Gems coefficient"] = 24,
-    ["Tickets coefficient"] = 100,
+    ["Tickets coefficient"] = 40,
     ["Seashells coefficient"] = 24,
     ["Auto Restart"] = false,
     
