@@ -44,7 +44,7 @@ getgenv().UserConfig = {
     },
     ["Secret Bounty"] = {"Overlord Plushie", "Everblaze", "Beelzebub"},
     ["Secret Bounty x1 Egg"] = false, -- true = 100% Secret Bounty
-    FindDuck = "Fruit Egg", -- Fruit Egg, Nightmare Egg, Common Egg, Cyber Egg, Neon Egg
+    FindDuck = "Icecream Egg", -- Fruit Egg, Nightmare Egg, Common Egg, Cyber Egg, Neon Egg
     ["Replace FindDuck"] = "Icecream Egg",
     ["Best Potions Find Duck"] = true, --false if there are only few potions 
     ["Enchant Team 1"] = {enable = true, ["team-up"] = 1}, -- can set 2 or 3
@@ -52,8 +52,8 @@ getgenv().UserConfig = {
     ["Min coins"] = "100m",
     ["Min tickets"] = "10m",
     ["Min seashells"] = "20m",
-    ["Gems coefficient"] = 24,
-    ["Tickets coefficient"] = 100,
+    ["Gems coefficient"] = 0,
+    ["Tickets coefficient"] = 40,
     ["Seashells coefficient"] = 24,
     ["Auto Restart"] = false,
     
