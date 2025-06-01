@@ -15,7 +15,7 @@ getgenv().UserConfig = {
     ["Void Chest"] = false,
     ["Golden Chest"] = false,
     ["Royal Chest"] = false,
-    ["Dice Chest"] = true, -- default is false if not set
+    ["Dice Chest"] = false, -- default is false if not set
     ["Summer Shop"] = true, -- default is true if not set
     ["Craft Potions"] = {
         Enable = false,
@@ -53,7 +53,7 @@ getgenv().UserConfig = {
     ["Min tickets"] = "1m",
     ["Min seashells"] = "10b",
     ["Gems coefficient"] = 0,
-    ["Tickets coefficient"] = 40,
+    ["Tickets coefficient"] = 100,
     ["Seashells coefficient"] = 24,
     ["Auto Restart"] = false,
     
