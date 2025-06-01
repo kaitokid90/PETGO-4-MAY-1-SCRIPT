@@ -50,7 +50,7 @@ getgenv().UserConfig = {
     ["Enchant Team 1"] = {enable = true, ["team-up"] = 1}, -- can set 2 or 3
     ["Min gems"] = "1m",
     ["Min coins"] = "100m",
-    ["Min tickets"] = "10m",
+    ["Min tickets"] = "1m",
     ["Min seashells"] = "10b",
     ["Gems coefficient"] = 0,
     ["Tickets coefficient"] = 40,
