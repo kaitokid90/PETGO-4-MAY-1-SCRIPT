@@ -39,7 +39,7 @@ getgenv().UserConfig = {
     },
     ["Rifts"] = {
         AlwaysFindRifts = true,
-        Targets = {"Icecream Egg", "Fruit Egg"},
+        Targets = {"Icecream Egg", "Fruit Egg". "Fossil Egg" },
         Luck = 5 -- dont change
     },
     ["Secret Bounty"] = {"Overlord Plushie", "Everblaze", "Beelzebub"},
