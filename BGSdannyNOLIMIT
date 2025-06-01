@@ -10,7 +10,7 @@ getgenv().UserConfig = {
     AutoRollDice        = true,
     ["Super Ticket"]    = "Robot Claw",
     ["Use Super Ticket"] = true,
-    ["Season Challenges"] = true, -- false bc ss end 
+    ["Season Challenges"] = false, -- false bc ss end 
     ["Giant Chest"] = false,
     ["Void Chest"] = false,
     ["Golden Chest"] = false,
@@ -39,7 +39,7 @@ getgenv().UserConfig = {
     },
     ["Rifts"] = {
         AlwaysFindRifts = true,
-        Targets = {"Icecream Egg", "Fruit Egg"},
+        Targets = {"Icecream Egg", "Fruit Egg". "Fossil Egg" },
         Luck = 5 -- dont change
     },
     ["Secret Bounty"] = {"Overlord Plushie", "Everblaze", "Beelzebub"},
@@ -51,7 +51,7 @@ getgenv().UserConfig = {
     ["Min gems"] = "1m",
     ["Min coins"] = "100m",
     ["Min tickets"] = "10m",
-    ["Min seashells"] = "1b",
+    ["Min seashells"] = "10b",
     ["Gems coefficient"] = 0,
     ["Tickets coefficient"] = 40,
     ["Seashells coefficient"] = 24,
