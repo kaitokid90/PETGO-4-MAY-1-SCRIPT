@@ -3,7 +3,7 @@ setfpscap(3)
 wait(5)
 script_key = "";
 getgenv().UserConfig = {
-    AddFriends          = false,
+    AddFriends          = true,
     RedeemCode = {"RELEASE","Lucky", "update2","Easter","Sylentlyssorry", "update4"},
     EquipBestFlavorGum  = true,
     BuyFlavorGum        = true,
