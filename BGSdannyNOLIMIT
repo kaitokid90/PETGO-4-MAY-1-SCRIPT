@@ -45,7 +45,82 @@ getgenv().UserConfig = {
     },
     ["Secret Bounty"] = {"Overlord Plushie", "Everblaze", "Beelzebub"},
     ["Secret Bounty x1 Egg"] = false, -- true = 100% Secret Bounty
-    FindDuck = "Fossil Egg", -- Fruit Egg, Nightmare Egg, Common Egg, Cyber Egg, Neon Egg
+    FindDuck = "if not game:IsLoaded() then repeat game.Loaded:Wait() until game:IsLoaded() end
+setfpscap(3)
+wait(5)
+script_key = "";
+getgenv().UserConfig = {
+    AddFriends          = true,
+    RedeemCode = {"RELEASE","Lucky", "update2","Easter","Sylentlyssorry", "update4"},
+    EquipBestFlavorGum  = true,
+    BuyFlavorGum        = true,
+    AutoMinigames       = true,
+    AutoRollDice        = true,
+    ["Super Ticket"]    = "Robot Claw",
+    ["Use Super Ticket"] = true,
+    ["Season Challenges"] = false, -- false bc ss end 
+    ["Giant Chest"] = false,
+    ["Void Chest"] = false,
+    ["Golden Chest"] = false,
+    ["Royal Chest"] = false,
+    ["Dice Chest"] = false, -- default is false if not set
+    ["Summer Shop"] = true, -- default is true if not set
+    ["Craft Potions"] = {
+        Enable = false,
+        MinGems = "100k",
+        ["Potion Needed"] = {
+            {"Coins", Level = 5},
+            {"Speed", Level = 5},
+            {"Lucky", Level = 5},
+            {"Mythic", Level = 5}
+        }
+    },
+    ["Mastery"] = {Pets = 15,Buffs = 10,Shops = 10},
+    ["Star Shop"] = {
+        Enable = true,
+        MinStars = 100,
+        ["Items Needed"] = {
+            "Speed V",
+            "Lucky V",
+            "Mythic V"
+        }
+    },
+    ["Rifts"] = {
+        AlwaysFindRifts = true,
+        Targets = {"Icecream Egg", "Fruit Egg", "Fossil Egg" },
+        Luck = 5 -- dont change
+    },
+    ["Secret Bounty"] = {"Overlord Plushie", "Everblaze", "Beelzebub"},
+    ["Secret Bounty x1 Egg"] = false, -- true = 100% Secret Bounty
+    FindDuck = "Icecream Egg", -- Fruit Egg, Nightmare Egg, Common Egg, Cyber Egg, Neon Egg
+    ["Replace FindDuck"] = "Icecream Egg",
+    ["Best Potions Find Duck"] = true, --false if there are only few potions 
+    ["Enchant Team 1"] = {enable = true, ["team-up"] = 1}, -- can set 2 or 3
+    ["Min gems"] = "1m",
+    ["Min coins"] = "100m",
+    ["Min tickets"] = "1m",
+    ["Min seashells"] = "10b",
+    ["Gems coefficient"] = 0,
+    ["Tickets coefficient"] = 100,
+    ["Seashells coefficient"] = 24,
+    ["Auto Restart"] = false,
+    
+    ["Webhook"] = {
+        Enable = true, -- Enable/disable pet hatch notification webhook
+         Note = getgenv().DuckHook, -- Note displayed on the webhook 
+        ID = "885836894032764968", -- Enter your Discord ID here
+        URL = "https://discord.com/api/webhooks/1361998811018432742/uQW-QgEe_3fomz6XUzfV-o8aisJiyFTblSNy9y9tUmQ4pdW4x4eST7B_CVq2xdHbec9U", -- Add your webhook URL here  Dragon Plushie Magmas 
+        
+        Rarity = {
+            "Legendary",
+            "Secret"
+        }, -- General rarity filter
+        Legendary = "40m", -- Threshold for Legendary (e.g., 100k = 1/100,000) - only send if chance >= threshold     
+        ["Special Pets"] = {"Avernus", "Patronus", "Overseer", "Seraph" , "NULLVoid", "Luminosity" , "Jackpot" , "Monolith"}  
+    }
+}
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/8dd8db97191c29c3642659642d2e4ea6.lua"))()
+", -- Fruit Egg, Nightmare Egg, Common Egg, Cyber Egg, Neon Egg
     ["Replace FindDuck"] = "Icecream Egg",
     ["Best Potions Find Duck"] = true, --false if there are only few potions 
     ["Enchant Team 1"] = {enable = true, ["team-up"] = 1}, -- can set 2 or 3
