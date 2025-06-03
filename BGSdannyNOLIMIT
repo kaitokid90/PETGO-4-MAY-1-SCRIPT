@@ -16,7 +16,7 @@ getgenv().UserConfig = {
     ["Void Chest"] = false,
     ["Golden Chest"] = false,
     ["Royal Chest"] = false,
-    ["Dice Chest"] = false, -- default is false if not set
+    ["Dice Chest"] = true, -- default is false if not set
     ["Summer Shop"] = true, -- default is true if not set
     ["Craft Potions"] = {
         Enable = false,
@@ -45,7 +45,7 @@ getgenv().UserConfig = {
     },
     ["Secret Bounty"] = {"Overlord Plushie", "Everblaze", "Beelzebub"},
     ["Secret Bounty x1 Egg"] = false, -- true = 100% Secret Bounty
-    FindDuck = "Icecream Egg", -- Fruit Egg, Nightmare Egg, Common Egg, Cyber Egg, Neon Egg
+    FindDuck = "Fruit Egg", -- Fruit Egg, Nightmare Egg, Common Egg, Cyber Egg, Neon Egg
     ["Replace FindDuck"] = "Icecream Egg",
     ["Best Potions Find Duck"] = true, --false if there are only few potions 
     ["Enchant Team 1"] = {enable = true, ["team-up"] = 1}, -- can set 2 or 3
