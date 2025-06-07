@@ -15,11 +15,13 @@ getgenv().UserConfig = {
     ["Giant Chest"] = false,
     ["Void Chest"] = false,
     ["Golden Chest"] = false,
-    ["Royal Chest"] = false,
+    ["Royal Chest"] = true,
     ["Dice Chest"] = true, -- default is false if not set
     ["Summer Shop"] = true, -- default is true if not set
+    ["Force X2"] = true,
+    ["Mastery"] = {Pets = 15,Buffs = 10,Shops = 10},
     ["Craft Potions"] = {
-        Enable = false,
+        Enable = true,
         MinGems = "100k",
         ["Potion Needed"] = {
             {"Coins", Level = 5},
@@ -28,7 +30,6 @@ getgenv().UserConfig = {
             {"Mythic", Level = 5}
         }
     },
-    ["Mastery"] = {Pets = 15,Buffs = 10,Shops = 10},
     ["Star Shop"] = {
         Enable = true,
         MinStars = 100,
@@ -40,18 +41,20 @@ getgenv().UserConfig = {
     },
     ["Rifts"] = {
         AlwaysFindRifts = true,
-        Targets = {"Icecream Egg", "Fruit Egg", "Fossil Egg" },
+        Targets = {"Neon Egg"},
         Luck = 5 -- dont change
     },
     ["Secret Bounty"] = {"Overlord Plushie", "Everblaze", "Beelzebub"},
     ["Secret Bounty x1 Egg"] = false, -- true = 100% Secret Bounty
-    FindDuck = "Fossil Egg", -- Fruit Egg, Nightmare Egg, Common Egg, Cyber Egg, Neon Egg
-    ["Replace FindDuck"] = "Icecream Egg",
+    ["Skip Event"] = "All", -- All: skip event seashells, Jungle: skip new island event seashells, None: not skip event seashells
+    ["Light and Dark"]  = "Both", -- Both: hatch Light and Dark, Light Egg: only hatch if available, Dark Egg: only hatch if available
+    FindDuck = "Neon Egg", -- Fruit Egg, Nightmare Egg, Common Egg, Cyber Egg, Neon Egg
+    ["Replace FindDuck"] = "Neon Egg",
     ["Best Potions Find Duck"] = true, --false if there are only few potions 
     ["Enchant Team 1"] = {enable = true, ["team-up"] = 1}, -- can set 2 or 3
     ["Min gems"] = "1m",
     ["Min coins"] = "100m",
-    ["Min tickets"] = "1m",
+    ["Min tickets"] = "10m",
     ["Min seashells"] = "10b",
     ["Gems coefficient"] = 0,
     ["Tickets coefficient"] = 100,
