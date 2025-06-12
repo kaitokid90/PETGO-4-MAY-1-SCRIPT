@@ -75,4 +75,4 @@ getgenv().UserConfig = {
         ["Special Pets"] = {"Avernus", "Patronus", "Overseer", "Seraph" , "Luminosity" , "Jackpot" , "Monolith"}  
     }
 }
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5fedae32881e40e814053106d77513f6.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/8dd8db97191c29c3642659642d2e4ea6.lua"))()
