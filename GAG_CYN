@@ -1,4 +1,4 @@
-script_key="ziHLIYLoYRCRCDXYdRrzKXVHrpWKegpx";
+script_key="dmAZKZHRpnjmlmMCLaBDNvNNdKMMwMMr";
 getgenv().Config = {
     ["Time To Sell"] = 2, -- Seconds
     ["Craft Event"] = 
