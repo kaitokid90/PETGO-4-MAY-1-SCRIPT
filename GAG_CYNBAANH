@@ -32,7 +32,7 @@ getgenv().Config = {
     ["Buy Egg"] = true,
     ["Egg"] = {
         ["Common Egg"] = false,
-        ["Uncommon Egg"] = false,
+        ["Uncommon Egg"] = true,
         ["Rare Egg"] = false,
         ["Mythical Egg"] = false,
         ["Legendary Egg"] = false,
@@ -59,7 +59,7 @@ getgenv().Config = {
         ["Godly Sprinkler"] = true
     },
     ["Plant Candy"] = false,
-    ["PetNeedSend"] = {"Dragonfly", "Raccoon", "Queen Bee", "Disco Bee", "Red Fox", "Butterfly","Mimic Octopus"},
+    ["PetNeedSend"] = {"Dragonfly", "Raccoon", "Queen Bee", "Disco Bee", "Red Fox", "Butterfly","Mimic Octopus","Night Owl"}, 
     ["Destroy Mode"] = {
         ["Auto Destroy when have money"] = 1000000, -- its will destroy all trees select when money >= select
         ["Trees"] = {"Strawberry", "Blueberry", "Corn", "Tomato", "Orange Tulip", "Carrot", "Apple", "Coconut", "Cactus", "Dragon Fruit", "Mango", "Grape"}
@@ -87,6 +87,10 @@ getgenv().Config = {
             ["Mythical"] = false
         },
         ["Pet Dont Delete"] = {"Queen Bee", "Disco Bee", "Butterfly","Mimic Octopus"} 
+    },
+    ["Webhook Mode"] = {
+        ["Enable Send Pet Weight"] = false,
+        ["Weight"] = 10 -- if Weight >= 10 they will send wh
     },
     ["Rejoin After X Time"] = 6000, -- Minutes
     ["Mutation Skips"] = { -- Skip Havest
