@@ -20,6 +20,9 @@ getgenv().UserConfig = {
     ["Summer Shop"] = true, -- default is true if not set
     ["Force X2"] = true,
     ["Min X2"] = 5,
+    ["Bruh Quest"]      = true, -- default = false
+    ["Bubble Shrine"]   = true, -- default = true
+
     ["Mastery"] = {Pets = 15,Buffs = 10,Shops = 10},
     ["Craft Potions"] = {
         Enable = true,
@@ -42,7 +45,7 @@ getgenv().UserConfig = {
     },
     ["Rifts"] = {
         AlwaysFindRifts = true,
-        Targets = {"Voidcrystal Egg"},
+        Targets = {"Voidcrystal Egg", "Bruh Egg"},
         Luck = 5 -- dont change
     },
     ["Secret Bounty"] = {"King Slime", "Golden Retreiver", "True Titan"},
