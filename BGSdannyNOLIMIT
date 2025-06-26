@@ -20,7 +20,7 @@ getgenv().UserConfig = {
     ["Summer Shop"] = true, -- default is true if not set
     ["Force X2"] = true,
     ["Min X2"] = 5,
-    ["Bruh Quest"]      = false, -- default = false
+    ["Bruh Quest"]      = true, -- default = false
     ["Bubble Shrine"]   = true, -- default = true
 
     ["Mastery"] = {Pets = 15,Buffs = 10,Shops = 10},
