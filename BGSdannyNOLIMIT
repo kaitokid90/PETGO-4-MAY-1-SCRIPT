@@ -45,7 +45,7 @@ getgenv().UserConfig = {
         Targets = {"Bruh Egg", "July4th Egg"},
         Luck = 5
     },
-    ["Secret Bounty"] = {"True Titan"},
+    ["Secret Bounty"] = {"King Slime", "Golden Retreiver", "True Titan"},
     ["Secret Bounty x1 Egg"] = false, -- true = 100% Secret Bounty
     FindDuck = "July4th Egg",
     ["Replace FindDuck"] = "July4th Egg",
@@ -54,6 +54,7 @@ getgenv().UserConfig = {
     ["Min gems"] = "1m",
     ["Min coins"] = "100m",
     ["Min tickets"] = "10m",
+    ["Min festival coins"] = "100m",
     ["Gems coefficient"] = 0,
     ["Tickets coefficient"] = 100,
     ["Seashells coefficient"] = 24,
@@ -70,7 +71,7 @@ getgenv().UserConfig = {
             "Secret"
         }, -- General rarity filter
         Legendary = "40m", -- Threshold for Legendary (e.g., 100k = 1/100,000) - only send if chance >= threshold        
-        ["Special Pets"] = {"Avernus", "Patronus", "Overseer", "Seraph" , "Luminosity" , "Jackpot" , "Monolith", "Chronos", "Lucid Leaf"}    
+        ["Special Pets"] = {"Avernus", "Patronus", "Overseer", "Seraph" , "Luminosity" , "Jackpot" , "Monolith", "Chronos", "Lucid Leaf", "Doggy Tophat", "Kitty Tophat", "Bunny Tophat", "Dragon Tophat", "Rainbow Shock Tophat", "Dementor Tophat"}
     }
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/8dd8db97191c29c3642659642d2e4ea6.lua"))()
