@@ -48,8 +48,8 @@ getgenv().UserConfig = {
         Targets = {"Voidcrystal Egg", "Bruh Egg"},
         Luck = 5 -- dont change
     },
-    ["Secret Bounty"] = {"True Titan"},
-    ["Secret Bounty x1 Egg"] = false, -- true = 100% Secret Bounty
+    ["Secret Bounty"] = {"Golden Retreiver", "True Titan"},
+    ["Secret Bounty x1 Egg"] =  true, -- true = 100% Secret Bounty
     FindDuck = "Cyber Egg",
     ["Replace FindDuck"] = "Cyber Egg",
     ["Best Potions Find Duck"] = true, --false if there are only few potions 
