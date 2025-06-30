@@ -13,7 +13,7 @@ getgenv().UserConfig = {
     ["Feed Pets"] = {"Carrot", "Strawberry", "Blueberry", "Tomato"},
     ["Buy Event Shop"] = {"Oasis Egg", "Hamster", "Delphinium", "Lily of the Valley", "Traveler's Fruit"},
     ["Ping Pets"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly", "Mimic Octopus","Kiwi","Blood Kiwi","Rooster","Chicken"},
-    ["Webhook Url"] = "https://discord.com/api/webhooks/1304090337391804446/8EcJoHgkyo6cnO8J7VesVZ6_cgEUPmxuMixxTs0NF94-n4KsCBleiWvXokgOMIcXif0N",
-    ["Discord ID"] = "229850538911596545",
+    ["Webhook Url"] = "https://discord.com/api/webhooks/1389282135558455388/QbUqLjIsBKXtOgVcCPN3FxLQVMZDx7BPKsUVsPTxjxC7hvMTrH2JK83MbTXMDd3WXCVg",
+    ["Discord ID"] = "885836894032764968",
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/c68ff1c1a8e6204225007b9ab677347e.lua"))()
