@@ -1,4 +1,4 @@
-script_key="YNMCPkFmVrykpCVzPbyZKiJZNIAOcTcq";
+script_key="BhpLKcfIKZBeTgJDfhOVwSPgDsSckHNr";
 setfpscap(3)
 
 getgenv().gagConfig = {
@@ -34,12 +34,12 @@ getgenv().gagConfig = {
     BUY_GEAR_SHOP = { "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler" },
     USE_SPRINKLER = { "Basic Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler" },
 
-    PET_WEBHOOK_URL = "",
-    SEED_WEBHOOK_URL = "", 
+    PET_WEBHOOK_URL = "https://discord.com/api/webhooks/1389166225678139543/CPgIdCFvveqfJxC6fDmmrH42YiSfEhKdmn_kyipGrHlMUfh70Hh-zf8j7Zr_5Qv3xYxL",
+    SEED_WEBHOOK_URL = "https://discord.com/api/webhooks/1389166225678139543/CPgIdCFvveqfJxC6fDmmrH42YiSfEhKdmn_kyipGrHlMUfh70Hh-zf8j7Zr_5Qv3xYxL", 
     NOTIFY_PETS = { "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Red Giant Ant", "Hyacinth Macaw", "Axolotl", "Echo Frog", "Bear Bee", "Praying Mantis" },
-    DISCORD_ID = "",
-    WEBHOOK_NOTE = "",
+    DISCORD_ID = "885836894032764968",
+    WEBHOOK_NOTE = "ROBLOX68",
     SHOW_WEBHOOK_USERNAME = true,
 }
 
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/6cb882027ef5de19462b160764dcfb53.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/c916e5b90dc37c71ecf1ec00dfce3d5d.lua"))()
