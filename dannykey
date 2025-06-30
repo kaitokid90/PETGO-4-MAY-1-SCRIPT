@@ -4,14 +4,13 @@ wait(5)
 script_key = "";
 getgenv().UserConfig = {
     AddFriends          = true,
-    RedeemCode = {"update5","update6","update7","update8"},
+    RedeemCode = {"update9", "update10"},
     EquipBestFlavorGum  = true,
     BuyFlavorGum        = true,
     AutoMinigames       = true,
     AutoRollDice        = true,
-    ["Super Ticket"]    = "Robot Claw",
     ["Use Super Ticket"] = true,
-    ["Season Challenges"] = false, -- false bc ss end 
+    ["Season Challenges"] = false, -- true if u want secret monolith 
     ["Giant Chest"] = false,
     ["Void Chest"] = false,
     ["Golden Chest"] = false,
@@ -20,9 +19,7 @@ getgenv().UserConfig = {
     ["Summer Shop"] = true, -- default is true if not set
     ["Force X2"] = true,
     ["Min X2"] = 5,
-    ["Bruh Quest"]      = false, -- default = false
-    ["Bubble Shrine"]   = true, -- default = true
-
+    ["Super Ticket"]    = "Robot Claw", -- Hyper Darts (20s-40s) or Robot Claw (1s-5s)
     ["Mastery"] = {Pets = 15,Buffs = 10,Shops = 10},
     ["Craft Potions"] = {
         Enable = true,
@@ -45,19 +42,18 @@ getgenv().UserConfig = {
     },
     ["Rifts"] = {
         AlwaysFindRifts = true,
-        Targets = {"Voidcrystal Egg", "Bruh Egg"},
-        Luck = 5 -- dont change
+        Targets = {"Bruh Egg", "July4th Egg"},
+        Luck = 5
     },
-    ["Secret Bounty"] = {"Golden Retreiver", "True Titan"},
-    ["Secret Bounty x1 Egg"] =  true, -- true = 100% Secret Bounty
-    FindDuck = "Cyber Egg",
-    ["Replace FindDuck"] = "Cyber Egg",
+    ["Secret Bounty"] = {"True Titan"},
+    ["Secret Bounty x1 Egg"] = false, -- true = 100% Secret Bounty
+    FindDuck = "July4th Egg",
+    ["Replace FindDuck"] = "July4th Egg",
     ["Best Potions Find Duck"] = true, --false if there are only few potions 
-    ["Enchant Team 1"] = {enable = true, ["team-up"] = 3}, -- can set 2 or 3
+    ["Enchant Team 1"] = {enable = true, ["team-up"] = 1}, -- can set 2 or 3
     ["Min gems"] = "1m",
-    ["Min coins"] = "10b",
+    ["Min coins"] = "100m",
     ["Min tickets"] = "10m",
-    ["Min seashells"] = "10b",
     ["Gems coefficient"] = 0,
     ["Tickets coefficient"] = 100,
     ["Seashells coefficient"] = 24,
