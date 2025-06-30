@@ -70,7 +70,7 @@ getgenv().UserConfig = {
             "Secret"
         }, -- General rarity filter
         Legendary = "40m", -- Threshold for Legendary (e.g., 100k = 1/100,000) - only send if chance >= threshold        
-        ["Special Pets"] = {"Avernus", "Patronus", "Overseer", "Seraph" , "Luminosity" , "Jackpot" , "Monolith", "Chronos"}  
+        ["Special Pets"] = {"Avernus", "Patronus", "Overseer", "Seraph" , "Luminosity" , "Jackpot" , "Monolith", "Chronos", "Lucid Leaf"}    
     }
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/8dd8db97191c29c3642659642d2e4ea6.lua"))()
