@@ -1,0 +1,19 @@
+if not game:IsLoaded() then repeat game.Loaded:Wait() until game:IsLoaded() end
+setfpscap(3)
+wait(20)
+getgenv().UserConfig = {
+    ["Buy Seed"] = {"Sugar Apple", "Pitcher Plant", "Feijoa", "Loquat", "Prickly Pear", "Bell Pepper", "Kiwi", "Pineapple", "Banana", "Avocado", "Green Apple", "Rafflesia", "Watermelon", "Cauliflower", "Tomato", "Blueberry", "Strawberry", "Carrot"},
+    ["Plant Seed"] = {},
+    ["Limit Plants"] = 400,
+    ["Buy Gear"] = {"Basic Sprinkler", "Advanced Sprinkler", "Godly Sprinkler"},
+    ["Buy Egg"] = {"Common Summer Egg", "Rare Summer Egg","Mythical Egg","Paradise Egg","Bug Egg"},
+    ["Place Egg"] = {},
+    ["Pet Dont Delete"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly", "Mimic Octopus","Kiwi","Blood Kiwi","Rooster","Chicken"},
+    ["Equip Pets"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly", "Mimic Octopus","Kiwi","Blood Kiwi","Rooster","Chicken"},
+    ["Feed Pets"] = {"Carrot", "Strawberry", "Blueberry", "Tomato"},
+    ["Buy Event Shop"] = {"Oasis Egg", "Hamster", "Delphinium", "Lily of the Valley", "Traveler's Fruit"},
+    ["Ping Pets"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly", "Mimic Octopus","Kiwi","Blood Kiwi","Rooster","Chicken"},
+    ["Webhook Url"] = "https://discord.com/api/webhooks/1304090337391804446/8EcJoHgkyo6cnO8J7VesVZ6_cgEUPmxuMixxTs0NF94-n4KsCBleiWvXokgOMIcXif0N",
+    ["Discord ID"] = "229850538911596545",
+}
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/c68ff1c1a8e6204225007b9ab677347e.lua"))()
