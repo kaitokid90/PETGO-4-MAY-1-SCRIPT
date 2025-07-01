@@ -34,8 +34,8 @@ getgenv().gagConfig = {
     BUY_GEAR_SHOP = { "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler" },
     USE_SPRINKLER = { "Basic Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler" },
 
-    PET_WEBHOOK_URL = "https://discord.com/api/webhooks/1389166225678139543/CPgIdCFvveqfJxC6fDmmrH42YiSfEhKdmn_kyipGrHlMUfh70Hh-zf8j7Zr_5Qv3xYxL",
-    SEED_WEBHOOK_URL = "https://discord.com/api/webhooks/1389166225678139543/CPgIdCFvveqfJxC6fDmmrH42YiSfEhKdmn_kyipGrHlMUfh70Hh-zf8j7Zr_5Qv3xYxL", 
+    PET_WEBHOOK_URL = "https://discord.com/api/webhooks/1389515763567824976/-fgd2vvdU-RAPiCZGiIVXNPWSZWchRPNtGoa5TuxBk2wn52JcfAMg8lnlkIK7MCiPGPk",
+    SEED_WEBHOOK_URL = "https://discord.com/api/webhooks/1389515763567824976/-fgd2vvdU-RAPiCZGiIVXNPWSZWchRPNtGoa5TuxBk2wn52JcfAMg8lnlkIK7MCiPGPk", 
     NOTIFY_PETS = { "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Red Giant Ant", "Hyacinth Macaw", "Axolotl", "Echo Frog", "Bear Bee", "Praying Mantis" },
     DISCORD_ID = "885836894032764968",
     WEBHOOK_NOTE = "ROBLOX68",
