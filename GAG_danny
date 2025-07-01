@@ -12,7 +12,7 @@ getgenv().UserConfig = {
     ["Equip Pets"] = {"Kiwi","Blood Kiwi","Rooster","Chicken"},
     ["Feed Pets"] = {"Carrot", "Strawberry", "Blueberry", "Tomato"},
     ["Buy Event Shop"] = {"Oasis Egg", "Hamster", "Delphinium", "Lily of the Valley", "Traveler's Fruit"},
-    ["Ping Pets"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly", "Mimic Octopus","Kiwi","Blood Kiwi","Rooster","Chicken"},
+    ["Ping Pets"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly", "Mimic Octopus","Kiwi","Blood Kiwi","Rooster","Chicken","Hyacinth Macaw","Fennec Fox"},   
     ["Webhook Url"] = "https://discord.com/api/webhooks/1389282135558455388/QbUqLjIsBKXtOgVcCPN3FxLQVMZDx7BPKsUVsPTxjxC7hvMTrH2JK83MbTXMDd3WXCVg",
     ["Discord ID"] = "885836894032764968",
 }
