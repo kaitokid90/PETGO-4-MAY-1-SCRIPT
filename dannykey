@@ -45,7 +45,7 @@ getgenv().UserConfig = {
         Targets = { "Rainbow Egg" , "Bruh Egg", "July4th Egg"},
         Luck = 5
     },
-    ["Secret Bounty"] = {"True Titan"},
+    ["Secret Bounty"] = {"King Mush", "Frost Defender", "Dark Guardian"},
     ["Secret Bounty x1 Egg"] = false, -- true = 100% Secret Bounty
     FindDuck = "July4th Egg",
     ["Replace FindDuck"] = "July4th Egg",
