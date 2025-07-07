@@ -46,7 +46,7 @@ getgenv().UserConfig = {
         Luck = 5
     },
     ["Secret Bounty"] = {"King Mush", "Frost Defender", "Dark Guardian"},
-    ["Secret Bounty x1 Egg"] = true, -- true = 100% Secret Bounty
+    ["Secret Bounty x1 Egg"] = false, -- true = 100% Secret Bounty
     FindDuck = "July4th Egg",
     ["Replace FindDuck"] = "July4th Egg",
     ["Best Potions Find Duck"] = true, --false if there are only few potions 
