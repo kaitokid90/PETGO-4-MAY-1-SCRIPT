@@ -4,7 +4,7 @@ wait(5)
 script_key = "";
 getgenv().UserConfig = {
     AddFriends          = true,
-    RedeemCode = {"update9", "update10"},
+    RedeemCode = {"update9", "update10","RELEASE", "THANKS", "LUCKY", "Easter", "Throwback", "update2", "update3", "update4", "update5", "update6", "update7", "update8", "update1"},
     EquipBestFlavorGum  = true,
     BuyFlavorGum        = true,
     AutoMinigames       = true,
