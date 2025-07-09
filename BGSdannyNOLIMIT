@@ -4,7 +4,7 @@ wait(5)
 script_key = "";
 getgenv().UserConfig = {
     AddFriends          = true,
-    RedeemCode = {"update9", "update10"},
+    RedeemCode = {"update9", "update10","RELEASE", "THANKS", "LUCKY", "Easter", "Throwback", "update2", "update3", "update4", "update5", "update6", "update7", "update8", "update1"},
     EquipBestFlavorGum  = true,
     BuyFlavorGum        = true,
     AutoMinigames       = true,
@@ -70,7 +70,7 @@ getgenv().UserConfig = {
             "Legendary",
             "Secret"
         }, -- General rarity filter
-        Legendary = "900m", -- Threshold for Legendary (e.g., 100k = 1/100,000) - only send if chance >= threshold        
+        Legendary = "5000m", -- Threshold for Legendary (e.g., 100k = 1/100,000) - only send if chance >= threshold        
         ["Special Pets"] = {"Avernus", "Patronus", "Overseer", "Seraph" , "Elite Soul" , "Jackpot" , "Captains Curse", "Chronos", "Lucid Leaf", "Doggy Tophat", "Kitty Tophat", "Bunny Tophat", "Dragon Tophat", "Rainbow Shock Tophat", "Dementor Tophat", "Seraphic Bruh"}
     }
 }
