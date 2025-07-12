@@ -47,8 +47,8 @@ getgenv().UserConfig = {
     },
     ["Secret Bounty"] = {"King Mush", "Frost Defender", "Dark Guardian"},
     ["Secret Bounty x1 Egg"] = false, -- true = 100% Secret Bounty
-    FindDuck = "July4th Egg",
-    ["Replace FindDuck"] = "July4th Egg",
+    FindDuck = "Spikey Egg",
+    ["Replace FindDuck"] = "Spikey Egg",
     ["Best Potions Find Duck"] = true, --false if there are only few potions 
     ["Enchant Team 1"] = {enable = true, ["team-up"] = 1}, -- can set 2 or 3
     ["Min gems"] = "1m",
