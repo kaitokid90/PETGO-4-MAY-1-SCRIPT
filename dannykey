@@ -5,12 +5,19 @@ script_key = "";
 getgenv().UserConfig = {
     AddFriends          = true,
     RedeemCode = {"update9", "update10","RELEASE", "THANKS", "LUCKY", "Easter", "Throwback", "update2", "update3", "update4", "update5", "update6", "update7", "update8", "update1"},
+   if not game:IsLoaded() then repeat game.Loaded:Wait() until game:IsLoaded() end
+setfpscap(3)
+wait(20)
+script_key = "xxx";
+getgenv().UserConfig = {
+    AddFriends          = true,
+    RedeemCode = {"update11"},
     EquipBestFlavorGum  = true,
     BuyFlavorGum        = true,
     AutoMinigames       = true,
     AutoRollDice        = true,
     ["Use Super Ticket"] = true,
-    ["Season Challenges"] = true, -- true if u want secret monolith 
+    ["Season Challenges"] = false, -- true if u want secret monolith 
     ["Giant Chest"] = false,
     ["Void Chest"] = false,
     ["Golden Chest"] = false,
@@ -42,13 +49,13 @@ getgenv().UserConfig = {
     },
     ["Rifts"] = {
         AlwaysFindRifts = true,
-        Targets = {"July4th Egg"},
+        Targets = {"Bruh Egg"},
         Luck = 5
     },
     ["Secret Bounty"] = {"King Mush", "Frost Defender", "Dark Guardian"},
     ["Secret Bounty x1 Egg"] = false, -- true = 100% Secret Bounty
-    FindDuck = "Spikey Egg",
-    ["Replace FindDuck"] = "Spikey Egg",
+    FindDuck = "500M Egg",
+    ["Replace FindDuck"] = "500M Egg",
     ["Best Potions Find Duck"] = true, --false if there are only few potions 
     ["Enchant Team 1"] = {enable = true, ["team-up"] = 1}, -- can set 2 or 3
     ["Min gems"] = "1m",
