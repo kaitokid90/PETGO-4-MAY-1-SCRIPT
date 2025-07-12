@@ -45,7 +45,7 @@ RedeemCode = {"update9", "update10","RELEASE", "THANKS", "LUCKY", "Easter", "Thr
         Targets = {"Bruh Egg"},
         Luck = 5
     },
-    ["Secret Bounty"] = {"King Mush", "Frost Defender", "Dark Guardian"},
+    ["Secret Bounty"] = {"Dark Guardian"},
     ["Secret Bounty x1 Egg"] = false, -- true = 100% Secret Bounty
     FindDuck = "500M Egg",
     ["Replace FindDuck"] = "500M Egg",
@@ -74,4 +74,4 @@ RedeemCode = {"update9", "update10","RELEASE", "THANKS", "LUCKY", "Easter", "Thr
         ["Special Pets"] = {"Avernus", "Patronus", "Overseer", "Seraph" , "Elite Soul" , "Jackpot" , "Captains Curse", "Chronos", "Lucid Leaf", "Doggy Tophat", "Kitty Tophat", "Bunny Tophat", "Dragon Tophat", "Rainbow Shock Tophat", "Dementor Tophat", "Seraphic Bruh"}
     }
 }
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/8dd8db97191c29c3642659642d2e4ea6.lua"))() 
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/8dd8db97191c29c3642659642d2e4ea6.lua"))()
