@@ -1,3 +1,4 @@
+task.wait(120) 
 if not game:IsLoaded() then repeat game.Loaded:Wait() until game:IsLoaded() end
 setfpscap(3)
 wait(5)
@@ -71,7 +72,7 @@ RedeemCode = {"update9", "update10","RELEASE", "THANKS", "LUCKY", "Easter", "Thr
             "Secret"
         }, -- General rarity filter
         Legendary = "9000m", -- Threshold for Legendary (e.g., 100k = 1/100,000) - only send if chance >= threshold        
-        ["Special Pets"] = {"Avernus", "Patronus", "Overseer", "Seraph" , "Elite Soul" , "Jackpot" , "Captains Curse", "Chronos", "Lucid Leaf", "Doggy Tophat", "Kitty Tophat", "Bunny Tophat", "Dragon Tophat", "Rainbow Shock Tophat", "Dementor Tophat", "Seraphic Bruh", "Destiny"}   
+        ["Special Pets"] = {"Avernus", "Patronus", "Overseer", "Seraph" , "Elite Soul" , "Jackpot" , "Captains Curse", "Chronos", "Lucid Leaf", "Doggy Tophat", "Kitty Tophat", "Bunny Tophat", "Dragon Tophat", "Rainbow Shock Tophat", "Dementor Tophat", "Seraphic Bruh", "Destiny", "Giant Robot"}   
     }
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/8dd8db97191c29c3642659642d2e4ea6.lua"))()
