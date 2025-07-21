@@ -45,7 +45,7 @@ RedeemCode = {"update9", "update10","RELEASE", "THANKS", "LUCKY", "Easter", "Thr
         Targets = {"Bruh Egg"},
         Luck = 5
     },
-    ["Secret Bounty"] = {"Frost Defender", "Dark Guardian"},
+    ["Secret Bounty"] = {"King Mush", "Frost Defender", "Dark Guardian"},
     ["Secret Bounty x1 Egg"] = false, -- true = 100% Secret Bounty
     FindDuck = "500M Egg",
     ["Replace FindDuck"] = "500M Egg",
