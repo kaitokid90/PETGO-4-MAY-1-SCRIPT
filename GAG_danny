@@ -1,35 +1,35 @@
-if not game:IsLoaded() then repeat game.Loaded:Wait() until game:IsLoaded() end
 setfpscap(3)
-wait(20)
 getgenv().UserConfig = {
-    ["Buy Seed"] = {"Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus", "Coconut", "Bamboo", "Apple", "Pumpkin", "Watermelon", "Daffodil", "Tomato", "Orange Tulip", "Blueberry", "Strawberry", "Carrot"},
+    ["Buy Seed"] = {"Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus", "Coconut", "Bamboo", "Apple", "Pumpkin", "Watermelon", "Daffodil", "Tomato", "Orange Tulip", "Blueberry", "Strawberry", "Carrot"},
     ["Plant Seed"] = {},
     ["Limit Plants"] = 250,
-    ["Buy Gear"] = {"Basic Sprinkler", "Advanced Sprinkler", "Godly Sprinkler"},
-    ["Buy Egg"] = {"Common Summer Egg", "Rare Summer Egg","Mythical Egg","Paradise Egg","Bug Egg"},
-    ["Place Egg"] = {},
-    ["Unlock Pet Slots"] = 2,
-    ["Unlock Egg Slots"] = 2,
-    ["Pet Dont Delete"] = {"Bald Eagle", "Pterodactyl", "Brontosaurus", "T-Rex", "Seal", "Rooster", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Red Giant Ant", "Hyacinth Macaw", "Scarlet Macaw", "Axolotl", "Pack Bee", "Petal Bee", "Bear Bee", "Praying Mantis", "Caterpillar", "Giant Ant", "Snail", "Echo Frog", "Hamster", "Squirrel", "Brown Mouse", "Grey Mouse", "Blood Owl", "Cooked Owl", "Golden Bee", "Owl", "Blood Kiwi", "Firefly", "Chicken Zombie"},
+    ["Buy Gear"] = {"Basic Sprinkler", "Advanced Sprinkler", "Godly Sprinkler", "Master Sprinkler" },
+    ["Buy Egg"] = {"Bug Egg", "Bee Egg", "Paradise Egg", "Mythical Egg", "Rare Summer Egg", "Common Summer Egg", "Rare Egg", "Uncommon Egg" },
+    ["Place Egg"] = { "Zen Egg", "Anti Bee Egg", "Dinosaur Egg", "Primal Egg", "Night Egg", "Bug Egg", "Oasis Egg", "Paradise Egg", "Mythical Egg", "Legendary Egg", "Rare Egg", "Uncommon Egg", "Rare Summer Egg", "Common Summer Egg" },
+    ["Unlock Pet Slots"] = 5,
+    ["Unlock Egg Slots"] = 5,
+    ["Pet Dont Delete"] = { "Tanchozuru", "Kappa", "Kitsune", "Bald Eagle", "Dilophosaurus", "Spinosaurus", "Pterodactyl", "Brontosaurus", "T-Rex", "Seal", "Rooster", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Hyacinth Macaw", "Scarlet Macaw", "Pack Bee", "Petal Bee", "Bear Bee", "Cooked Owl", "Golden Bee", "Blood Kiwi", "Firefly", "Chicken Zombie", "Starfish", "Capybara", "Ostrich", "Polar Bear", "Koi", "Chicken", "Kiwi" },
     ["Rarity Dont Delete"] = {
         ["Common"] = "4kg",
         ["Uncommon"] = "4kg",
         ["Rare"] = "4kg",
         ["Legendary"] = "4kg",
         ["Mythical"] = "0.1kg",
-        ["Divine"] = "0.1kg"
+        ["Divine"] = "0.1kg",
+        ["Prismatic"] = "0.1kg"
     },
-    ["Equip Pets"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly", "Mimic Octopus","Kiwi","Blood Kiwi","Rooster","Chicken"},
+    ["Equip Pets"] = {"Seal", "Koi", "Capybara", "Starfish", "Bald Eagle", "Blood Kiwi", "Rooster", "Chicken"},
     ["Feed Pets"] = {"Carrot", "Strawberry", "Blueberry", "Tomato"},
-    ["Buy Event Shop"] = {"Oasis Egg", "Hamster", "Delphinium", "Lily of the Valley", "Traveler's Fruit"},
-    ["Ping Pets"] = {"Bald Eagle", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Red Giant Ant", "Hyacinth Macaw", "Axolotl", "Echo Frog", "Bear Bee", "Praying Mantis", "Pterodactyl", "Brontosaurus", "T-Rex"},
+    ["Buy Event Shop"] = { "Zen Egg", "Koi"},
+    ["Ping Pets"] = { "Kitsune" ,"Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Dragonfly", "Butterfly", "Mimic Octopus", "T-Rex", "Spinosaurus" },
     ["Ping Rarity"] = {
-        ["Common"] = "4kg",
-        ["Uncommon"] = "4kg",
-        ["Rare"] = "4kg",
-        ["Legendary"] = "4kg",
+        ["Common"] = "3kg",
+        ["Uncommon"] = "3kg",
+        ["Rare"] = "3kg",
+        ["Legendary"] = "3kg",
         ["Mythical"] = "3kg",
-        ["Divine"] = "3kg"
+        ["Divine"] = "3kg",
+        ["Prismatic"] = "3kg"
     },
     ["Webhook Url"] = "https://discord.com/api/webhooks/1389451215720415292/npIU0P8nB4x-peal7hV0HmaTIX2pPIB4ZqiyRlG2rzHqUpSzfyD81MCwwC_TkipZaR9w",
     ["Discord ID"] = "885836894032764968",
