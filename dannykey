@@ -47,8 +47,8 @@ RedeemCode = {"update9", "update10","RELEASE", "THANKS", "LUCKY", "Easter", "Thr
     },
     ["Secret Bounty"] = {"King Mush", "Frost Defender", "Dark Guardian"},
     ["Secret Bounty x1 Egg"] = false, -- true = 100% Secret Bounty
-    FindDuck = "500M Egg",
-    ["Replace FindDuck"] = "500M Egg",
+    FindDuck = "Void Egg",
+    ["Replace FindDuck"] = "Void Egg",
     ["Best Potions Find Duck"] = true, --false if there are only few potions 
     ["Enchant Team 1"] = {enable = true, ["team-up"] = 1}, -- can set 2 or 3
     ["Min gems"] = "1m",
