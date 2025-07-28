@@ -42,7 +42,7 @@ RedeemCode = {"update9", "update10","RELEASE", "THANKS", "LUCKY", "Easter", "Thr
     },
     ["Rifts"] = {
         AlwaysFindRifts = true,
-        Targets = {"Bruh Egg"},
+        Targets = {"Candy Egg"},
         Luck = 5
     },
     ["Secret Bounty"] = {"Gumdrop King", "Giant D.I.Y Robot"},
