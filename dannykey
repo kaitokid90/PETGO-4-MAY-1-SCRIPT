@@ -45,8 +45,8 @@ RedeemCode = {"update9", "update10","RELEASE", "THANKS", "LUCKY", "Easter", "Thr
         Targets = {"Bruh Egg"},
         Luck = 5
     },
-    ["Secret Bounty"] = {"King Mush", "Frost Defender", "Dark Guardian"},
-    ["Secret Bounty x1 Egg"] = false, -- true = 100% Secret Bounty
+    ["Secret Bounty"] = {"Gumdrop King", "Giant D.I.Y Robot"},
+    ["Secret Bounty x1 Egg"] = true, -- true = 100% Secret Bounty
     FindDuck = "Void Egg",
     ["Replace FindDuck"] = "Void Egg",
     ["Best Potions Find Duck"] = true, --false if there are only few potions 
