@@ -42,13 +42,13 @@ RedeemCode = {"update9", "update10","RELEASE", "THANKS", "LUCKY", "Easter", "Thr
     },
     ["Rifts"] = {
         AlwaysFindRifts = true,
-        Targets = {"Bruh Egg"},
+        Targets = {"Candy Egg"},
         Luck = 5
     },
-    ["Secret Bounty"] = {"King Mush", "Frost Defender", "Dark Guardian"},
+    ["Secret Bounty"] = {"Gumdrop King", "Giant D.I.Y Robot"},
     ["Secret Bounty x1 Egg"] = false, -- true = 100% Secret Bounty
-    FindDuck = "500M Egg",
-    ["Replace FindDuck"] = "500M Egg",
+    FindDuck = "Candy Egg",
+    ["Replace FindDuck"] = "Candy Egg",
     ["Best Potions Find Duck"] = true, --false if there are only few potions 
     ["Enchant Team 1"] = {enable = true, ["team-up"] = 1}, -- can set 2 or 3
     ["Min gems"] = "1m",
@@ -71,7 +71,7 @@ RedeemCode = {"update9", "update10","RELEASE", "THANKS", "LUCKY", "Easter", "Thr
             "Secret"
         }, -- General rarity filter
         Legendary = "9000m", -- Threshold for Legendary (e.g., 100k = 1/100,000) - only send if chance >= threshold        
-        ["Special Pets"] = {"Avernus", "Patronus", "Overseer", "Seraph" , "Elite Soul" , "Jackpot" , "Captains Curse", "Chronos", "Lucid Leaf", "Doggy Tophat", "Kitty Tophat", "Bunny Tophat", "Dragon Tophat", "Rainbow Shock Tophat", "Dementor Tophat", "Seraphic Bruh", "Destiny", "Giant Robot"}   
+        ["Special Pets"] = {"Avernus", "Patronus", "Overseer", "Seraph" , "Elite Soul" , "Jackpot" , "Captains Curse", "Chronos", "Lucid Leaf", "Doggy Tophat", "Kitty Tophat", "Bunny Tophat", "Dragon Tophat", "Rainbow Shock Tophat", "Dementor Tophat", "False Prophet", "The Shocklord"}     
     }
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/8dd8db97191c29c3642659642d2e4ea6.lua"))()
