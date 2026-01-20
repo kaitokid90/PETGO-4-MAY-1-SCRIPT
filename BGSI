@@ -1,0 +1,122 @@
+script_key="mCdpboMTvIhFyAuesrXzVojHOJpUbYZu";
+
+getgenv().bgsiSettings={
+HATCHING_SETTINGS={
+  NEW_ACCOUNT=false, --//unlocks w1, w2 & w3. Improves team (Limited Potion Usage, grinds currency until required masteries) Warning. I dont recommend using this on accounts with progress already. It might work but isnt intended 
+  NEW_ACCOUNT_SKIP_W3=true, --// skips W3 Requirement so only needs W1, W2 and masteries to be considered not "new"
+  OPEN_EGGS=true,
+  EGG="Circus Jester Egg", -- Egg to find & Hatch
+  AUTO_EGG_HUNTING="", --Bounty, XL
+WEBHOOK_SETTINGS={
+  WEBHOOK="https://discord.com/api/webhooks/1452928474917503041/clybSS2sMkuPTQo-195f3NaDskHBvMN6DejuEF5nU-u44i34_-XiIK4c_8SCnjiFE_oG", -- Discord Webhook URL to see your own Hatches
+   DISCORD_ID="", -- User ID To mention when you hatch something (Public & User)
+  ROLE_ID="", -- If Role ID is present, Discord ID is skipped (Only for user webhook)
+  ODDS="1b",
+  IGNORE_ODDS_IF_SHINY_OR_MYTHIC=true,
+  HIDE_USERNAME=true, -- Hide player on user webhook
+  PET_BLACKLIST={},
+  },
+RIFT_SETTINGS={
+  LOOK_FOR_RIFTS=true,
+  AUTO_RIFT_EGG_HUNTING="", --Bounty, XL
+  MINIMUM_LUCK=25, -- Minimum Luck multi to go for
+  SUMMONED_RIFTS=true, -- Admin Abuse
+  SERVERHOP_TILL_AA_PORTAL = false,
+  TARGETS={"Nightmare Egg", "Music Egg" , "Cannon Egg" ,"Magic Egg" , "Instrumental Egg" , "Circus Jester Egg"},
+  AUTO_SUMMON_RIFT = true, --// Rift Summoning (W1 Bubble Shrine)
+  TO_SUMMON = "", --Egg/Chest name (overriden if AUTO_RIFT_EGG_HUNTING is set).
+  },
+},
+QUEST_SETTINGS={
+  AUTO_QUEST=false, -- toggles Completion of Quests
+  CLAIM_SEASON_PASS=false,
+  DO_GEM_GENIE=false,
+  DO_SEASON_PASS_HOURLY=false,
+  DO_SEASON_PASS_DAILY=false,
+  GEM_GENIE_REWARDS={"Ultra Infinity Elixir","Shadow Crystal","Reroll Orb"},
+  },
+POTION_SETTINGS={
+  USE_POTIONS=true,
+  CLAIM_BLESSING=true, -- Claims W1, W3 Blessing
+  POTIONS_TO_USE={"Lucky","Speed","Mythic","Egg Elixir","Infinity Elixir","Circus Elixir"},
+  BLESSING_POTIONS={"Lucky","Speed","Mythic","Tickets","Coins" }, -- Potions for W1 Blessing
+  BULK_POTION_USAGE=true, -- Claims 1 Day of potions
+  },
+PET_SETTINGS={
+  GAME_AUTO_DELETE=true,
+  AUTO_DELETE=true, -- script's Auto Delete 
+  AUTO_DELETE_TIER=3, -- Deletes Legendary Up to this Tier
+ MANUAL_AUTO_DELETE={"Aurora Dragon" ,"Circus Stack" , "Cyborg Phoenix" , "Golden Lion" , "Rumblecon Ticket Vendor", "Illuminated Fawn", "MVP Rumblecon Doggy", "Bubble Doggy", "Frutiger User", "Mine Sweeper", "Purble Vision", "Aero Koi", "Cliffy", "Boxboi", "Key Performer", "Music Elemental", "Dark Trickster","Juggler","Dark Force"},
+ EQUIP_SECRETS=true,
+  EQUIP_BEST=false,
+  ALLOWED_SECRETS={"LOL", "Festive Snow Jar","Crystal Snowman","Sweet Heart" , "Clown Nert Plushie", "LOL", "Festive Snow Jar", "Crystal Snowman", "Sweet Heart", "Santa Nert Plushie", "Aero Heart", "Solitaire", "Big Flakey", "Giftbox King Doggy"}
+  },
+REBIRTH_MACHINE_SETTINGS={ 
+  USE_REBIRTH_MACHINE=true,
+  SECRETS_TO_FUSE={"Giftbox King Doggy","FutureWebsiteOwner Giftbox","ObscureEntity Giftbox","Quamatic Giftbox","Sircfenner Giftbox","Sylently Giftbox", "Nert Giftbox", "Giant Bongo Kitty"},
+   FUSE_RARITY="Normal", -- Normal, Shiny, Mythic, Shiny Mythic
+  },
+MINIGAME_SETTINGS={ 
+  PLAY_MINIGAMES=false,
+  USE_SUPER_TICKET=false,
+  SUPER_TICKET_MINIGAME="Dance Off",
+  SUPER_TICKET_AMOUNT=20,
+  SUPER_TICKET_COOLDOWN=45, --min
+  FOCUS_DICE=false,
+  USE_GOLDEN_DICEN=false,
+  GOLDEN_DICE_AMOUNT=2,
+  },
+ENCHANT_SETTINGS={
+  ENCHANT_PETS=true,
+  ENCHANT_SECRETS = true,
+  ENCHANT_LEGENDARY = true,
+  USE_SHADOW_CRYSTAL=true,
+  SECRET_PET_ENCHANTMENTS={
+    ["Secret Hunter"]={Tier=1,HigherTiers=true,Prio=true},
+    ["Ultra Roller"]={Tier=1,HigherTiers=true},
+    },
+  LEGENDARY_PET_ENCHANTMENTS={
+    ["Looter"]={Tier=5,HigherTiers = true},
+    ["Team Up"]={Tier=5,HigherTiers = true,Prio=true},
+    },
+  },
+MISC_SETTINGS={
+  IGNORE_W3=true,
+  GRIND_PEARLS=false,
+  GRIND_PEARLS_DURATION=2, --min
+  AUTO_FISH=false,
+  AUTO_FISH_DURATION=2, --min
+  AUTO_CHEST_RIFT = true,
+  RIFT_CHESTS_TO_FIND={"super-chest"},
+  AUTO_CHEST=false,
+  AUTO_MERCHANT=true,
+  MERCHANT_REROLL="circus-shop",
+  AUTO_MERCHANT_BLACKLIST={},
+  OPEN_POWERUP_EGGS=false,
+  OPEN_MYSTERY_BOXES=true,
+  MYSTERY_TILL_GEM_CAP=true,
+  AUTO_SPIN=true,
+  CLAIM_PLAYTIME=true,
+  CLAIM_CODES=true,
+  DO_DOGGY_JUMP=true,
+  CLAIM_INDEX_REWARDS=true,
+  AUTO_MASTERY=true,
+  UPGRADE_BUBBLES=true,
+  BLOW_BUBBLES=false,
+  PICKUP_ITEMS_WHILE_HATCHING=true,
+  },
+CIRCUS_EVENT_SETTINGS={
+  PLAY_CIRCUS_MINIGAMES=false,
+  DO_CIRCUS_MINIGAME_LOOP="",
+  AUTO_CIRCUS_CHEST=false,
+  USE_CIRCUS_ELIXIR=false,
+  },
+DEBUG={
+  FPS_LIMIT=4,
+  FPS_COUNTER=true,
+  BEST_HATCH=true,
+  DISABLE_HATCH_ANIM=true,
+  DISABLE_UI=false,
+  },
+}
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a1b4af844e9ed9a7b2a2cc2ee90fe37d.lua"))()
