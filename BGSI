@@ -59,7 +59,7 @@ REBIRTH_MACHINE_SETTINGS={
 MINIGAME_SETTINGS={ 
   PLAY_MINIGAMES=false,
   USE_SUPER_TICKET=false,
-  SUPER_TICKET_MINIGAME="Dance Off",
+  SUPER_TICKET_MINIGAME="Robot Claw",
   SUPER_TICKET_AMOUNT=20,
   SUPER_TICKET_COOLDOWN=45, --min
   FOCUS_DICE=false,
@@ -76,19 +76,20 @@ ENCHANT_SETTINGS={
     ["Ultra Roller"]={Tier=1,HigherTiers=true},
     },
   LEGENDARY_PET_ENCHANTMENTS={
-    ["Looter"]={Tier=5,HigherTiers = true},
-    ["Team Up"]={Tier=5,HigherTiers = true,Prio=true},
+    ["Looter"]={Tier=5,HigherTiers=true},
+    ["Team Up"]={Tier=5,HigherTiers=true,Prio=true},
     },
   },
 MISC_SETTINGS={
+  SKIP_PREMIUM_PASS=true,
   IGNORE_W3=true,
   GRIND_PEARLS=false,
   GRIND_PEARLS_DURATION=2, --min
   AUTO_FISH=false,
   AUTO_FISH_DURATION=2, --min
   AUTO_CHEST_RIFT = true,
-  RIFT_CHESTS_TO_FIND={"super-chest"},
-  AUTO_CHEST=false,
+  RIFT_CHESTS_TO_FIND={"royal-chest","super-chest","dice-rift"},
+  AUTO_CHEST=true,
   AUTO_MERCHANT=true,
   MERCHANT_REROLL="circus-shop",
   AUTO_MERCHANT_BLACKLIST={},
@@ -106,10 +107,11 @@ MISC_SETTINGS={
   PICKUP_ITEMS_WHILE_HATCHING=true,
   },
 CIRCUS_EVENT_SETTINGS={
-  PLAY_CIRCUS_MINIGAMES=false,
+  PLAY_CIRCUS_MINIGAMES=true,
   DO_CIRCUS_MINIGAME_LOOP="",
-  AUTO_CIRCUS_CHEST=false,
-  USE_CIRCUS_ELIXIR=false,
+  AUTO_CIRCUS_CHEST=true,
+  USE_CIRCUS_ELIXIR=true,
+  OPEN_CIRCUS_MYSTERY_BOX=true,
   },
 DEBUG={
   FPS_LIMIT=4,
