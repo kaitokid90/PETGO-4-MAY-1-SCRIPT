@@ -34,6 +34,9 @@ QUEST_SETTINGS={
   DO_SEASON_PASS_HOURLY=false,
   DO_SEASON_PASS_DAILY=false,
   GEM_GENIE_REWARDS={"Ultra Infinity Elixir","Shadow Crystal","Reroll Orb"},
+DO_MILESTONE_MINIGAMES = false, --//Auto Completes minigame milestone until highest tier
+DO_MILESTONE_POTIONS = false, --//Auto Completes potions milestone until highest tier (claims tier 1 luck, speed and mythic)
+DO_GLOBALINCENTIVE = true, --//Auto Completes & Claims  global incentive  and do hourly quests
   },
 POTION_SETTINGS={
   USE_POTIONS=true,
