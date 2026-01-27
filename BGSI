@@ -29,9 +29,9 @@ RIFT_SETTINGS={
   },
 },
 QUEST_SETTINGS={
-  AUTO_QUEST=false, --toggles Completion of Quests
-  CLAIM_SEASON_PASS=false,
-  DO_GEM_GENIE=false,
+  AUTO_QUEST=true, --toggles Completion of Quests
+  CLAIM_SEASON_PASS=true,
+  DO_GEM_GENIE=true,
   DO_SEASON_PASS_HOURLY=false,
   DO_SEASON_PASS_DAILY=false,
   DO_MILESTONE_MINIGAMES=false,
@@ -51,7 +51,7 @@ PET_SETTINGS={
   AUTO_DELETE=true, --script's Auto Delete 
   AUTO_DELETE_TIER=2, --Deletes Legendary Up to this Tier
   MANUAL_AUTO_DELETE={"Aurora Dragon" ,"Circus Stack" , "Cyborg Phoenix" , "Golden Lion" , "Rumblecon Ticket Vendor", "Illuminated Fawn", "MVP Rumblecon Doggy", "Bubble Doggy", "Frutiger User", "Mine Sweeper", "Purble Vision", "Aero Koi", "Cliffy", "Boxboi", "Key Performer", "Music Elemental", "Dark Trickster","Juggler","Dark Force"},
-EQUIP_SECRETS=true,
+  EQUIP_SECRETS=true,
   EQUIP_SUPER = true,
   EQUIP_BEST=false,
   ALLOWED_SECRETS={}
@@ -63,12 +63,12 @@ REBIRTH_MACHINE_SETTINGS={
   },
 MINIGAME_SETTINGS={ 
   PLAY_MINIGAMES=false,
-  USE_SUPER_TICKET=false,
-  SUPER_TICKET_MINIGAME="Robot Claw",
-  SUPER_TICKET_AMOUNT=20,
-  SUPER_TICKET_COOLDOWN=45, --min
-  FOCUS_DICE=false,
-  USE_GOLDEN_DICEN=false,
+  USE_SUPER_TICKET=true,
+  SUPER_TICKET_MINIGAME="Circus Pet Match",
+  SUPER_TICKET_AMOUNT=120,
+  SUPER_TICKET_COOLDOWN=60, --min
+  FOCUS_DICE=true,
+  USE_GOLDEN_DICEN=true,
   GOLDEN_DICE_AMOUNT=2,
   },
 ENCHANT_SETTINGS={
@@ -112,7 +112,7 @@ MISC_SETTINGS={
   PICKUP_ITEMS_WHILE_HATCHING=true,
   },
 CIRCUS_EVENT_SETTINGS={
-  PLAY_CIRCUS_MINIGAMES=true,
+  PLAY_CIRCUS_MINIGAMES=false,
   DO_CIRCUS_MINIGAME_LOOP="",
   AUTO_CIRCUS_CHEST=true,
   USE_CIRCUS_ELIXIR=true,
@@ -127,7 +127,3 @@ DEBUG={
   },
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a1b4af844e9ed9a7b2a2cc2ee90fe37d.lua"))()
-
-
-
-
