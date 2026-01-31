@@ -127,3 +127,4 @@ DEBUG={
   DISABLE_UI=false,
   },
 }
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a1b4af844e9ed9a7b2a2cc2ee90fe37d.lua"))()
