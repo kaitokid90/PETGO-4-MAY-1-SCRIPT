@@ -95,9 +95,9 @@ MISC_SETTINGS={
   GRIND_PEARLS_DURATION=2, --min
   AUTO_FISH=false,
   AUTO_FISH_DURATION=2, --min
-  AUTO_CHEST_RIFT = true,
-  RIFT_CHESTS_TO_FIND={"royal-chest","super-chest","dice-rift"},
-  AUTO_CHEST=true,
+  AUTO_CHEST_RIFT = false,
+  RIFT_CHESTS_TO_FIND={},
+  AUTO_CHEST=false,
   AUTO_MERCHANT=true,
   MERCHANT_REROLL="circus-shop",
   AUTO_MERCHANT_BLACKLIST={},
@@ -129,3 +129,4 @@ DEBUG={
   },
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a1b4af844e9ed9a7b2a2cc2ee90fe37d.lua"))()
+
