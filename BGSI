@@ -24,7 +24,7 @@ RIFT_SETTINGS={
   MINIMUM_LUCK=5, -- Min Luck multi go for
   SUMMONED_RIFTS=true, --Admin Abuse
   SERVERHOP_TILL_AA_PORTAL=false,
-  TARGETS={"Nightmare Egg" , "Retro Egg"},
+  TARGETS={"Retro Egg"},
   AUTO_SUMMON_RIFT=true, --Rift Summoning (W1 Bubble Shrine)
   TO_SUMMON="", --Egg/Chest name (overriden if AUTO_RIFT_EGG_HUNTING is set)
   },
