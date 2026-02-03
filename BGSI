@@ -30,10 +30,10 @@ RIFT_SETTINGS={
   },
 },
 QUEST_SETTINGS={
-  AUTO_QUEST=false, --toggles Completion of Quests
-  CLAIM_SEASON_PASS=false,
+  AUTO_QUEST=true, --toggles Completion of Quests
+  CLAIM_SEASON_PASS=true,
   GENIE_IGNORE_W3_EGGS=true,
-  DO_GEM_GENIE=false,
+  DO_GEM_GENIE=true,
   DO_SEASON_PASS_HOURLY=false,
   DO_SEASON_PASS_DAILY=false,
   DO_MILESTONE_MINIGAMES=false,
