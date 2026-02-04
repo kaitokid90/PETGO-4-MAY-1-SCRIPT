@@ -6,7 +6,7 @@ HATCHING_SETTINGS={
   NEW_ACCOUNT=false, --unlock w1,w2,w3 & grinds mastery Warning. I dont recommend using on accounts with progress. It might work but isnt intended 
   NEW_ACCOUNT_SKIP_W3=true, --skips W3. only needs W1, W2 and masteries to be considered not "new"
   OPEN_EGGS=true,
-  EGG="Nightmare Egg", --to find & Hatch 
+  EGG="Azure Egg", --to find & Hatch 
   AUTO_EGG_HUNTING="", --Bounty, XL
 WEBHOOK_SETTINGS={
    WEBHOOK="https://discord.com/api/webhooks/1452928474917503041/clybSS2sMkuPTQo-195f3NaDskHBvMN6DejuEF5nU-u44i34_-XiIK4c_8SCnjiFE_oG", -- Discord Webhook URL to see your own Hatches
@@ -24,7 +24,7 @@ RIFT_SETTINGS={
   MINIMUM_LUCK=5, -- Min Luck multi go for
   SUMMONED_RIFTS=true, --Admin Abuse
   SERVERHOP_TILL_AA_PORTAL=false,
-  TARGETS={"Nightmare Egg", "Retro Egg"},
+  TARGETS={ "Retro Egg"},
   AUTO_SUMMON_RIFT=true, --Rift Summoning (W1 Bubble Shrine)
   TO_SUMMON="", --Egg/Chest name (overriden if AUTO_RIFT_EGG_HUNTING is set)
   },
