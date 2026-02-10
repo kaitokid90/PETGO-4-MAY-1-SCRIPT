@@ -1,5 +1,7 @@
 script_key="kfiWrkoEwukFcVHhbkLfyusJJxpRXrHQ";
 
+script_key="mCdpboMTvIhFyAuesrXzVojHOJpUbYZu";
+
 getgenv().bgsiSettings={
 HATCHING_SETTINGS={
   NEW_ACCOUNT=false, --unlock w1,w2,w3 & grinds mastery Warning. I dont recommend using on accounts with progress. It might work but isnt intended 
@@ -31,8 +33,8 @@ RIFT_SETTINGS={
   },
 },
 QUEST_SETTINGS={
-  AUTO_QUEST=false,
-  CLAIM_SEASON_PASS=false,
+  AUTO_QUEST=true,
+  CLAIM_SEASON_PASS=true,
   GENIE_IGNORE_W3_EGGS=true,
   DO_GEM_GENIE=false,
   DO_SEASON_PASS_HOURLY=false,
@@ -124,7 +126,7 @@ HEAVEN_AND_HELL_ISLAND_SETTINGS={
   OPEN_VALENTINE_LETTERS=true,
 },
 DEBUG={
-  FPS_LIMIT=2,
+  FPS_LIMIT=5,
   FPS_COUNTER=true,
   BEST_HATCH=true,
   DISABLE_HATCH_ANIM=true,
