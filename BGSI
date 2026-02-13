@@ -61,7 +61,7 @@ PET_SETTINGS={
 },
 REBIRTH_MACHINE_SETTINGS={ 
   USE_REBIRTH_MACHINE=true,
-  SECRETS_TO_FUSE={"The Overlord", "Tophat Spitty" , "Mech Robot" , "Hermit Crab" , "King Doggy", "Gummy Overlord" , "Clown Nert Plushie", "Heartbroken One"},
+  SECRETS_TO_FUSE={"The Overlord", "Tophat Spitty" , "Mech Robot" , "Hermit Crab" , "King Doggy", "Gummy Overlord" , "Clown Nert Plushie", "Heartbroken One" ,"Clown Nert Plushie", "Giant Bongo Kitty", "Encore" , "Lovely Omen" , "Cobalt Sea Dragon", "Crimson Sea Dragon", "Clown Round" },
   FUSE_RARITY="Normal", --Normal,Shiny,Mythic,Shiny Mythic
 },
 MINIGAME_SETTINGS={ 
@@ -115,13 +115,12 @@ MISC_SETTINGS={
   PICKUP_ITEMS_WHILE_HATCHING=true,
   CLAIM_GLOBALINCENTIVE=true,
 },
-HEAVEN_AND_HELL_ISLAND_SETTINGS={
-  ISLAND="Hell", --Hell,Heaven
-  USE_ISLAND_ELIXIR=true, --Uses Elixir based on ISLAND Setting
-  USE_DUALITY_ELIXIR=true,
-  CLAIM_ISLAND_BLESSING=true, --Claims Shrine using lowest tier pots based on ISLAND Setting
-  USE_VALENTINE_ELIXIR=true,
-  OPEN_VALENTINE_LETTERS=true,
+VALENTINES_EVENT_SETTINGS = {
+    --Valentine's Event
+    CLAIM_VALENTINES_BLESSING = true, --//Claims Valentines Blessing
+    USE_VALENTINE_ELIXIR = true, --//Claims Valentine's Elixir (affect Valentine's Event Egg)
+    USE_HEARTBREAK_ELIXIR = true, --//Claims Heartbreak Elixir (affect Heartbreak Egg)
+    OPEN_VALENTINE_LETTERS = true, --//Opens Valentine's Letters (Hearbroken letter aswell)
 },
 DEBUG={
   FPS_LIMIT=5,
