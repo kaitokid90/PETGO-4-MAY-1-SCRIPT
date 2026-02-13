@@ -5,7 +5,7 @@ HATCHING_SETTINGS={
   NEW_ACCOUNT=false, --unlock w1,w2,w3 & grinds mastery Warning. I dont recommend using on accounts with progress. It might work but isnt intended 
   NEW_ACCOUNT_SKIP_W3=true, --skips W3. only needs W1, W2 and masteries to be considered not new
   OPEN_EGGS=true,
-  EGG="Azure Egg", --to find & Hatch
+  EGG="Heartbreak Egg", --to find & Hatch
   REJOIN_IF_NO_HATCHING=true,
   INFINITY_EGG_WORLD=1,
   AUTO_EGG_HUNTING="", --Bounty,XL
@@ -61,7 +61,7 @@ PET_SETTINGS={
 },
 REBIRTH_MACHINE_SETTINGS={ 
   USE_REBIRTH_MACHINE=true,
-  SECRETS_TO_FUSE={},
+  SECRETS_TO_FUSE={"The Overlord", "Tophat Spitty" , "Mech Robot" , "Hermit Crab" , "King Doggy", "Giant Bongo Kitty", "Gummy Overlord" , "Encore" , "Clown Nert Plushie"},
   FUSE_RARITY="Normal", --Normal,Shiny,Mythic,Shiny Mythic
 },
 MINIGAME_SETTINGS={ 
