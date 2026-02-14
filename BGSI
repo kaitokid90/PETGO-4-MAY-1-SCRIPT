@@ -61,7 +61,7 @@ PET_SETTINGS={
 },
 REBIRTH_MACHINE_SETTINGS={ 
   USE_REBIRTH_MACHINE=true,
-  SECRETS_TO_FUSE={"The Overlord", "Tophat Spitty" , "Mech Robot" , "Hermit Crab" , "King Doggy", "Gummy Overlord" , "Clown Nert Plushie", "Heartbroken One"},
+  SECRETS_TO_FUSE={"The Overlord", "Tophat Spitty" , "Mech Robot" , "Hermit Crab" , "King Doggy", "Gummy Overlord" , "Clown Nert Plushie", "Heartbroken One", "Andromeda" , "Cobalt Sea Dragon" , "Crimson Sea Dragon", "Encore" , "Giant Bongo Kitty", "Giant DOOF" , "Giant Neon Elemental", "Hyperwave Kitty" , "Lovely Omen", "The Superlord"},
   FUSE_RARITY="Normal", --Normal,Shiny,Mythic,Shiny Mythic
 },
 MINIGAME_SETTINGS={ 
