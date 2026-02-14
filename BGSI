@@ -21,7 +21,7 @@ WEBHOOK_SETTINGS={
   },
 RIFT_SETTINGS={
   LOOK_FOR_RIFTS=true,
-  AUTO_RIFT_EGG_HUNTING="Bounty", --Bounty,XL
+  AUTO_RIFT_EGG_HUNTING="", --Bounty,XL
   MINIMUM_LUCK=25, -- Min Luck multi go for
   SUMMONED_RIFTS=true, --Admin Abuse
   SERVERHOP_TILL_AA_PORTAL=false,
