@@ -6,7 +6,7 @@ HATCHING_SETTINGS={
   NEW_ACCOUNT_SKIP_W3=false, --skips W3. only needs W1, W2 and masteries to be considered not new
   OPEN_EGGS=true,
   EGG="Heartbreak Egg", --to find & Hatch
-  REJOIN_IF_NO_HATCHING=true,
+  REJOIN_IF_NO_HATCHING="both",
   INFINITY_EGG_WORLD=1,
   AUTO_EGG_HUNTING="", --Bounty,XL
 WEBHOOK_SETTINGS={
@@ -127,7 +127,7 @@ DEBUG={
   FPS_COUNTER=true,
   BEST_HATCH=true,
   DISABLE_HATCH_ANIM=true,
-  DISABLE_UI=false,
+  DISABLE_UI=true,
 },
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a1b4af844e9ed9a7b2a2cc2ee90fe37d.lua"))()
