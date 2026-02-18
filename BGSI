@@ -54,9 +54,9 @@ PET_SETTINGS={
   AUTO_DELETE=true, --script's Auto Delete 
   AUTO_DELETE_TIER=2, --Deletes Legendary Up to this Tier
   MANUAL_AUTO_DELETE={"Ice Bear" ,"Vine Deer" , "Penguin" , "Vine Dinosaur" , "Lava Bat", "Illuminated Fawn", "Lava Imp", "Bubble Doggy", "Classic Kitty", "Crab", "Purble Vision", "Aero Koi", "Cliffy", "Boxboi", "Key Performer", "Music Elemental", "Dark Trickster","Juggler","Dark Force"},
-  EQUIP_SECRETS=true,
-  EQUIP_SUPER=true,
-  EQUIP_BEST=false,
+  EQUIP_SECRETS=false,
+  EQUIP_SUPER=false,
+  EQUIP_BEST=true,
   ALLOWED_SECRETS={}
 },
 REBIRTH_MACHINE_SETTINGS={ 
