@@ -21,13 +21,13 @@ WEBHOOK_SETTINGS={
   PET_BLACKLIST={},
   },
 RIFT_SETTINGS={
-  LOOK_FOR_RIFTS=true,
+  LOOK_FOR_RIFTS=false,
   AUTO_RIFT_EGG_HUNTING="", --Bounty,XL
   MINIMUM_LUCK=25, -- Min Luck multi go for
-  SUMMONED_RIFTS=true, --Admin Abuse
+  SUMMONED_RIFTS=false, --Admin Abuse
   SERVERHOP_TILL_AA_PORTAL=false,
   TARGETS={"Retro Egg"},
-  AUTO_SUMMON_RIFT=true, --Rift Summoning (W1 Shrine)
+  AUTO_SUMMON_RIFT=false, --Rift Summoning (W1 Shrine)
   TO_SUMMON="", --Egg/Chest name (override if AUTO_RIFT_EGG_HUNTING is set)
   },
 },
@@ -52,6 +52,7 @@ POTION_SETTINGS={
 },
 PET_SETTINGS={
   GAME_AUTO_DELETE=true,
+  GAME_AUTO_DELETE_TIER = 1, --//Selects max legendary tier to delete (ingame auto delete)
   AUTO_DELETE=true, --script's Auto Delete 
   AUTO_DELETE_TIER=1, --Deletes Legendary Up to this Tier
   MANUAL_AUTO_DELETE={"Dark Force"},
