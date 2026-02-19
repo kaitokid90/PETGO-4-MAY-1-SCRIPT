@@ -54,8 +54,8 @@ PET_SETTINGS={
   AUTO_DELETE=true, --script's Auto Delete 
   AUTO_DELETE_TIER=2, --Deletes Legendary Up to this Tier
   MANUAL_AUTO_DELETE={"Dark Force"},
-  EQUIP_SECRETS=false,
-  EQUIP_SUPER=false,
+  EQUIP_SECRETS=true,
+  EQUIP_SUPER=true,
   EQUIP_BEST=true,
   ALLOWED_SECRETS={}
 },
