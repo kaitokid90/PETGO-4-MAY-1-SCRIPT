@@ -55,7 +55,7 @@ PET_SETTINGS={
   GAME_AUTO_DELETE_TIER=1,
   AUTO_DELETE=true,
   AUTO_DELETE_TIER=1, --Deletes Legendary Up to this Tier
-  MANUAL_AUTO_DELETE={},
+  MANUAL_AUTO_DELETE={"Neon Wyvern"},
   EQUIP_SECRETS=true,
   EQUIP_SUPER=true,
   EQUIP_BEST=true,
@@ -132,7 +132,7 @@ DEBUG={
   FPS_COUNTER=true,
   BEST_HATCH=true,
   DISABLE_HATCH_ANIM=true,
-  DISABLE_UI=false,
+  DISABLE_UI=true,
 },
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a1b4af844e9ed9a7b2a2cc2ee90fe37d.lua"))()
