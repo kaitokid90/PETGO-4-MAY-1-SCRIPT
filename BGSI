@@ -23,17 +23,17 @@ WEBHOOK_SETTINGS={
 RIFT_SETTINGS={
   LOOK_FOR_RIFTS=true,
   AUTO_RIFT_EGG_HUNTING="", --Bounty,XL
-  MINIMUM_LUCK=25, -- Min Luck multi go for
+  MINIMUM_LUCK=5, -- Min Luck multi go for
   SUMMONED_RIFTS=true, --Admin Abuse
   SERVERHOP_TILL_AA_PORTAL=false,
-  TARGETS={"Super Egg"},
+  TARGETS={"Super Egg","Neon Egg"},
   AUTO_SUMMON_RIFT=true, --Rift Summoning (W1 Shrine)
   TO_SUMMON="", --Egg/Chest name (override if AUTO_RIFT_EGG_HUNTING is set)
   },
 },
 QUEST_SETTINGS={
-  AUTO_QUEST=false,
-  CLAIM_SEASON_PASS=false,
+  AUTO_QUEST=true,
+  CLAIM_SEASON_PASS=true,
   GENIE_IGNORE_W3_EGGS=true,
   DO_SAILOR_QUEST=false,
   DO_GEM_GENIE=false,
