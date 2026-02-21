@@ -6,7 +6,7 @@ HATCHING_SETTINGS={
   NEW_ACCOUNT=false, --unlock w1,w2,w3 & grinds mastery.
   NEW_ACCOUNT_SKIP_W3=false, --skips W3.
   OPEN_EGGS=true,
-  EGG="Neon Egg", --to find & Hatch
+  EGG="Lunar New Years Egg", --to find & Hatch
   REJOIN_IF_NO_HATCHING=true,
   INFINITY_EGG_WORLD=1,
   AUTO_EGG_HUNTING="", --Bounty,XL
@@ -26,7 +26,7 @@ RIFT_SETTINGS={
   MINIMUM_LUCK=5, -- Min Luck multi go for
   SUMMONED_RIFTS=true, --Admin Abuse
   SERVERHOP_TILL_AA_PORTAL=false,
-  TARGETS={"Super Egg","Neon Egg"},
+ TARGETS = {"Lunar Egg", "OG Rift Egg", "Super Egg"},
   AUTO_SUMMON_RIFT=true, --Rift Summoning (W1 Shrine)
   TO_SUMMON="", --Egg/Chest name (override if AUTO_RIFT_EGG_HUNTING is set)
   },
@@ -121,11 +121,10 @@ MISC_SETTINGS={
   PICKUP_ITEMS_WHILE_HATCHING=true,
   USE_SHARD_FRAGMENTS = true, --Uses Shard Fragments Permanent buffs
 },
-VALENTINES_EVENT_SETTINGS = {
-  CLAIM_VALENTINES_BLESSING = true, --affects random valentine egg 
-  USE_VALENTINE_ELIXIR = true,
-  USE_HEARTBREAK_ELIXIR = true, --affect Heartbreak Egg
-  OPEN_VALENTINE_LETTERS = true, --Hearbroken letter aswell
+LUNAR_EVENT_SETTINGS = {
+  MOON_SUMMON = "Moon Egg", -- Options: Moon Egg, Moon Chest requires 13k Moon Shards per summon
+  USE_NEW_YEARS_LANTERN = true, -- Uses New Year Potion
+  LUNAR_SPIN = true, -- Spins Lunar Spin The Wheel
 },
 DEBUG={
   FPS_LIMIT=5,
