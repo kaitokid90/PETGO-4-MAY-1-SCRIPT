@@ -52,9 +52,9 @@ POTION_SETTINGS={
 },
 PET_SETTINGS={
   GAME_AUTO_DELETE=true,
-  GAME_AUTO_DELETE_TIER=1,
+  GAME_AUTO_DELETE_TIER=2,
   AUTO_DELETE=true,
-  AUTO_DELETE_TIER=1, --Deletes Legendary Up to this Tier
+  AUTO_DELETE_TIER=2, --Deletes Legendary Up to this Tier
   MANUAL_AUTO_DELETE={"Neon Wyvern"},
   EQUIP_SECRETS=true,
   EQUIP_SUPER=true,
