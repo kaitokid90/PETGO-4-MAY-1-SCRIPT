@@ -26,7 +26,7 @@ RIFT_SETTINGS={
   MINIMUM_LUCK=10, -- Min Luck multi go for
   SUMMONED_RIFTS=true, --Admin Abuse
   SERVERHOP_TILL_AA_PORTAL=false,
- TARGETS = {"Moon Egg", "OG Rift Egg", "Super Egg", "Nightmare Egg"},
+ TARGETS = {"Moon Egg", "OG Rift Egg", "Super Egg", "Spikey Egg"},
   AUTO_SUMMON_RIFT=true, --Rift Summoning (W1 Shrine)
   TO_SUMMON="", --Egg/Chest name (override if AUTO_RIFT_EGG_HUNTING is set)
   },
