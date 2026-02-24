@@ -59,7 +59,7 @@ PET_SETTINGS={
   EQUIP_SECRETS=true,
   EQUIP_SUPER=true,
   EQUIP_BEST=true,
-  ALLOWED_SECRETS={},
+  ALLOWED_SECRETS={"Andromeda","Hyperwave Kitty","Hermit Crab","The Overlord","Royal Dogcat","The Superlord","Oceandeep Bounty","Moon Goddess","Sakuralord","Giant que fofo","Heartbroken One","Giant que fofo","Lovely Omen"},
 },
 REBIRTH_MACHINE_SETTINGS={ 
   USE_REBIRTH_MACHINE=true,
