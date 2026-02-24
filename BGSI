@@ -87,8 +87,8 @@ ENCHANT_SETTINGS={
     ["Ultra Roller"]={Tier=1,HigherTiers=true},
   },
   LEGENDARY_PET_ENCHANTMENTS={
-    ["Looter"]={Tier=5,HigherTiers=true},
-    ["Team Up"]={Tier=5,HigherTiers=true,Prio=true},
+    ["High Roller"]={Tier=1,HigherTiers=true,Prio=true},
+    ["Team Up"]={Tier=5,HigherTiers=true},
   },
 },
 MISC_SETTINGS={
