@@ -6,7 +6,7 @@ HATCHING_SETTINGS={
   NEW_ACCOUNT=false, --unlock w1,w2,w3 & grinds mastery.
   NEW_ACCOUNT_SKIP_W3=false, --skips W3.
   OPEN_EGGS=true,
-  EGG="Lunar New Years Egg", --to find & Hatch
+  EGG="Spring Egg", --to find & Hatch
   REJOIN_IF_NO_HATCHING=true,
   INFINITY_EGG_WORLD=1,
   AUTO_EGG_HUNTING="", --Bounty,XL
@@ -23,10 +23,10 @@ WEBHOOK_SETTINGS={
 RIFT_SETTINGS={
   LOOK_FOR_RIFTS=true,
   AUTO_RIFT_EGG_HUNTING="", --Bounty,XL
-  MINIMUM_LUCK=10, -- Min Luck multi go for
+  MINIMUM_LUCK=25, -- Min Luck multi go for
   SUMMONED_RIFTS=true, --Admin Abuse
   SERVERHOP_TILL_AA_PORTAL=false,
- TARGETS = {"Moon Egg","OG Rift Egg", "Super Egg", "Lunar New Years Egg"},
+ TARGETS = {"Spring Egg","OG Rift Egg", "Super Egg", "Lunar New Years Egg"},
   AUTO_SUMMON_RIFT=true, --Rift Summoning (W1 Shrine)
   TO_SUMMON="", --Egg/Chest name (override if AUTO_RIFT_EGG_HUNTING is set)
   },
@@ -126,12 +126,21 @@ LUNAR_EVENT_SETTINGS = {
   USE_NEW_YEARS_LANTERN = true, -- Uses New Year Potion
   LUNAR_SPIN = true, -- Spins Lunar Spin The Wheel
 },
+SPRING_EVENT_SETTINGS = {
+  PETAL_GRIND = true, -- grinds for petals
+  MINIMUM_PETALS = "100m", -- amount of petals required to stop petal grind
+  PETAL_GRIND_COOLDOWN = 10, -- time for wait for next petal grinding
+  PETAL_GRIND_LOOP = false, -- grinds  for petals indefinitely
+  USE_FLOWERS = true, -- Uses Flowers (Potion for Spring Event Eggs)
+  DO_SPRING_FOUNTAIN = false, -- completes spring fountain challenges (requires AUTO_QUEST set to true)
+  SPRING_SPIN = true, -- Spins Spring Spin The Wheel
+},
 DEBUG={
   FPS_LIMIT=5,
   FPS_COUNTER=true,
   BEST_HATCH=true,
   DISABLE_HATCH_ANIM=true,
-  DISABLE_UI=false,
+  DISABLE_UI=true,
 },
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a1b4af844e9ed9a7b2a2cc2ee90fe37d.lua"))()
