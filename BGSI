@@ -6,7 +6,7 @@ HATCHING_SETTINGS={
   NEW_ACCOUNT=false, --unlock w1,w2,w3 & grinds mastery.
   NEW_ACCOUNT_SKIP_W3=false, --skips W3.
   OPEN_EGGS=true,
-  EGG="Spring Egg", --to find & Hatch
+  EGG="Lunar New Years Egg", --to find & Hatch
   REJOIN_IF_NO_HATCHING=true,
   INFINITY_EGG_WORLD=1,
   AUTO_EGG_HUNTING="", --Bounty,XL
@@ -26,7 +26,7 @@ RIFT_SETTINGS={
   MINIMUM_LUCK=25, -- Min Luck multi go for
   SUMMONED_RIFTS=true, --Admin Abuse
   SERVERHOP_TILL_AA_PORTAL=false,
- TARGETS = {"Spring Egg","OG Rift Egg", "Super Egg", "Lunar New Years Egg"},
+ TARGETS = {"Moon Egg","OG Rift Egg", "Super Egg", "Lunar New Years Egg"},
   AUTO_SUMMON_RIFT=true, --Rift Summoning (W1 Shrine)
   TO_SUMMON="", --Egg/Chest name (override if AUTO_RIFT_EGG_HUNTING is set)
   },
