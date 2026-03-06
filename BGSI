@@ -8,8 +8,13 @@ HATCHING_SETTINGS={
   OPEN_EGGS=true,
   EGG="Lunar New Years Egg", --to find & Hatch
   REJOIN_IF_NO_HATCHING=false,
+ REJOIN_IF_NO_HATCHING=false,
+  REJOIN_IF_LOW_FPS=false,
+  MINIMUM_HATCHRATE=100,
+  REJOIN_IF_X_HATCHRATE=false,
   INFINITY_EGG_WORLD=1,
   AUTO_EGG_HUNTING="", --Bounty,XL
+
 
 WEBHOOK_SETTINGS={
   WEBHOOK="https://discord.com/api/webhooks/1452928474917503041/clybSS2sMkuPTQo-195f3NaDskHBvMN6DejuEF5nU-u44i34_-XiIK4c_8SCnjiFE_oG", -- Discord Webhook URL to see your own Hatches
