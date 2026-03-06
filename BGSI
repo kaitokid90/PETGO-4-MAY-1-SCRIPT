@@ -51,7 +51,7 @@ QUEST_SETTINGS={
 },
 POTION_SETTINGS={
   USE_POTIONS=true,
- FORCE_CLAIM = true, --// Claims potions listed on POTIONS_TO_USE on script start. No matter if you have them active. 
+ FORCE_CLAIM = false, --// Claims potions listed on POTIONS_TO_USE on script start. No matter if you have them active. 
   CLAIM_BLESSING=true, --Gets W1,W3 Blessing
   POTIONS_TO_USE={"Lucky","Speed","Mythic","Egg Elixir","Infinity Elixir"},
   BLESSING_POTIONS={"Lucky","Speed","Mythic","Tickets","Coins" }, --Potions for W1 Blessing
@@ -147,7 +147,7 @@ DEBUG={
   FPS_COUNTER=true,
   BEST_HATCH=true,
   DISABLE_HATCH_ANIM=true,
-  DISABLE_UI=false,
+  DISABLE_UI=true,
 },
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a1b4af844e9ed9a7b2a2cc2ee90fe37d.lua"))()
