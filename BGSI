@@ -134,11 +134,11 @@ LUNAR_EVENT_SETTINGS = {
   LUNAR_SPIN = false, -- Spins Lunar Spin The Wheel
 },
 SPRING_EVENT_SETTINGS = {
-  PETAL_GRIND = false, -- grinds for petals
+  PETAL_GRIND = true, -- grinds for petals
   MINIMUM_PETALS = "100m", -- amount of petals required to stop petal grind
   PETAL_GRIND_COOLDOWN = 10, -- time for wait for next petal grinding
   PETAL_GRIND_LOOP = false, -- grinds  for petals indefinitely
-  USE_FLOWERS = false, -- Uses Flowers (Potion for Spring Event Eggs)
+  USE_FLOWERS = true, -- Uses Flowers (Potion for Spring Event Eggs)
   DO_SPRING_FOUNTAIN = false, -- completes spring fountain challenges (requires AUTO_QUEST set to true)
   SPRING_SPIN = true, -- Spins Spring Spin The Wheel
 },
