@@ -13,7 +13,7 @@ HATCHING_SETTINGS={
   MINIMUM_HATCHRATE=100,
   REJOIN_IF_X_HATCHRATE=false,
   INFINITY_EGG_WORLD=1,
-  AUTO_EGG_HUNTING="", --Bounty,XL
+  AUTO_EGG_HUNTING = "Bumble", --// (Changes every 8h requires Bee Stingers)
 
 
 WEBHOOK_SETTINGS={
@@ -141,6 +141,7 @@ SPRING_EVENT_SETTINGS = {
   USE_FLOWERS = true, -- Uses Flowers (Potion for Spring Event Eggs)
   DO_SPRING_FOUNTAIN = false, -- completes spring fountain challenges (requires AUTO_QUEST set to true)
   SPRING_SPIN = true, -- Spins Spring Spin The Wheel
+  SPRING_SHRINE = true, -- Claims Spring Shrine Buff (Random Egg)
 },
 DEBUG={
   FPS_LIMIT=5,
