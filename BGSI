@@ -47,7 +47,7 @@ QUEST_SETTINGS={
   DO_SEASON_PASS_DAILY=false,
   DO_MILESTONE_MINIGAMES=false,
   DO_MILESTONE_POTIONS=false,
-  GEM_GENIE_REWARDS={"Infinity Elixir","Egg Elixir","Shadow Crystal"},
+  GEM_GENIE_REWARDS={"Infinity Elixir","Egg Elixir","Shadow Crystal","Lucky Infinity" ,"Speed Infinity" },
 },
 POTION_SETTINGS={
   USE_POTIONS=true,
