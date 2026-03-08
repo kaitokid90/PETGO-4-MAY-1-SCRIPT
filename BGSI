@@ -135,7 +135,7 @@ LUNAR_EVENT_SETTINGS = {
 },
 SPRING_EVENT_SETTINGS = {
   PETAL_GRIND = true, -- grinds for petals
-  MINIMUM_PETALS = "300m", -- amount of petals required to stop petal grind
+  MINIMUM_PETALS = "100m", -- amount of petals required to stop petal grind
   PETAL_GRIND_COOLDOWN = 10, -- time for wait for next petal grinding
   PETAL_GRIND_LOOP = false, -- grinds  for petals indefinitely
   USE_FLOWERS = true, -- Uses Flowers (Potion for Spring Event Eggs)
