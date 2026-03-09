@@ -13,7 +13,7 @@ HATCHING_SETTINGS={
   MINIMUM_HATCHRATE=100,
   REJOIN_IF_X_HATCHRATE=false,
   INFINITY_EGG_WORLD=1,
-  AUTO_EGG_HUNTING = "Bounty", --// (Changes every 8h requires Bee Stingers)
+  AUTO_EGG_HUNTING = "Bumble", --// (Changes every 8h requires Bee Stingers)
 
 
 WEBHOOK_SETTINGS={
@@ -28,7 +28,7 @@ WEBHOOK_SETTINGS={
   },
 RIFT_SETTINGS={
   LOOK_FOR_RIFTS=true,
-  AUTO_RIFT_EGG_HUNTING="Bounty", --Bounty,XL
+  AUTO_RIFT_EGG_HUNTING="", --Bounty,XL
   MINIMUM_LUCK=5, -- Min Luck multi go for
   SUMMONED_RIFTS=true, --Admin Abuse
   SERVERHOP_TILL_AA_PORTAL=false,
@@ -134,14 +134,14 @@ LUNAR_EVENT_SETTINGS = {
   LUNAR_SPIN = false, -- Spins Lunar Spin The Wheel
 },
 SPRING_EVENT_SETTINGS = {
-  PETAL_GRIND = false, -- grinds for petals
-  MINIMUM_PETALS = "300m", -- amount of petals required to stop petal grind
+  PETAL_GRIND = true, -- grinds for petals
+  MINIMUM_PETALS = "100m", -- amount of petals required to stop petal grind
   PETAL_GRIND_COOLDOWN = 10, -- time for wait for next petal grinding
   PETAL_GRIND_LOOP = false, -- grinds  for petals indefinitely
-  USE_FLOWERS = false, -- Uses Flowers (Potion for Spring Event Eggs)
+  USE_FLOWERS = true, -- Uses Flowers (Potion for Spring Event Eggs)
   DO_SPRING_FOUNTAIN = false, -- completes spring fountain challenges (requires AUTO_QUEST set to true)
   SPRING_SPIN = true, -- Spins Spring Spin The Wheel
-  SPRING_SHRINE = false, -- Claims Spring Shrine Buff (Random Egg)
+  SPRING_SHRINE = true, -- Claims Spring Shrine Buff (Random Egg)
 },
 DEBUG={
   FPS_LIMIT=5,
