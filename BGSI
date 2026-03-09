@@ -13,7 +13,7 @@ HATCHING_SETTINGS={
   MINIMUM_HATCHRATE=100,
   REJOIN_IF_X_HATCHRATE=false,
   INFINITY_EGG_WORLD=1,
-  AUTO_EGG_HUNTING = "Bumble", --// (Changes every 8h requires Bee Stingers)
+  AUTO_EGG_HUNTING = "", --// (Changes every 8h requires Bee Stingers)
 
 
 WEBHOOK_SETTINGS={
