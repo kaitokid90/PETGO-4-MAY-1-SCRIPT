@@ -13,7 +13,7 @@ HATCHING_SETTINGS={
   MINIMUM_HATCHRATE=100,
   REJOIN_IF_X_HATCHRATE=false,
   INFINITY_EGG_WORLD=1,
-  AUTO_EGG_HUNTING = "Bumble", --// (Changes every 8h requires Bee Stingers)
+  AUTO_EGG_HUNTING = "Bounty", --// (Changes every 8h requires Bee Stingers)
 
 
 WEBHOOK_SETTINGS={
@@ -28,7 +28,7 @@ WEBHOOK_SETTINGS={
   },
 RIFT_SETTINGS={
   LOOK_FOR_RIFTS=true,
-  AUTO_RIFT_EGG_HUNTING="", --Bounty,XL
+  AUTO_RIFT_EGG_HUNTING="Bounty", --Bounty,XL
   MINIMUM_LUCK=5, -- Min Luck multi go for
   SUMMONED_RIFTS=true, --Admin Abuse
   SERVERHOP_TILL_AA_PORTAL=false,
