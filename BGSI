@@ -3,66 +3,62 @@ script_key="mCdpboMTvIhFyAuesrXzVojHOJpUbYZu";
 
 getgenv().bgsiSettings={
 HATCHING_SETTINGS={
-  NEW_ACCOUNT=false, --unlock w1,w2,w3 & grinds mastery.
-  NEW_ACCOUNT_SKIP_W3=false, --skips W3.
+  NEW_ACCOUNT=false, --unlock w1,w2,w3.
+  NEW_ACCOUNT_SKIP_W3=true,
   OPEN_EGGS=true,
-  EGG="Fortune Egg", --to find & Hatch
-  REJOIN_IF_NO_HATCHING=false,
- REJOIN_IF_NO_HATCHING=false,
-  REJOIN_IF_LOW_FPS=false,
+  EGG="Fortune Egg", --to find
+  REJOIN_IF_NO_HATCHING=true,
+  REJOIN_IF_LOW_FPS=true,
   MINIMUM_HATCHRATE=100,
-  REJOIN_IF_X_HATCHRATE=false,
+  REJOIN_IF_X_HATCHRATE=true,
   INFINITY_EGG_WORLD=1,
-  AUTO_EGG_HUNTING = "", --// (Changes every 8h requires Bee Stingers)
-
-
+  AUTO_EGG_HUNTING="", --Bounty,XL
 WEBHOOK_SETTINGS={
-  WEBHOOK="https://discord.com/api/webhooks/1452928474917503041/clybSS2sMkuPTQo-195f3NaDskHBvMN6DejuEF5nU-u44i34_-XiIK4c_8SCnjiFE_oG", -- Discord Webhook URL to see your own Hatches
-  DISCORD_ID="", --User ID to mention when you hatch something (Public & User)
-  ROLE_ID="", --Discord ID is skipped if set (Only user webhook)
+  WEBHOOK="", --Webhook to see your own Hatches
+  DISCORD_ID="", --User ID to mention when you hatch something
+  ROLE_ID="",
   ODDS="1b",
   IGNORE_ODDS_IF_SHINY_OR_MYTHIC=true,
   ALLOW_EASY_SECRETS=false, 
-  HIDE_USERNAME=true, --Hide player in user webhook
+  HIDE_USERNAME=true, --Hide name in user webhook
   PET_BLACKLIST={},
   },
 RIFT_SETTINGS={
   LOOK_FOR_RIFTS=true,
   AUTO_RIFT_EGG_HUNTING="", --Bounty,XL
-  MINIMUM_LUCK=5, -- Min Luck multi go for
-  SUMMONED_RIFTS=true, --Admin Abuse
+  MINIMUM_LUCK=10, -- Luck multi go for
+  SUMMONED_RIFTS=true, --AA
   SERVERHOP_TILL_AA_PORTAL=false,
- TARGETS = {"Lucky Egg","4X Luck Fortune Egg","Fortune Egg","OG Rift Egg", "Super Egg", "Forest Egg", "Moon Egg", "Petal Egg", "Spring Egg"},
-  AUTO_SUMMON_RIFT=true, --Rift Summoning (W1 Shrine)
-  TO_SUMMON="", --Egg/Chest name (override if AUTO_RIFT_EGG_HUNTING is set)
+  TARGETS={"Moon Egg","OG Rift Egg","Super Egg"},
+  AUTO_SUMMON_RIFT=true,
+  TO_SUMMON="", --Egg/Chest name
   },
 },
 QUEST_SETTINGS={
-  AUTO_QUEST=true,
-  CLAIM_SEASON_PASS=true,
+  AUTO_QUEST=false,
+  CLAIM_SEASON_PASS=false,
   GENIE_IGNORE_W3_EGGS=true,
   DO_SAILOR_QUEST=false,
   DO_GEM_GENIE=false,
   DO_SEASON_PASS_HOURLY=false,
-  DO_SEASON_PASS_DAILY=false,
+  DO_SEASON_PASS_DAILY=true,
   DO_MILESTONE_MINIGAMES=false,
   DO_MILESTONE_POTIONS=false,
-  GEM_GENIE_REWARDS={"Infinity Elixir","Egg Elixir","Shadow Crystal","Lucky Infinity" ,"Speed Infinity" },
+  GEM_GENIE_REWARDS={"Green Fragment","Secret Elixir","Infinity Elixir","Shadow Crystal"},
 },
 POTION_SETTINGS={
   USE_POTIONS=true,
- FORCE_CLAIM = true, --// Claims potions listed on POTIONS_TO_USE on script start. No matter if you have them active. 
   CLAIM_BLESSING=true, --Gets W1,W3 Blessing
   POTIONS_TO_USE={"Lucky","Speed","Mythic","Egg Elixir","Infinity Elixir"},
-  BLESSING_POTIONS={"Lucky","Speed","Mythic","Tickets","Coins" }, --Potions for W1 Blessing
-  BULK_POTION_USAGE=true, --uses 1 Day of potions
+  BLESSING_POTIONS={"Tickets","Coins"}, --Potions
+  BULK_POTION_USAGE=true, 
 },
 PET_SETTINGS={
   GAME_AUTO_DELETE=true,
   GAME_AUTO_DELETE_TIER=2,
   AUTO_DELETE=true,
-  AUTO_DELETE_TIER=2, --Deletes Legendary Up to this Tier
-  MANUAL_AUTO_DELETE={"Neon Wyvern", "Ardent Lantern", "Windblume"},
+  AUTO_DELETE_TIER=2, --Deletes Legend Up to this Tier
+  MANUAL_AUTO_DELETE={},
   EQUIP_SECRETS=true,
   EQUIP_SUPER=true,
   EQUIP_BEST=false,
@@ -94,12 +90,12 @@ ENCHANT_SETTINGS={
     ["Ultra Roller"]={Tier=1,HigherTiers=true},
   },
   LEGENDARY_PET_ENCHANTMENTS={
-    ["High Roller"]={Tier=1,HigherTiers=true,Prio=true},
-    ["Team Up"]={Tier=5,HigherTiers=true},
+    ["Looter"]={Tier=5,HigherTiers=true},
+    ["Team Up"]={Tier=5,HigherTiers=true,Prio=true},
   },
 },
 MISC_SETTINGS={
-  STARTER_WORLD=1, --(1 = The Overworld, 2 = Minigame Paradise, 3 = Seven Seas)
+  STARTER_WORLD=1, --1=The Overworld,2=Minigame Paradise, 3=Seven Seas
   AUTO_FRIEND=false,
   SKIP_PREMIUM_PASS=true,
   IGNORE_W3=true,
@@ -108,40 +104,43 @@ MISC_SETTINGS={
   AUTO_FISH=false,
   AUTO_FISH_DURATION=2, --min
   AUTO_CHEST_RIFT = true,
-  RIFT_CHESTS_TO_FIND={"royal-chest","super-chest","dice-rift","moon-chest"},
+  RIFT_CHESTS_TO_FIND={"moon-chest"},
   AUTO_CHEST=true,
   AUTO_MERCHANT=true,
   MERCHANT_REROLL="traveling-merchant",
   AUTO_MERCHANT_BLACKLIST={},
-  OPEN_POWERUP_EGGS=true,
+  OPEN_POWERUP_EGGS=false,
   POWERUP_EGG_BLACKLIST={},
   OPEN_MYSTERY_BOXES=true,
+  MYSTERY_BOX_BLACKLIST={},
   MYSTERY_TILL_GEM_CAP=true,
   AUTO_SPIN=true,
   CLAIM_PLAYTIME=true,
   CLAIM_CODES=true,
-  DO_DOGGY_JUMP=false,
+  DO_DOGGY_JUMP=true,
   CLAIM_INDEX_REWARDS=true,
   AUTO_MASTERY=true,
   UPGRADE_BUBBLES=true,
   BLOW_BUBBLES=false,
   PICKUP_ITEMS_WHILE_HATCHING=true,
-  USE_SHARD_FRAGMENTS = true, --Uses Shard Fragments Permanent buffs
+  USE_SHARD_FRAGMENTS = true, --new
 },
-LUNAR_EVENT_SETTINGS = {
-  MOON_SUMMON = "Moon Egg", -- Options: Moon Egg, Moon Chest requires 13k Moon Shards per summon
-  USE_NEW_YEARS_LANTERN = false, -- Uses New Year Potion
-  LUNAR_SPIN = false, -- Spins Lunar Spin The Wheel
+ST_PATRICKS_EVENT_SETTINGS={
+  USE_ST_PATRICKS_ELIXIR=true
+  DO_ST_PATRICKS_PASS=false, -- does st patricks pass challenges requires AUTO_QUEST set to true
+  CLAIM_ST_PATRICKS_REWARDS=true, -- claims daily St patricks rewards
+  CLAIM_POT_O_GOLD=true, -- claims pot o gold chest
+  HATCH_TRUE_MULTI_EGGS=true, -- hatches spawned true multi eggs
 },
-ST_PATRICKS_EVENT_SETTINGS = {
-        USE_ST_PATRICKS_ELIXIR = true -- uses st patrick's elixir
-        DO_ST_PATRICKS_PASS = false, -- does st patricks pass challenges (requires AUTO_QUEST set to true)
-        CLAIM_ST_PATRICKS_REWARDS = true, -- claims daily St patricks rewards
-        CLAIM_POT_O_GOLD = true, -- claims pot o gold chest
-        HATCH_TRUE_MULTI_EGGS = true, -- hatches spawned true multiplier eggs
-    },
+AUTO_TRADE_SETTINGS={
+  AUTO_TRADE=false,
+  USER_TO_TRADE="Player1",
+  JOIN_PLAYER =false,
+  PETS_TO_TRADE={},
+  SERVER_JOBID="",
+},
 DEBUG={
-  FPS_LIMIT=5,
+  FPS_LIMIT=2,
   FPS_COUNTER=true,
   BEST_HATCH=true,
   DISABLE_HATCH_ANIM=true,
