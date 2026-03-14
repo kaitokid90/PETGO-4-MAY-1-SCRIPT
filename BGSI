@@ -65,7 +65,7 @@ PET_SETTINGS={
   MANUAL_AUTO_DELETE={"Neon Wyvern", "Ardent Lantern", "Windblume"},
   EQUIP_SECRETS=true,
   EQUIP_SUPER=true,
-  EQUIP_BEST=false,
+  EQUIP_BEST=true,
   ALLOWED_SECRETS={},
 },
 REBIRTH_MACHINE_SETTINGS={ 
@@ -99,7 +99,7 @@ ENCHANT_SETTINGS={
   },
 },
 MISC_SETTINGS={
-  STARTER_WORLD=1, --(1 = The Overworld, 2 = Minigame Paradise, 3 = Seven Seas)
+  STARTER_WORLD=2, --(1 = The Overworld, 2 = Minigame Paradise, 3 = Seven Seas)
   AUTO_FRIEND=false,
   SKIP_PREMIUM_PASS=true,
   IGNORE_W3=true,
