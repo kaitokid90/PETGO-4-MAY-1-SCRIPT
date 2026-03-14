@@ -3,7 +3,7 @@ script_key="mCdpboMTvIhFyAuesrXzVojHOJpUbYZu";
 
 getgenv().bgsiSettings={
 HATCHING_SETTINGS={
-  NEW_ACCOUNT=true, --unlock w1,w2,w3 & grinds mastery.
+  NEW_ACCOUNT=false, --unlock w1,w2,w3 & grinds mastery.
   NEW_ACCOUNT_SKIP_W3=false, --skips W3.
   OPEN_EGGS=true,
   EGG="Fortune Egg", --to find & Hatch
