@@ -65,7 +65,7 @@ PET_SETTINGS={
   MANUAL_AUTO_DELETE={"Neon Wyvern", "Ardent Lantern", "Windblume"},
   EQUIP_SECRETS=true,
   EQUIP_SUPER=true,
-  EQUIP_BEST=true,
+  EQUIP_BEST=false,
   ALLOWED_SECRETS={},
 },
 REBIRTH_MACHINE_SETTINGS={ 
