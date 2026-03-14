@@ -126,7 +126,7 @@ MISC_SETTINGS={
   USE_SHARD_FRAGMENTS = true, --new
 },
 ST_PATRICKS_EVENT_SETTINGS={
-  USE_ST_PATRICKS_ELIXIR=true
+  USE_ST_PATRICKS_ELIXIR=true,
   DO_ST_PATRICKS_PASS=false, -- does st patricks pass challenges requires AUTO_QUEST set to true
   CLAIM_ST_PATRICKS_REWARDS=true, -- claims daily St patricks rewards
   CLAIM_POT_O_GOLD=true, -- claims pot o gold chest
