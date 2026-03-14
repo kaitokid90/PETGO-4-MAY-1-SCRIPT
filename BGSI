@@ -3,17 +3,17 @@ script_key="mCdpboMTvIhFyAuesrXzVojHOJpUbYZu";
 
 getgenv().bgsiSettings={
 HATCHING_SETTINGS={
-  NEW_ACCOUNT=false, --unlock w1,w2,w3 & grinds mastery.
+  NEW_ACCOUNT=true, --unlock w1,w2,w3 & grinds mastery.
   NEW_ACCOUNT_SKIP_W3=false, --skips W3.
   OPEN_EGGS=true,
-  EGG="Fortune Egg", --to find & Hatch
+  EGG="Lucky Egg", --to find & Hatch
   REJOIN_IF_NO_HATCHING=false,
  REJOIN_IF_NO_HATCHING=false,
   REJOIN_IF_LOW_FPS=false,
   MINIMUM_HATCHRATE=100,
   REJOIN_IF_X_HATCHRATE=false,
   INFINITY_EGG_WORLD=1,
-  AUTO_EGG_HUNTING = "Bounty", --// (Changes every 8h requires Bee Stingers)
+  AUTO_EGG_HUNTING = "", --// (Changes every 8h requires Bee Stingers)
 
 
 WEBHOOK_SETTINGS={
@@ -28,11 +28,11 @@ WEBHOOK_SETTINGS={
   },
 RIFT_SETTINGS={
   LOOK_FOR_RIFTS=true,
-  AUTO_RIFT_EGG_HUNTING="Bounty", --Bounty,XL
+  AUTO_RIFT_EGG_HUNTING="", --Bounty,XL
   MINIMUM_LUCK=5, -- Min Luck multi go for
   SUMMONED_RIFTS=true, --Admin Abuse
   SERVERHOP_TILL_AA_PORTAL=false,
- TARGETS = {"Lucky Egg ","4X Luck Fortune Egg","Luck Fortune Egg","OG Rift Egg", "Super Egg", "Forest Egg", "Moon Egg", "Petal Egg", "Spring Egg"},
+ TARGETS = {"Lucky Egg","4X Luck Fortune Egg","Luck Fortune Egg","OG Rift Egg", "Super Egg", "Forest Egg", "Moon Egg", "Petal Egg", "Spring Egg"},
   AUTO_SUMMON_RIFT=true, --Rift Summoning (W1 Shrine)
   TO_SUMMON="", --Egg/Chest name (override if AUTO_RIFT_EGG_HUNTING is set)
   },
@@ -44,7 +44,7 @@ QUEST_SETTINGS={
   DO_SAILOR_QUEST=false,
   DO_GEM_GENIE=false,
   DO_SEASON_PASS_HOURLY=true,
-  DO_SEASON_PASS_DAILY=true,
+  DO_SEASON_PASS_DAILY=false,
   DO_MILESTONE_MINIGAMES=false,
   DO_MILESTONE_POTIONS=false,
   GEM_GENIE_REWARDS={"Infinity Elixir","Egg Elixir","Shadow Crystal","Lucky Infinity" ,"Speed Infinity" },
@@ -99,7 +99,7 @@ ENCHANT_SETTINGS={
   },
 },
 MISC_SETTINGS={
-  STARTER_WORLD=2, --(1 = The Overworld, 2 = Minigame Paradise, 3 = Seven Seas)
+  STARTER_WORLD=1, --(1 = The Overworld, 2 = Minigame Paradise, 3 = Seven Seas)
   AUTO_FRIEND=false,
   SKIP_PREMIUM_PASS=true,
   IGNORE_W3=true,
@@ -120,7 +120,7 @@ MISC_SETTINGS={
   AUTO_SPIN=true,
   CLAIM_PLAYTIME=true,
   CLAIM_CODES=true,
-  DO_DOGGY_JUMP=true,
+  DO_DOGGY_JUMP=false,
   CLAIM_INDEX_REWARDS=true,
   AUTO_MASTERY=true,
   UPGRADE_BUBBLES=true,
