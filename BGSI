@@ -6,7 +6,7 @@ HATCHING_SETTINGS={
   NEW_ACCOUNT=true, --unlock w1,w2,w3 & grinds mastery.
   NEW_ACCOUNT_SKIP_W3=false, --skips W3.
   OPEN_EGGS=true,
-  EGG="Lucky Egg", --to find & Hatch
+  EGG="Fortune Egg", --to find & Hatch
   REJOIN_IF_NO_HATCHING=false,
  REJOIN_IF_NO_HATCHING=false,
   REJOIN_IF_LOW_FPS=false,
@@ -43,7 +43,7 @@ QUEST_SETTINGS={
   GENIE_IGNORE_W3_EGGS=true,
   DO_SAILOR_QUEST=false,
   DO_GEM_GENIE=false,
-  DO_SEASON_PASS_HOURLY=true,
+  DO_SEASON_PASS_HOURLY=false,
   DO_SEASON_PASS_DAILY=false,
   DO_MILESTONE_MINIGAMES=false,
   DO_MILESTONE_POTIONS=false,
@@ -133,22 +133,19 @@ LUNAR_EVENT_SETTINGS = {
   USE_NEW_YEARS_LANTERN = false, -- Uses New Year Potion
   LUNAR_SPIN = false, -- Spins Lunar Spin The Wheel
 },
-SPRING_EVENT_SETTINGS = {
-  PETAL_GRIND = false, -- grinds for petals
-  MINIMUM_PETALS = "100m", -- amount of petals required to stop petal grind
-  PETAL_GRIND_COOLDOWN = 10, -- time for wait for next petal grinding
-  PETAL_GRIND_LOOP = false, -- grinds  for petals indefinitely
-  USE_FLOWERS = false, -- Uses Flowers (Potion for Spring Event Eggs)
-  DO_SPRING_FOUNTAIN = false, -- completes spring fountain challenges (requires AUTO_QUEST set to true)
-  SPRING_SPIN = false, -- Spins Spring Spin The Wheel
-  SPRING_SHRINE = false, -- Claims Spring Shrine Buff (Random Egg)
-},
+ST_PATRICKS_EVENT_SETTINGS = {
+        USE_ST_PATRICKS_ELIXIR = true -- uses st patrick's elixir
+        DO_ST_PATRICKS_PASS = false, -- does st patricks pass challenges (requires AUTO_QUEST set to true)
+        CLAIM_ST_PATRICKS_REWARDS = true, -- claims daily St patricks rewards
+        CLAIM_POT_O_GOLD = true, -- claims pot o gold chest
+        HATCH_TRUE_MULTI_EGGS = true, -- hatches spawned true multiplier eggs
+    },
 DEBUG={
   FPS_LIMIT=5,
   FPS_COUNTER=true,
   BEST_HATCH=true,
   DISABLE_HATCH_ANIM=true,
-  DISABLE_UI=false,
+  DISABLE_UI=true,
 },
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a1b4af844e9ed9a7b2a2cc2ee90fe37d.lua"))()
