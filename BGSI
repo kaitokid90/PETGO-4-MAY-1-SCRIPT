@@ -124,13 +124,18 @@ MISC_SETTINGS={
   BLOW_BUBBLES=false,
   PICKUP_ITEMS_WHILE_HATCHING=true,
   USE_SHARD_FRAGMENTS = true, --new
+  AUTO_SELL_FISH = true, --//Sells fish for pearls (All)
+  OPEN_RUNE_ROCK = true, --// Opens Rune Rocks
 },
 ST_PATRICKS_EVENT_SETTINGS={
   USE_ST_PATRICKS_ELIXIR=true,
+  OPEN_POT_O_COINS = true,
+  USE_ULTRA_ELIXIR = true, 
   DO_ST_PATRICKS_PASS=false, -- does st patricks pass challenges requires AUTO_QUEST set to true
   CLAIM_ST_PATRICKS_REWARDS=true, -- claims daily St patricks rewards
   CLAIM_POT_O_GOLD=true, -- claims pot o gold chest
   HATCH_TRUE_MULTI_EGGS=true, -- hatches spawned true multi eggs
+
 },
 AUTO_TRADE_SETTINGS={
   AUTO_TRADE=false,
