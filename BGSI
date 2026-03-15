@@ -50,7 +50,7 @@ POTION_SETTINGS={
   USE_POTIONS=true,
   CLAIM_BLESSING=true, --Gets W1,W3 Blessing
   POTIONS_TO_USE={"Lucky","Speed","Mythic","Egg Elixir","Infinity Elixir"},
-  BLESSING_POTIONS={"Tickets","Coins"}, --Potions
+  BLESSING_POTIONS={"Coins"}, --Potions
   BULK_POTION_USAGE=true, 
 },
 PET_SETTINGS={
