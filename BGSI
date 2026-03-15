@@ -25,8 +25,8 @@ WEBHOOK_SETTINGS={
   },
 RIFT_SETTINGS={
   LOOK_FOR_RIFTS=true,
-  AUTO_RIFT_EGG_HUNTING="", --Bounty,XL
-  MINIMUM_LUCK=5, -- Luck multi go for
+  AUTO_RIFT_EGG_HUNTING="Bounty", --Bounty,XL
+  MINIMUM_LUCK=25, -- Luck multi go for
   SUMMONED_RIFTS=true, --AA
   SERVERHOP_TILL_AA_PORTAL=false,
   TARGETS={"Moon Egg","OG Rift Egg","Super Egg","Fortune Egg","4X Luck Fortune Egg"},
