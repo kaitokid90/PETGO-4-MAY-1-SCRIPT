@@ -59,7 +59,7 @@ PET_SETTINGS={
   AUTO_DELETE=true,
   AUTO_DELETE_TIER=2, --Deletes Legend Up to this Tier
   MANUAL_AUTO_DELETE={"Moonglow Serpent", "Shrubbery", "Sunburst" },
-  EQUIP_SECRETS=true,
+  EQUIP_SECRETS=false,
   EQUIP_SUPER=true,
   EQUIP_BEST=false,
   ALLOWED_SECRETS={},
@@ -129,8 +129,8 @@ AUTO_MERCHANT_BLACKLIST = {"dice-shop","fishing-shop", "stpat-shop"},
 },
 
 ST_PATRICKS_EVENT_SETTINGS={
-  USE_ST_PATRICKS_ELIXIR=false,
-  USE_ULTRA_ELIXIR=false,
+  USE_ST_PATRICKS_ELIXIR=true,
+  USE_ULTRA_ELIXIR=true,
   DO_ST_PATRICKS_PASS=false,
   CLAIM_ST_PATRICKS_REWARDS=true, --daily
   CLAIM_POT_O_GOLD=true, --chest
@@ -158,7 +158,7 @@ DEBUG={
   FPS_COUNTER=true,
   BEST_HATCH=true,
   DISABLE_HATCH_ANIM=true,
-  DISABLE_UI=true,
+  DISABLE_UI=false,
 },
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a1b4af844e9ed9a7b2a2cc2ee90fe37d.lua"))()
