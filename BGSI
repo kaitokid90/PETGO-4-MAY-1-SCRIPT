@@ -6,13 +6,13 @@ HATCHING_SETTINGS={
   NEW_ACCOUNT=false, --unlock w1,w2,w3.
   NEW_ACCOUNT_SKIP_W3=true,
   OPEN_EGGS=true,
-  EGG="Mining Egg", --to find
+  EGG="Fortune Egg", --to find
   REJOIN_IF_NO_HATCHING=true,
   REJOIN_IF_LOW_FPS=false,
   MINIMUM_HATCHRATE=60,
   REJOIN_IF_X_HATCHRATE=false,
   INFINITY_EGG_WORLD=1,
-  AUTO_EGG_HUNTING="Bounty", --Bounty,XL
+  AUTO_EGG_HUNTING="", --Bounty,XL
 WEBHOOK_SETTINGS={
  WEBHOOK="https://discord.com/api/webhooks/1452928474917503041/clybSS2sMkuPTQo-195f3NaDskHBvMN6DejuEF5nU-u44i34_-XiIK4c_8SCnjiFE_oG", -- Discord Webhook URL to see your own Hatches
   DISCORD_ID="", --User ID to mention when you hatch something
@@ -25,11 +25,11 @@ WEBHOOK_SETTINGS={
   },
 RIFT_SETTINGS={
   LOOK_FOR_RIFTS=true,
-  AUTO_RIFT_EGG_HUNTING="Bounty", --Bounty,XL"Fortune Egg",
+  AUTO_RIFT_EGG_HUNTING="", --Bounty,XL"Fortune Egg",
   MINIMUM_LUCK=5, -- Luck multi go for
   SUMMONED_RIFTS=true, --AA
   SERVERHOP_TILL_AA_PORTAL=false,
-  TARGETS={"OG Rift Egg","Mining Egg"},
+  TARGETS={"Fortune Egg","OG Rift Egg"},
   AUTO_SUMMON_RIFT=true,
   TO_SUMMON="", --Egg/Chest name
   },
@@ -95,7 +95,7 @@ ENCHANT_SETTINGS={
   },
 },
 MISC_SETTINGS={
-  STARTER_WORLD=2, --1=The Overworld,2=Minigame Paradise, 3=Seven Seas
+  STARTER_WORLD=1, --1=The Overworld,2=Minigame Paradise, 3=Seven Seas
   AUTO_FRIEND=false,
   SKIP_PREMIUM_PASS=true,
   IGNORE_W3=false,
@@ -149,7 +149,7 @@ AUTO_TRADE_SETTINGS={
 
 GRIND_CURRENCY_SETTINGS = {
   GRIND_CURRENCY = false, --Enables currency grinding
-  CURRENCY_TO_FARM = "Pearls", --Currency to grind (Coins, Tickets, Pearls)
+  CURRENCY_TO_FARM = "Tickets", --Currency to grind (Coins, Tickets, Pearls)
   GRIND_CURRENCY_DURATION = 260, --in minutes. How long is gonna keep grinding currency without interruptions
   GRIND_CURRENCY_COOLDOWN = 5 --in minutes. Time to wait before going to grind currency once again
 },
@@ -158,7 +158,7 @@ DEBUG={
   FPS_COUNTER=true,
   BEST_HATCH=true,
   DISABLE_HATCH_ANIM=true,
-  DISABLE_UI=false,
+  DISABLE_UI=true,
 },
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a1b4af844e9ed9a7b2a2cc2ee90fe37d.lua"))()
