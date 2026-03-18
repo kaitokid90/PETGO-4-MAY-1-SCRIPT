@@ -6,7 +6,7 @@ HATCHING_SETTINGS={
   NEW_ACCOUNT=false, --unlock w1,w2,w3.
   NEW_ACCOUNT_SKIP_W3=true,
   OPEN_EGGS=true,
-  EGG="Fortune Egg", --to find
+  EGG="Lucky Egg", --to find
   REJOIN_IF_NO_HATCHING=true,
   REJOIN_IF_LOW_FPS=true,
   MINIMUM_HATCHRATE=100,
@@ -26,10 +26,10 @@ WEBHOOK_SETTINGS={
 RIFT_SETTINGS={
   LOOK_FOR_RIFTS=true,
   AUTO_RIFT_EGG_HUNTING="", --Bounty,XL"Fortune Egg",
-  MINIMUM_LUCK=25, -- Luck multi go for
+  MINIMUM_LUCK=5, -- Luck multi go for
   SUMMONED_RIFTS=true, --AA
   SERVERHOP_TILL_AA_PORTAL=false,
-  TARGETS={"Lucky Egg","Fortune Egg","OG Rift Egg","og-rift"},
+  TARGETS={"Fortune Egg","OG Rift Egg","og-rift"},
   AUTO_SUMMON_RIFT=true,
   TO_SUMMON="", --Egg/Chest name
   },
@@ -131,8 +131,8 @@ AUTO_MERCHANT_BLACKLIST = {"dice-shop","fishing-shop", "stpat-shop"},
 },
 
 ST_PATRICKS_EVENT_SETTINGS={
-  USE_ST_PATRICKS_ELIXIR=false,
-  USE_ULTRA_ELIXIR=false,
+  USE_ST_PATRICKS_ELIXIR=true,
+  USE_ULTRA_ELIXIR=true,
   DO_ST_PATRICKS_PASS=false,
   CLAIM_ST_PATRICKS_REWARDS=true, --daily
   CLAIM_POT_O_GOLD=true, --chest
