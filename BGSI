@@ -6,11 +6,11 @@ HATCHING_SETTINGS={
   NEW_ACCOUNT=false, --unlock w1,w2,w3.
   NEW_ACCOUNT_SKIP_W3=true,
   OPEN_EGGS=true,
-  EGG="Fortune Egg", --to find
-  REJOIN_IF_NO_HATCHING=true,
-  REJOIN_IF_LOW_FPS=true,
+  EGG="Mining Egg", --to find
+  REJOIN_IF_NO_HATCHING=false,
+  REJOIN_IF_LOW_FPS=false,
   MINIMUM_HATCHRATE=60,
-  REJOIN_IF_X_HATCHRATE=true,
+  REJOIN_IF_X_HATCHRATE=false,
   INFINITY_EGG_WORLD=1,
   AUTO_EGG_HUNTING="", --Bounty,XL
 WEBHOOK_SETTINGS={
@@ -20,16 +20,16 @@ WEBHOOK_SETTINGS={
   ODDS="1b",
   IGNORE_ODDS_IF_SHINY_OR_MYTHIC=true,
   ALLOW_EASY_SECRETS=false, 
-  HIDE_USERNAME=true, --Hide name in user webhook
+  HIDE_USERNAME=true, --Hide name in user webhook Super Egg
   PET_BLACKLIST={},
   },
 RIFT_SETTINGS={
   LOOK_FOR_RIFTS=true,
-  AUTO_RIFT_EGG_HUNTING="", --Bounty,XL
+  AUTO_RIFT_EGG_HUNTING="", --Bounty,XL"Fortune Egg",
   MINIMUM_LUCK=5, -- Luck multi go for
   SUMMONED_RIFTS=true, --AA
   SERVERHOP_TILL_AA_PORTAL=false,
-  TARGETS={"Fortune Egg","OG Rift Egg","Super Egg"},
+  TARGETS={"OG Rift Egg","Mining Egg"},
   AUTO_SUMMON_RIFT=true,
   TO_SUMMON="", --Egg/Chest name
   },
@@ -48,8 +48,8 @@ QUEST_SETTINGS={
 },
 POTION_SETTINGS={
   USE_POTIONS=true,
-  CLAIM_BLESSING=true, --Gets W1,W3 Blessing
-  POTIONS_TO_USE={"Lucky","Speed","Mythic","Egg Elixir","Infinity Elixir"},
+  CLAIM_BLESSING=true, --Gets W1,W3 Blessing  "Lucky","Speed","Mythic"
+  POTIONS_TO_USE={"Lucky","Speed","Mythic","Egg Elixir","Infinity Elixir","Tickets"},
   BLESSING_POTIONS={"Coins"}, --Potions
   BULK_POTION_USAGE=true, 
 },
@@ -59,7 +59,7 @@ PET_SETTINGS={
   AUTO_DELETE=true,
   AUTO_DELETE_TIER=2, --Deletes Legend Up to this Tier
   MANUAL_AUTO_DELETE={"Moonglow Serpent", "Shrubbery", "Sunburst" },
-  EQUIP_SECRETS=true,
+  EQUIP_SECRETS=false,
   EQUIP_SUPER=true,
   EQUIP_BEST=false,
   ALLOWED_SECRETS={},
@@ -95,20 +95,20 @@ ENCHANT_SETTINGS={
   },
 },
 MISC_SETTINGS={
-  STARTER_WORLD=1, --1=The Overworld,2=Minigame Paradise, 3=Seven Seas
+  STARTER_WORLD=2, --1=The Overworld,2=Minigame Paradise, 3=Seven Seas
   AUTO_FRIEND=false,
   SKIP_PREMIUM_PASS=true,
   IGNORE_W3=true,
   GRIND_PEARLS=false,
   GRIND_PEARLS_DURATION=2, --min
-  AUTO_FISH=false,
+  AUTO_FISH=true,
   AUTO_FISH_DURATION=2, --min
   AUTO_CHEST_RIFT = true,
   RIFT_CHESTS_TO_FIND={"moon-chest"},
   AUTO_CHEST=true,
   AUTO_MERCHANT=true,
   MERCHANT_REROLL="traveling-merchant",
-  AUTO_MERCHANT_BLACKLIST = {"stpat-shop"},
+AUTO_MERCHANT_BLACKLIST = {"dice-shop","fishing-shop", "stpat-shop"},
   OPEN_POWERUP_EGGS=true,
   POWERUP_EGG_BLACKLIST={},
   OPEN_MYSTERY_BOXES=true,
@@ -124,7 +124,7 @@ MISC_SETTINGS={
   BLOW_BUBBLES=false,
   PICKUP_ITEMS_WHILE_HATCHING=true,
   USE_SHARD_FRAGMENTS = true, --new
-  AUTO_SELL_FISH = false, --//Sells fish for pearls (All)
+  AUTO_SELL_FISH = true, --//Sells fish for pearls (All)
   OPEN_RUNE_ROCK = true, --// Opens Rune Rocks
 },
 
@@ -145,6 +145,13 @@ AUTO_TRADE_SETTINGS={
   JOIN_PLAYER =false,
   PETS_TO_TRADE={},
   SERVER_JOBID="",
+},
+
+GRIND_CURRENCY_SETTINGS = {
+  GRIND_CURRENCY = true, --Enables currency grinding
+  CURRENCY_TO_FARM = "Tickets", --Currency to grind (Coins, Tickets, Pearls)
+  GRIND_CURRENCY_DURATION = 60, --in minutes. How long is gonna keep grinding currency without interruptions
+  GRIND_CURRENCY_COOLDOWN = 5 --in minutes. Time to wait before going to grind currency once again
 },
 DEBUG={
   FPS_LIMIT=5,
