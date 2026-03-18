@@ -156,7 +156,7 @@ GRIND_CURRENCY_SETTINGS = {
   GRIND_CURRENCY_COOLDOWN = 5 --in minutes. Time to wait before going to grind currency once again
 },
 DEBUG={
-  FPS_LIMIT=2,
+  FPS_LIMIT=3,
   FPS_COUNTER=true,
   BEST_HATCH=true,
   DISABLE_HATCH_ANIM=true,
