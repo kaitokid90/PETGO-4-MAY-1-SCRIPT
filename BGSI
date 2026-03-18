@@ -131,8 +131,8 @@ AUTO_MERCHANT_BLACKLIST = {"dice-shop","fishing-shop", "stpat-shop"},
 },
 
 ST_PATRICKS_EVENT_SETTINGS={
-  USE_ST_PATRICKS_ELIXIR=true,
-  USE_ULTRA_ELIXIR=true,
+  USE_ST_PATRICKS_ELIXIR=false,
+  USE_ULTRA_ELIXIR=false,
   DO_ST_PATRICKS_PASS=false,
   CLAIM_ST_PATRICKS_REWARDS=true, --daily
   CLAIM_POT_O_GOLD=true, --chest
