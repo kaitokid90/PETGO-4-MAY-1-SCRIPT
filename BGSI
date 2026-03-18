@@ -26,10 +26,10 @@ WEBHOOK_SETTINGS={
 RIFT_SETTINGS={
   LOOK_FOR_RIFTS=true,
   AUTO_RIFT_EGG_HUNTING="", --Bounty,XL"Fortune Egg",
-  MINIMUM_LUCK=5, -- Luck multi go for
+  MINIMUM_LUCK=25, -- Luck multi go for
   SUMMONED_RIFTS=true, --AA
   SERVERHOP_TILL_AA_PORTAL=false,
-  TARGETS={"Fortune Egg","OG Rift Egg","og-rift"},
+  TARGETS={"Lucky Egg","Fortune Egg","OG Rift Egg","og-rift"},
   AUTO_SUMMON_RIFT=true,
   TO_SUMMON="", --Egg/Chest name
   },
@@ -79,6 +79,8 @@ MINIGAME_SETTINGS={
   USE_GOLDEN_DICE=true,
   GOLDEN_DICE_AMOUNT=2,
   BLUE_FRAGMENT=true,
+  INFINITY_ELIXIR = true, --// focus for infinity elixir in dice board
+
 },
 ENCHANT_SETTINGS={
   ENCHANT_PETS=true,
