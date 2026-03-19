@@ -1,6 +1,4 @@
-
-script_key="mCdpboMTvIhFyAuesrXzVojHOJpUbYZu";
-
+wait(15)
 getgenv().bgsiSettings={
 HATCHING_SETTINGS={
   NEW_ACCOUNT=false, --unlock w1,w2,w3.
@@ -29,7 +27,7 @@ RIFT_SETTINGS={
   MINIMUM_LUCK=5, -- Luck multi go for
   SUMMONED_RIFTS=true, --AA
   SERVERHOP_TILL_AA_PORTAL=false,
-  TARGETS={"Fortune Egg",,"OG Rift Egg","og-rift"},
+  TARGETS={"Fortune Egg","OG Rift Egg","og-rift"},
   AUTO_SUMMON_RIFT=true,
   TO_SUMMON="", --Egg/Chest name
   },
@@ -164,4 +162,5 @@ DEBUG={
 ENABLE_DEV = true, --// Enables Roblox Dev Console for even more debugging.
 },
 }
+script_key="mCdpboMTvIhFyAuesrXzVojHOJpUbYZu";
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a1b4af844e9ed9a7b2a2cc2ee90fe37d.lua"))()
