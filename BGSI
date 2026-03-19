@@ -30,7 +30,7 @@ RIFT_SETTINGS={
   SUMMONED_RIFTS=true, --AA
   SERVERHOP_TILL_AA_PORTAL=false,
   TARGETS={"Hell Egg"},
-  AUTO_SUMMON_RIFT=true,
+  AUTO_SUMMON_RIFT=false,
   TO_SUMMON="", --Egg/Chest name
   },
 },
