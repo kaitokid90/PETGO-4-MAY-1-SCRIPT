@@ -6,7 +6,7 @@ HATCHING_SETTINGS={
   NEW_ACCOUNT=false, --unlock w1,w2,w3.
   NEW_ACCOUNT_SKIP_W3=true,
   OPEN_EGGS=true,
-  EGG="Fortune Egg", --to find
+  EGG="Hell Egg", --to find
   REJOIN_IF_NO_HATCHING=true,
   REJOIN_IF_LOW_FPS=true,
   MINIMUM_HATCHRATE=100,
@@ -24,12 +24,12 @@ WEBHOOK_SETTINGS={
   PET_BLACKLIST={},
   },
 RIFT_SETTINGS={
-  LOOK_FOR_RIFTS=false,
+  LOOK_FOR_RIFTS=true,
   AUTO_RIFT_EGG_HUNTING="", --Bounty,XL"Fortune Egg",,"OG Rift Egg","og-rift"
   MINIMUM_LUCK=5, -- Luck multi go for
   SUMMONED_RIFTS=false, --AA
   SERVERHOP_TILL_AA_PORTAL=false,
-  TARGETS={},
+  TARGETS={"Hell Egg"},
   AUTO_SUMMON_RIFT=false,
   TO_SUMMON="", --Egg/Chest name
   },
