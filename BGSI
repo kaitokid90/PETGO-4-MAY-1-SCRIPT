@@ -160,8 +160,8 @@ DEBUG={
   FPS_COUNTER=true,
   BEST_HATCH=true,
   DISABLE_HATCH_ANIM=true,
-  DISABLE_UI=true,
-ENABLE_DEV = true, --// Enables Roblox Dev Console for even more debugging.
+  DISABLE_UI=false,
+ENABLE_DEV = false, --// Enables Roblox Dev Console for even more debugging.
 },
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a1b4af844e9ed9a7b2a2cc2ee90fe37d.lua"))()
