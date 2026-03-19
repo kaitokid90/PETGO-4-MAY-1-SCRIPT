@@ -1,4 +1,4 @@
-wait(15)
+wait(10)
 getgenv().bgsiSettings={
 HATCHING_SETTINGS={
   NEW_ACCOUNT=false, --unlock w1,w2,w3.
