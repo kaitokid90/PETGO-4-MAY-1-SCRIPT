@@ -24,7 +24,7 @@ WEBHOOK_SETTINGS={
   PET_BLACKLIST={},
   },
 RIFT_SETTINGS={
-  LOOK_FOR_RIFTS=false,
+  LOOK_FOR_RIFTS=true,
   AUTO_RIFT_EGG_HUNTING="", --Bounty,XL"Fortune Egg",,"OG Rift Egg","og-rift"
   MINIMUM_LUCK=5, -- Luck multi go for
   SUMMONED_RIFTS=false, --AA
