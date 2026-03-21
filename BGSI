@@ -126,6 +126,7 @@ AUTO_MERCHANT_BLACKLIST = {"dice-shop","fishing-shop", "stpat-shop"},
   USE_SHARD_FRAGMENTS = true, --new
   AUTO_SELL_FISH = true, --//Sells fish for pearls (All)
   OPEN_RUNE_ROCK = true, --// Opens Rune Rocks
+AUTO_RACE = true, --// Completes race for rewards
 },
 
 ST_PATRICKS_EVENT_SETTINGS={
@@ -137,6 +138,10 @@ ST_PATRICKS_EVENT_SETTINGS={
   OPEN_POT_O_COINS=true, --(Powerup)
   GRIND_CLOVERS_LOOP=false,
   HATCH_TRUE_MULTI_EGGS=true,
+ST_PATRICKS_SHRINE = true, -- Claims st patrick's shrine Buff (Random Egg)
+LUCKY_SPIN = true, -- Claims lucky spin
+OPEN_JACKPOT_EGG = true, -- Opens Jackpot Egg (Powerup)
+MINIMUM_CLOVERS = "500m", -- minimum amount of clovers required for hatching
 
 },
 AUTO_TRADE_SETTINGS={
