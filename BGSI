@@ -1,16 +1,16 @@
-wait(10)
+wait(7)
 getgenv().bgsiSettings={
 HATCHING_SETTINGS={
   NEW_ACCOUNT=false, --unlock w1,w2,w3.
   NEW_ACCOUNT_SKIP_W3=true,
   OPEN_EGGS=true,
-  EGG="Nightmare Egg", --to find
+  EGG="Gaelic Egg", --to find
   REJOIN_IF_NO_HATCHING=true,
   REJOIN_IF_LOW_FPS=true,
   MINIMUM_HATCHRATE=50,
   REJOIN_IF_X_HATCHRATE=true,
   INFINITY_EGG_WORLD=1,
-  AUTO_EGG_HUNTING="Bounty", --Bounty,XL
+  AUTO_EGG_HUNTING="", --Bounty,XL
 WEBHOOK_SETTINGS={
  WEBHOOK="https://discord.com/api/webhooks/1452928474917503041/clybSS2sMkuPTQo-195f3NaDskHBvMN6DejuEF5nU-u44i34_-XiIK4c_8SCnjiFE_oG", -- Discord Webhook URL to see your own Hatches
   DISCORD_ID="", --User ID to mention when you hatch something
@@ -23,11 +23,11 @@ WEBHOOK_SETTINGS={
   },
 RIFT_SETTINGS={
   LOOK_FOR_RIFTS=true,
-  AUTO_RIFT_EGG_HUNTING="Bounty",
+  AUTO_RIFT_EGG_HUNTING="",
   MINIMUM_LUCK=5, -- Luck multi go for
   SUMMONED_RIFTS=true, --AA
   SERVERHOP_TILL_AA_PORTAL=false,
-  TARGETS={"Nightmare Egg"},
+  TARGETS={"Gaelic Egg","Fortune Egg","OG Rift Egg","og-rift"},
   AUTO_SUMMON_RIFT=true,
   TO_SUMMON="", --Egg/Chest name
   },
@@ -129,14 +129,14 @@ AUTO_MERCHANT_BLACKLIST = {"dice-shop","fishing-shop", "stpat-shop"},
 },
 
 ST_PATRICKS_EVENT_SETTINGS={
-  USE_ST_PATRICKS_ELIXIR=false,
-  USE_ULTRA_ELIXIR=false,
+  USE_ST_PATRICKS_ELIXIR=true,
+  USE_ULTRA_ELIXIR=true,
   DO_ST_PATRICKS_PASS=false,
   CLAIM_ST_PATRICKS_REWARDS=true, --daily
   CLAIM_POT_O_GOLD=true, --chest
   OPEN_POT_O_COINS=true, --(Powerup)
   GRIND_CLOVERS_LOOP=false,
-  HATCH_TRUE_MULTI_EGGS=false,
+  HATCH_TRUE_MULTI_EGGS=true,
 
 },
 AUTO_TRADE_SETTINGS={
