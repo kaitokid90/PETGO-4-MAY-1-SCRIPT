@@ -57,7 +57,7 @@ PET_SETTINGS={
   AUTO_DELETE=true,
   AUTO_DELETE_TIER=2, --Deletes Legend Up to this Tier
   MANUAL_AUTO_DELETE={},
-  EQUIP_SECRETS=true,
+  EQUIP_SECRETS=false,
   EQUIP_SUPER=true,
   EQUIP_BEST=false,
   ALLOWED_SECRETS={},
@@ -150,7 +150,7 @@ AUTO_TRADE_SETTINGS={
 GRIND_CURRENCY_SETTINGS = {
   GRIND_CURRENCY = true, --Enables currency grinding
   CURRENCY_TO_FARM = "Clovers", --Currency to grind (Coins, Tickets, Pearls)
-  GRIND_CURRENCY_DURATION = 2, --in minutes. How long is gonna keep grinding currency without interruptions
+  GRIND_CURRENCY_DURATION = 3, --in minutes. How long is gonna keep grinding currency without interruptions
   GRIND_CURRENCY_COOLDOWN = 100, --in minutes. Time to wait before going to grind currency once again
 },
 DEBUG={
