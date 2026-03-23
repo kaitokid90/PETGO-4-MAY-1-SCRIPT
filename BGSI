@@ -4,13 +4,13 @@ HATCHING_SETTINGS={
   NEW_ACCOUNT=false, --unlock w1,w2,w3.
   NEW_ACCOUNT_SKIP_W3=true,
   OPEN_EGGS=true,
-  EGG="Mining Egg", --to find
+  EGG="Neon Egg", --to find
   REJOIN_IF_NO_HATCHING=true,
   REJOIN_IF_LOW_FPS=true,
   MINIMUM_HATCHRATE=50,
   REJOIN_IF_X_HATCHRATE=true,
   INFINITY_EGG_WORLD=1,
-  AUTO_EGG_HUNTING="", --Bounty,XL
+  AUTO_EGG_HUNTING="Bounty", --Bounty,XL
 WEBHOOK_SETTINGS={
  WEBHOOK="https://discord.com/api/webhooks/1452928474917503041/clybSS2sMkuPTQo-195f3NaDskHBvMN6DejuEF5nU-u44i34_-XiIK4c_8SCnjiFE_oG", -- Discord Webhook URL to see your own Hatches
   DISCORD_ID="", --User ID to mention when you hatch something
@@ -22,12 +22,12 @@ WEBHOOK_SETTINGS={
   PET_BLACKLIST={},
   },
 RIFT_SETTINGS={
-  LOOK_FOR_RIFTS=false,
+  LOOK_FOR_RIFTS=true,
   AUTO_RIFT_EGG_HUNTING="",
-  MINIMUM_LUCK=5, -- Luck multi go for
+  MINIMUM_LUCK=10, -- Luck multi go for
   SUMMONED_RIFTS=true, --AA
   SERVERHOP_TILL_AA_PORTAL=false,
-  TARGETS={"Mining Egg"},
+  TARGETS={"Neon Egg","Gaelic Egg","Fortune Egg","OG Rift Egg","og-rift"},
   AUTO_SUMMON_RIFT=true,
   TO_SUMMON="", --Egg/Chest name
   },
@@ -42,7 +42,7 @@ QUEST_SETTINGS={
   DO_SEASON_PASS_DAILY=false,
   DO_MILESTONE_MINIGAMES=false,
   DO_MILESTONE_POTIONS=false,
-  GEM_GENIE_REWARDS={"Green Fragment","Infinity Elixir"},
+  GEM_GENIE_REWARDS={"Infinity Elixir"},
 },
 POTION_SETTINGS={
   USE_POTIONS=true,
@@ -53,9 +53,9 @@ POTION_SETTINGS={
 },
 PET_SETTINGS={
   GAME_AUTO_DELETE=true,
-  GAME_AUTO_DELETE_TIER=0,
+  GAME_AUTO_DELETE_TIER=2,
   AUTO_DELETE=true,
-  AUTO_DELETE_TIER=0, --Deletes Legend Up to this Tier
+  AUTO_DELETE_TIER=2, --Deletes Legend Up to this Tier
   MANUAL_AUTO_DELETE={},
   EQUIP_SECRETS=false,
   EQUIP_SUPER=true,
@@ -126,7 +126,7 @@ AUTO_MERCHANT_BLACKLIST = {"dice-shop","fishing-shop", "stpat-shop"},
   USE_SHARD_FRAGMENTS = true, --new
   AUTO_SELL_FISH = true, --//Sells fish for pearls (All)
   OPEN_RUNE_ROCK = true, --// Opens Rune Rocks
-AUTO_RACE = false, --// Completes race for rewards
+AUTO_RACE = true, --// Completes race for rewards
 },
 
 ST_PATRICKS_EVENT_SETTINGS={
@@ -153,10 +153,10 @@ AUTO_TRADE_SETTINGS={
 },
 
 GRIND_CURRENCY_SETTINGS = {
-  GRIND_CURRENCY = true, --Enables currency grinding
-  CURRENCY_TO_FARM = "Tickets", --Currency to grind (Coins, Tickets, Pearls,Clovers)
-  GRIND_CURRENCY_DURATION = 5, --in minutes. How long is gonna keep grinding currency without interruptions
-  GRIND_CURRENCY_COOLDOWN = 1, --in minutes. Time to wait before going to grind currency once again
+  GRIND_CURRENCY = false, --Enables currency grinding
+  CURRENCY_TO_FARM = "Clovers", --Currency to grind (Coins, Tickets, Pearls)
+  GRIND_CURRENCY_DURATION = 3, --in minutes. How long is gonna keep grinding currency without interruptions
+  GRIND_CURRENCY_COOLDOWN = 100, --in minutes. Time to wait before going to grind currency once again
 },
 DEBUG={
   FPS_LIMIT=3,
