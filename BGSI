@@ -47,7 +47,7 @@ QUEST_SETTINGS={
 POTION_SETTINGS={
   USE_POTIONS=true,
   CLAIM_BLESSING=true, --Gets W1,W3 Blessing
-  POTIONS_TO_USE={"Lucky","Speed","Mythic","Egg Elixir","Infinity Elixir"},
+  POTIONS_TO_USE={"Lucky","Speed","Mythic","Egg Elixir","Infinity Elixir","Tickets"},
  BLESSING_POTIONS={"Tickets","Coins"},
   BULK_POTION_USAGE=true, 
 },
