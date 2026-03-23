@@ -27,7 +27,7 @@ RIFT_SETTINGS={
   MINIMUM_LUCK=10, -- Luck multi go for
   SUMMONED_RIFTS=true, --AA
   SERVERHOP_TILL_AA_PORTAL=false,
-  TARGETS={"Gaelic Egg","Fortune Egg","OG Rift Egg","og-rift"},
+  TARGETS={"Neon Egg","Gaelic Egg","Fortune Egg","OG Rift Egg","og-rift"},
   AUTO_SUMMON_RIFT=true,
   TO_SUMMON="", --Egg/Chest name
   },
