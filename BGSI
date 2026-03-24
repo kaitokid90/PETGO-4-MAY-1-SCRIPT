@@ -4,7 +4,7 @@ HATCHING_SETTINGS={
   NEW_ACCOUNT=false, --unlock w1,w2,w3.
   NEW_ACCOUNT_SKIP_W3=true,
   OPEN_EGGS=true,
-  EGG="Neon Egg", --to find
+  EGG="Lunar Egg", --to find
   REJOIN_IF_NO_HATCHING=true,
   REJOIN_IF_LOW_FPS=true,
   MINIMUM_HATCHRATE=50,
@@ -27,7 +27,7 @@ RIFT_SETTINGS={
   MINIMUM_LUCK=5, -- Luck multi go for
   SUMMONED_RIFTS=true, --AA
   SERVERHOP_TILL_AA_PORTAL=false,
-  TARGETS={"Neon Egg"},
+  TARGETS={"Lunar Egg"},
   AUTO_SUMMON_RIFT=true,
   TO_SUMMON="", --Egg/Chest name
   },
@@ -47,7 +47,7 @@ QUEST_SETTINGS={
 POTION_SETTINGS={
   USE_POTIONS=true,
   CLAIM_BLESSING=true, --Gets W1,W3 Blessing
-  POTIONS_TO_USE={"Lucky","Speed","Mythic","Egg Elixir","Infinity Elixir","Tickets"},
+  POTIONS_TO_USE={"Lucky","Speed","Mythic","Egg Elixir","Infinity Elixir"},
  BLESSING_POTIONS={"Tickets","Coins"},
   BULK_POTION_USAGE=true, 
 },
@@ -95,7 +95,7 @@ ENCHANT_SETTINGS={
   },
 },
 MISC_SETTINGS={
-  STARTER_WORLD=2, --1=The Overworld,2=Minigame Paradise, 3=Seven Seas
+  STARTER_WORLD=1, --1=The Overworld,2=Minigame Paradise, 3=Seven Seas
   AUTO_FRIEND=false,
   SKIP_PREMIUM_PASS=true,
   IGNORE_W3=false,
