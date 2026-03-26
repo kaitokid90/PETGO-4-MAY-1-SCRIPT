@@ -1,16 +1,17 @@
-wait(7)
+
+script_key="mCdpboMTvIhFyAuesrXzVojHOJpUbYZu";
 getgenv().bgsiSettings={
 HATCHING_SETTINGS={
   NEW_ACCOUNT=false, --unlock w1,w2,w3.
   NEW_ACCOUNT_SKIP_W3=true,
   OPEN_EGGS=true,
-  EGG="Fortune Egg", --to find
+  EGG="Magma Egg", --to find
   REJOIN_IF_NO_HATCHING=true,
   REJOIN_IF_LOW_FPS=true,
   MINIMUM_HATCHRATE=10,
   REJOIN_IF_X_HATCHRATE=true,
   INFINITY_EGG_WORLD=1,
-  AUTO_EGG_HUNTING="", --Bounty,XL
+  AUTO_EGG_HUNTING="Bounty", --Bounty,XL
 WEBHOOK_SETTINGS={
  WEBHOOK="https://discord.com/api/webhooks/1452928474917503041/clybSS2sMkuPTQo-195f3NaDskHBvMN6DejuEF5nU-u44i34_-XiIK4c_8SCnjiFE_oG", -- Discord Webhook URL to see your own Hatches
   DISCORD_ID="", --User ID to mention when you hatch something
@@ -23,7 +24,7 @@ WEBHOOK_SETTINGS={
   },
 RIFT_SETTINGS={
   LOOK_FOR_RIFTS=true,
-  AUTO_RIFT_EGG_HUNTING="",
+  AUTO_RIFT_EGG_HUNTING="Bounty",
   MINIMUM_LUCK=5, -- Luck multi go for
   SUMMONED_RIFTS=true, --AA
   SERVERHOP_TILL_AA_PORTAL=false,
@@ -138,7 +139,7 @@ ST_PATRICKS_EVENT_SETTINGS={
   OPEN_POT_O_COINS=true, --(Powerup)
   GRIND_CLOVERS_LOOP=false,
   HATCH_TRUE_MULTI_EGGS=true,
-ST_PATRICKS_SHRINE = true, -- Claims st patrick's shrine Buff (Random Egg)
+ST_PATRICKS_SHRINE = false, -- Claims st patrick's shrine Buff (Random Egg)
 LUCKY_SPIN = true, -- Claims lucky spin
 OPEN_JACKPOT_EGG = true, -- Opens Jackpot Egg (Powerup)
 MINIMUM_CLOVERS = "900m", -- minimum amount of clovers required for hatching
@@ -167,5 +168,5 @@ DEBUG={
 ENABLE_DEV = false, --// Enables Roblox Dev Console for even more debugging.
 },
 }
-script_key="mCdpboMTvIhFyAuesrXzVojHOJpUbYZu";
+
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a1b4af844e9ed9a7b2a2cc2ee90fe37d.lua"))()
