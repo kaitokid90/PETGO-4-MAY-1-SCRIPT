@@ -130,20 +130,12 @@ AUTO_MERCHANT_BLACKLIST = {"dice-shop","fishing-shop", "stpat-shop"},
 AUTO_RACE = false, --// Completes race for rewards
 },
 
-ST_PATRICKS_EVENT_SETTINGS={
-  USE_ST_PATRICKS_ELIXIR=false,
-  USE_ULTRA_ELIXIR=false,
-  DO_ST_PATRICKS_PASS=false,
-  CLAIM_ST_PATRICKS_REWARDS=false, --daily
-  CLAIM_POT_O_GOLD=false, --chest
-  OPEN_POT_O_COINS=true, --(Powerup)
-  GRIND_CLOVERS_LOOP=false,
-  HATCH_TRUE_MULTI_EGGS=false,
-ST_PATRICKS_SHRINE = false, -- Claims st patrick's shrine Buff (Random Egg)
-LUCKY_SPIN = false, -- Claims lucky spin
-OPEN_JACKPOT_EGG = true, -- Opens Jackpot Egg (Powerup)
-MINIMUM_CLOVERS = "1m", -- minimum amount of clovers required for hatching
-
+EASTER_EVENT_SETTINGS = {
+  USE_EASTER_ELIXIR = true, -- uses Easter elixir
+  EASTER_SHRINE = true, -- Claims Egg shrine Buff (Random Egg)
+  GRIND_EGGS_LOOP = false, -- Loop grinds for Eggs currency indefinitely until cap
+  MINIMUM_EGGS = "25m", -- minimum amount of Eggs required for hatching
+  OPEN_EASTER_EGGS = true, -- Opens Powerup Easter Eggs
 },
 AUTO_TRADE_SETTINGS={
   AUTO_TRADE=false,
