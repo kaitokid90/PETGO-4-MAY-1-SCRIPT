@@ -5,11 +5,11 @@ HATCHING_SETTINGS={
   NEW_ACCOUNT=false, --unlock w1,w2,w3.
   NEW_ACCOUNT_SKIP_W3=true,
   OPEN_EGGS=true,
-  EGG="Cyber Egg", --to find
+  EGG="Void Egg", --to find
   REJOIN_IF_NO_HATCHING=true,
   REJOIN_IF_LOW_FPS=true,
   MINIMUM_HATCHRATE=10,
-  REJOIN_IF_X_HATCHRATE=true,
+  REJOIN_IF_X_HATCHRATE=false,
   INFINITY_EGG_WORLD=1,
   AUTO_EGG_HUNTING="Bounty", --Bounty,XL
 WEBHOOK_SETTINGS={
@@ -28,7 +28,7 @@ RIFT_SETTINGS={
   MINIMUM_LUCK=5, -- Luck multi go for
   SUMMONED_RIFTS=true, --AA
   SERVERHOP_TILL_AA_PORTAL=false,
-  TARGETS={"Cyber Egg","OG Rift Egg"},
+  TARGETS={"Void Egg","OG Rift Egg"},
   AUTO_SUMMON_RIFT=true,
   TO_SUMMON="", --Egg/Chest name
   },
@@ -96,7 +96,7 @@ ENCHANT_SETTINGS={
   },
 },
 MISC_SETTINGS={
-  STARTER_WORLD=2, --1=The Overworld,2=Minigame Paradise, 3=Seven Seas
+  STARTER_WORLD=1, --1=The Overworld,2=Minigame Paradise, 3=Seven Seas
   AUTO_FRIEND=false,
   SKIP_PREMIUM_PASS=true,
   IGNORE_W3=false,
