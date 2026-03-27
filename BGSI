@@ -156,7 +156,7 @@ AUTO_TRADE_SETTINGS={
 GRIND_CURRENCY_SETTINGS = {
   GRIND_CURRENCY = true, --Enables currency grinding
   CURRENCY_TO_FARM = "Tickets", --Currency to grind (Coins, Tickets, Pearls)
-  GRIND_CURRENCY_DURATION = 3, --in minutes. How long is gonna keep grinding currency without interruptions
+  GRIND_CURRENCY_DURATION = 1, --in minutes. How long is gonna keep grinding currency without interruptions
   GRIND_CURRENCY_COOLDOWN = 30, --in minutes. Time to wait before going to grind currency once again
 },
 DEBUG={
