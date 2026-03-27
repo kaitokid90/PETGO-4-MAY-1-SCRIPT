@@ -138,11 +138,11 @@ ST_PATRICKS_EVENT_SETTINGS={
   CLAIM_POT_O_GOLD=true, --chest
   OPEN_POT_O_COINS=true, --(Powerup)
   GRIND_CLOVERS_LOOP=false,
-  HATCH_TRUE_MULTI_EGGS=true,
+  HATCH_TRUE_MULTI_EGGS=false,
 ST_PATRICKS_SHRINE = false, -- Claims st patrick's shrine Buff (Random Egg)
 LUCKY_SPIN = true, -- Claims lucky spin
 OPEN_JACKPOT_EGG = true, -- Opens Jackpot Egg (Powerup)
-MINIMUM_CLOVERS = "900m", -- minimum amount of clovers required for hatching
+MINIMUM_CLOVERS = "1m", -- minimum amount of clovers required for hatching
 
 },
 AUTO_TRADE_SETTINGS={
