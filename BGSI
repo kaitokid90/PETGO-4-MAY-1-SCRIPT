@@ -138,7 +138,7 @@ EASTER_EVENT_SETTINGS = {
   USE_EASTER_ELIXIR = true, -- uses Easter elixir
   EASTER_SHRINE = true, -- Claims Egg shrine Buff (Random Egg)
   GRIND_EGGS_LOOP = false, -- Loop grinds for Eggs currency indefinitely until cap
-  MINIMUM_EGGS = "3m", -- minimum amount of Eggs required for hatching
+  MINIMUM_EGGS = "9m", -- minimum amount of Eggs required for hatching
   OPEN_EASTER_EGGS = true, -- Opens Powerup Easter Eggs
 },
 AUTO_TRADE_SETTINGS={
