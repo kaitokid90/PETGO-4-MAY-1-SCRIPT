@@ -131,16 +131,16 @@ AUTO_RACE = false, --// Completes race for rewards
 },
 
 ST_PATRICKS_EVENT_SETTINGS={
-  USE_ST_PATRICKS_ELIXIR=true,
-  USE_ULTRA_ELIXIR=true,
+  USE_ST_PATRICKS_ELIXIR=false,
+  USE_ULTRA_ELIXIR=false,
   DO_ST_PATRICKS_PASS=false,
-  CLAIM_ST_PATRICKS_REWARDS=true, --daily
-  CLAIM_POT_O_GOLD=true, --chest
+  CLAIM_ST_PATRICKS_REWARDS=false, --daily
+  CLAIM_POT_O_GOLD=false, --chest
   OPEN_POT_O_COINS=true, --(Powerup)
   GRIND_CLOVERS_LOOP=false,
   HATCH_TRUE_MULTI_EGGS=false,
 ST_PATRICKS_SHRINE = false, -- Claims st patrick's shrine Buff (Random Egg)
-LUCKY_SPIN = true, -- Claims lucky spin
+LUCKY_SPIN = false, -- Claims lucky spin
 OPEN_JACKPOT_EGG = true, -- Opens Jackpot Egg (Powerup)
 MINIMUM_CLOVERS = "1m", -- minimum amount of clovers required for hatching
 
