@@ -54,11 +54,11 @@ POTION_SETTINGS={
 },
 PET_SETTINGS={
   GAME_AUTO_DELETE=true,
-  GAME_AUTO_DELETE_TIER=0,
+  GAME_AUTO_DELETE_TIER=2,
   AUTO_DELETE=true,
-  AUTO_DELETE_TIER=0, --Deletes Legend Up to this Tier
+  AUTO_DELETE_TIER=2, --Deletes Legend Up to this Tier
   MANUAL_AUTO_DELETE={"Lucky Marshmallow","Inferno Dragon"},
-  EQUIP_SECRETS=false,
+  EQUIP_SECRETS=true,
   EQUIP_SUPER=true,
   EQUIP_BEST=false,
   ALLOWED_SECRETS={},
