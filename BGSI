@@ -5,7 +5,7 @@ HATCHING_SETTINGS={
   NEW_ACCOUNT=false, --unlock w1,w2,w3.
   NEW_ACCOUNT_SKIP_W3=true,
   OPEN_EGGS=true,
-  EGG="Magma Egg", --to find
+  EGG="Cyber Egg", --to find
   REJOIN_IF_NO_HATCHING=true,
   REJOIN_IF_LOW_FPS=true,
   MINIMUM_HATCHRATE=10,
@@ -28,7 +28,7 @@ RIFT_SETTINGS={
   MINIMUM_LUCK=5, -- Luck multi go for
   SUMMONED_RIFTS=true, --AA
   SERVERHOP_TILL_AA_PORTAL=false,
-  TARGETS={"Magma Egg","OG Rift Egg"},
+  TARGETS={"Cyber Egg","OG Rift Egg"},
   AUTO_SUMMON_RIFT=true,
   TO_SUMMON="", --Egg/Chest name
   },
@@ -48,15 +48,15 @@ QUEST_SETTINGS={
 POTION_SETTINGS={
   USE_POTIONS=true,
   CLAIM_BLESSING=true, --Gets W1,W3 Blessing
-  POTIONS_TO_USE={"Lucky","Speed","Mythic","Egg Elixir","Infinity Elixir"},
+  POTIONS_TO_USE={"Lucky","Speed","Mythic","Egg Elixir","Infinity Elixir","Tickets"},
  BLESSING_POTIONS={"Tickets","Coins"},
   BULK_POTION_USAGE=true, 
 },
 PET_SETTINGS={
   GAME_AUTO_DELETE=true,
-  GAME_AUTO_DELETE_TIER=2,
+  GAME_AUTO_DELETE_TIER=0,
   AUTO_DELETE=true,
-  AUTO_DELETE_TIER=2, --Deletes Legend Up to this Tier
+  AUTO_DELETE_TIER=0, --Deletes Legend Up to this Tier
   MANUAL_AUTO_DELETE={},
   EQUIP_SECRETS=true,
   EQUIP_SUPER=true,
@@ -96,7 +96,7 @@ ENCHANT_SETTINGS={
   },
 },
 MISC_SETTINGS={
-  STARTER_WORLD=1, --1=The Overworld,2=Minigame Paradise, 3=Seven Seas
+  STARTER_WORLD=2, --1=The Overworld,2=Minigame Paradise, 3=Seven Seas
   AUTO_FRIEND=false,
   SKIP_PREMIUM_PASS=true,
   IGNORE_W3=false,
@@ -154,10 +154,10 @@ AUTO_TRADE_SETTINGS={
 },
 
 GRIND_CURRENCY_SETTINGS = {
-  GRIND_CURRENCY = false, --Enables currency grinding
+  GRIND_CURRENCY = Tickets, --Enables currency grinding
   CURRENCY_TO_FARM = "Clovers", --Currency to grind (Coins, Tickets, Pearls)
   GRIND_CURRENCY_DURATION = 3, --in minutes. How long is gonna keep grinding currency without interruptions
-  GRIND_CURRENCY_COOLDOWN = 100, --in minutes. Time to wait before going to grind currency once again
+  GRIND_CURRENCY_COOLDOWN = 3, --in minutes. Time to wait before going to grind currency once again
 },
 DEBUG={
   FPS_LIMIT=5,
