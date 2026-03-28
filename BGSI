@@ -9,7 +9,7 @@ HATCHING_SETTINGS={
   REJOIN_IF_NO_HATCHING=true,
   REJOIN_IF_LOW_FPS=true,
   MINIMUM_HATCHRATE=10,
-  REJOIN_IF_X_HATCHRATE=true,
+  REJOIN_IF_X_HATCHRATE=false,
   INFINITY_EGG_WORLD=1,
   AUTO_EGG_HUNTING="", --Bounty,XL
 WEBHOOK_SETTINGS={
@@ -58,7 +58,7 @@ PET_SETTINGS={
   AUTO_DELETE=true,
   AUTO_DELETE_TIER=0, --Deletes Legend Up to this Tier
   MANUAL_AUTO_DELETE={"Lucky Marshmallow","Inferno Dragon"},
-  EQUIP_SECRETS=false,
+  EQUIP_SECRETS=true,
   EQUIP_SUPER=true,
   EQUIP_BEST=false,
   ALLOWED_SECRETS={},
@@ -150,9 +150,9 @@ AUTO_TRADE_SETTINGS={
 },
 
 GRIND_CURRENCY_SETTINGS = {
-  GRIND_CURRENCY = false, --Enables currency grinding
-  CURRENCY_TO_FARM = "Tickets", --Currency to grind (Coins, Tickets, Pearls)
-  GRIND_CURRENCY_DURATION = 1, --in minutes. How long is gonna keep grinding currency without interruptions
+  GRIND_CURRENCY = true, --Enables currency grinding
+  CURRENCY_TO_FARM = "EasterEggs", --Currency to grind (Coins, Tickets, Pearls)
+  GRIND_CURRENCY_DURATION = 3, --in minutes. How long is gonna keep grinding currency without interruptions
   GRIND_CURRENCY_COOLDOWN = 30, --in minutes. Time to wait before going to grind currency once again
 },
 DEBUG={
