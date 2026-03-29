@@ -5,13 +5,13 @@ HATCHING_SETTINGS={
   NEW_ACCOUNT=false, --unlock w1,w2,w3.
   NEW_ACCOUNT_SKIP_W3=true,
   OPEN_EGGS=true,
-  EGG="Easter Bunny Egg", --to find
+  EGG="Spikey Egg", --to find
   REJOIN_IF_NO_HATCHING=true,
   REJOIN_IF_LOW_FPS=true,
   MINIMUM_HATCHRATE=10,
   REJOIN_IF_X_HATCHRATE=false,
   INFINITY_EGG_WORLD=1,
-  AUTO_EGG_HUNTING="", --Bounty,XL
+  AUTO_EGG_HUNTING="Bounty", --Bounty,XL
 WEBHOOK_SETTINGS={
  WEBHOOK="https://discord.com/api/webhooks/1452928474917503041/clybSS2sMkuPTQo-195f3NaDskHBvMN6DejuEF5nU-u44i34_-XiIK4c_8SCnjiFE_oG", -- Discord Webhook URL to see your own Hatches
   DISCORD_ID="", --User ID to mention when you hatch something
@@ -24,7 +24,7 @@ WEBHOOK_SETTINGS={
   },
 RIFT_SETTINGS={
   LOOK_FOR_RIFTS=true,
-  AUTO_RIFT_EGG_HUNTING="",
+  AUTO_RIFT_EGG_HUNTING="Bounty",
   MINIMUM_LUCK=5, -- Luck multi go for
   SUMMONED_RIFTS=true, --AA
   SERVERHOP_TILL_AA_PORTAL=false,
@@ -54,9 +54,9 @@ POTION_SETTINGS={
 },
 PET_SETTINGS={
   GAME_AUTO_DELETE=true,
-  GAME_AUTO_DELETE_TIER=0,
+  GAME_AUTO_DELETE_TIER=2,
   AUTO_DELETE=true,
-  AUTO_DELETE_TIER=0, --Deletes Legend Up to this Tier
+  AUTO_DELETE_TIER=2, --Deletes Legend Up to this Tier
   MANUAL_AUTO_DELETE={"Lucky Marshmallow","Inferno Dragon"},
   EQUIP_SECRETS=true,
   EQUIP_SUPER=true,
@@ -150,7 +150,7 @@ AUTO_TRADE_SETTINGS={
 },
 
 GRIND_CURRENCY_SETTINGS = {
-  GRIND_CURRENCY = true, --Enables currency grinding
+  GRIND_CURRENCY = false, --Enables currency grinding
   CURRENCY_TO_FARM = "EasterEggs", --Currency to grind (Coins, Tickets, Pearls)
   GRIND_CURRENCY_DURATION = 2, --in minutes. How long is gonna keep grinding currency without interruptions
   GRIND_CURRENCY_COOLDOWN = 30, --in minutes. Time to wait before going to grind currency once again
