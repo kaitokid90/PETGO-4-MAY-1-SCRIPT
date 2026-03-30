@@ -5,13 +5,13 @@ HATCHING_SETTINGS={
   NEW_ACCOUNT=false, --unlock w1,w2,w3.
   NEW_ACCOUNT_SKIP_W3=true,
   OPEN_EGGS=true,
-  EGG="Spikey Egg", --to find
+  EGG="Easter Bunny Egg", --to find
   REJOIN_IF_NO_HATCHING=true,
   REJOIN_IF_LOW_FPS=true,
   MINIMUM_HATCHRATE=10,
   REJOIN_IF_X_HATCHRATE=false,
   INFINITY_EGG_WORLD=1,
-  AUTO_EGG_HUNTING="Bounty", --Bounty,XL
+  AUTO_EGG_HUNTING="", --Bounty,XL
 WEBHOOK_SETTINGS={
  WEBHOOK="https://discord.com/api/webhooks/1452928474917503041/clybSS2sMkuPTQo-195f3NaDskHBvMN6DejuEF5nU-u44i34_-XiIK4c_8SCnjiFE_oG", -- Discord Webhook URL to see your own Hatches
   DISCORD_ID="", --User ID to mention when you hatch something
@@ -24,11 +24,11 @@ WEBHOOK_SETTINGS={
   },
 RIFT_SETTINGS={
   LOOK_FOR_RIFTS=true,
-  AUTO_RIFT_EGG_HUNTING="Bounty",
+  AUTO_RIFT_EGG_HUNTING="",
   MINIMUM_LUCK=5, -- Luck multi go for
   SUMMONED_RIFTS=true, --AA
   SERVERHOP_TILL_AA_PORTAL=false,
-  TARGETS={"Spikey Egg","OG Rift Egg"},
+  TARGETS={"Easter Bunny Egg","OG Rift Egg"},
   AUTO_SUMMON_RIFT=true,
   TO_SUMMON="", --Egg/Chest name
   },
@@ -100,7 +100,7 @@ ENCHANT_SETTINGS={
   },
 },
 MISC_SETTINGS={
-  STARTER_WORLD=1, --1=The Overworld,2=Minigame Paradise, 3=Seven Seas
+  STARTER_WORLD=4, --1=The Overworld,2=Minigame Paradise, 3=Seven Seas
   AUTO_FRIEND=false,
   SKIP_PREMIUM_PASS=true,
   IGNORE_W3=false,
