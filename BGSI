@@ -38,12 +38,12 @@ QUEST_SETTINGS={
   CLAIM_SEASON_PASS=true,
   GENIE_IGNORE_W3_EGGS=false,
   DO_SAILOR_QUEST=false,
-  DO_GEM_GENIE=false,
-  DO_SEASON_PASS_HOURLY=false,
-  DO_SEASON_PASS_DAILY=false,
+  DO_GEM_GENIE=true,
+  DO_SEASON_PASS_HOURLY=true,
+  DO_SEASON_PASS_DAILY=true,
   DO_MILESTONE_MINIGAMES=false,
   DO_MILESTONE_POTIONS=false,
-  GEM_GENIE_REWARDS={"Green Fragment","Infinity Elixir"},
+  GEM_GENIE_REWARDS={"Infinity Elixir"},
 },
 POTION_SETTINGS={
   USE_POTIONS=true,
@@ -150,7 +150,7 @@ AUTO_TRADE_SETTINGS={
 },
 
 GRIND_CURRENCY_SETTINGS = {
-  GRIND_CURRENCY = true, --Enables currency grinding
+  GRIND_CURRENCY = false, --Enables currency grinding
   CURRENCY_TO_FARM = "EasterEggs", --Currency to grind (Coins, Tickets, Pearls)
   GRIND_CURRENCY_DURATION = 1, --in minutes. How long is gonna keep grinding currency without interruptions
   GRIND_CURRENCY_COOLDOWN = 30, --in minutes. Time to wait before going to grind currency once again
