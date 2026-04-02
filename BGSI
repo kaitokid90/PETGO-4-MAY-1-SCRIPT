@@ -5,13 +5,13 @@ HATCHING_SETTINGS={
   NEW_ACCOUNT=false, --unlock w1,w2,w3.
   NEW_ACCOUNT_SKIP_W3=true,
   OPEN_EGGS=true,
-  EGG="Easter Bunny Egg", --to find
+  EGG="Hell Egg", --to find
   REJOIN_IF_NO_HATCHING=true,
   REJOIN_IF_LOW_FPS=true,
   MINIMUM_HATCHRATE=10,
   REJOIN_IF_X_HATCHRATE=true,
   INFINITY_EGG_WORLD=1,
-  AUTO_EGG_HUNTING="", --Bounty,XL
+  AUTO_EGG_HUNTING="Bounty", --Bounty,XL
 WEBHOOK_SETTINGS={
  WEBHOOK="https://discord.com/api/webhooks/1452928474917503041/clybSS2sMkuPTQo-195f3NaDskHBvMN6DejuEF5nU-u44i34_-XiIK4c_8SCnjiFE_oG", -- Discord Webhook URL to see your own Hatches
   DISCORD_ID="", --User ID to mention when you hatch something
@@ -28,7 +28,7 @@ RIFT_SETTINGS={
   MINIMUM_LUCK=5, -- Luck multi go for
   SUMMONED_RIFTS=true, --AA
   SERVERHOP_TILL_AA_PORTAL=false,
-  TARGETS={"Easter Bunny Egg","OG Rift Egg"},
+  TARGETS={"Hell Egg","OG Rift Egg"},
   AUTO_SUMMON_RIFT=true,
   TO_SUMMON="", --Egg/Chest name
   },
@@ -100,7 +100,7 @@ ENCHANT_SETTINGS={
   },
 },
 MISC_SETTINGS={
-  STARTER_WORLD=4, --1=The Overworld,2=Minigame Paradise, 3=Seven Seas
+  STARTER_WORLD=1, --1=The Overworld,2=Minigame Paradise, 3=Seven Seas
   AUTO_FRIEND=false,
   SKIP_PREMIUM_PASS=true,
   IGNORE_W3=false,
@@ -135,7 +135,7 @@ AUTO_RACE = false, --// Completes race for rewards
 },
 
 EASTER_EVENT_SETTINGS = {
-  USE_EASTER_ELIXIR = true, -- uses Easter elixir
+  USE_EASTER_ELIXIR = false, -- uses Easter elixir
   EASTER_SHRINE = true, -- Claims Egg shrine Buff (Random Egg)
   GRIND_EGGS_LOOP = false, -- Loop grinds for Eggs currency indefinitely until cap
   MINIMUM_EGGS = "999m", -- minimum amount of Eggs required for hatching
