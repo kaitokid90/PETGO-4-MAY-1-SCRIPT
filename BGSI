@@ -5,7 +5,7 @@ HATCHING_SETTINGS={
   NEW_ACCOUNT=false, --unlock w1,w2,w3.
   NEW_ACCOUNT_SKIP_W3=true,
   OPEN_EGGS=true,
-  EGG="Neon Egg", --to find
+  EGG="Infinity Egg", --to find
   REJOIN_IF_NO_HATCHING=true,
   REJOIN_IF_LOW_FPS=true,
   MINIMUM_HATCHRATE=10,
@@ -54,9 +54,9 @@ POTION_SETTINGS={
 },
 PET_SETTINGS={
   GAME_AUTO_DELETE=true,
-  GAME_AUTO_DELETE_TIER=0,
+  GAME_AUTO_DELETE_TIER=2,
   AUTO_DELETE=true,
-  AUTO_DELETE_TIER=0, --Deletes Legend Up to this Tier
+  AUTO_DELETE_TIER=2, --Deletes Legend Up to this Tier
   MANUAL_AUTO_DELETE={"Lucky Marshmallow","Inferno Dragon"},
   EQUIP_SECRETS=true,
   EQUIP_SUPER=true,
@@ -100,7 +100,7 @@ ENCHANT_SETTINGS={
   },
 },
 MISC_SETTINGS={
-  STARTER_WORLD=2, --1=The Overworld,2=Minigame Paradise, 3=Seven Seas
+  STARTER_WORLD=1, --1=The Overworld,2=Minigame Paradise, 3=Seven Seas
   AUTO_FRIEND=false,
   SKIP_PREMIUM_PASS=true,
   IGNORE_W3=false,
