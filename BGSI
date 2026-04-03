@@ -9,7 +9,7 @@ HATCHING_SETTINGS={
   REJOIN_IF_NO_HATCHING=true,
   REJOIN_IF_LOW_FPS=true,
   MINIMUM_HATCHRATE=10,
-  REJOIN_IF_X_HATCHRATE=false,
+  REJOIN_IF_X_HATCHRATE=true,
   INFINITY_EGG_WORLD=1,
   AUTO_EGG_HUNTING="Bounty", --Bounty,XL
 WEBHOOK_SETTINGS={
@@ -160,7 +160,7 @@ GRIND_CURRENCY_SETTINGS = {
   MINIMUM_PEARLS = false, --Minimum amount of pearls if lower automatically grind to reach
 },
 DEBUG={
-  FPS_LIMIT=5,
+  FPS_LIMIT=4,
   FPS_COUNTER=true,
   BEST_HATCH=true,
   DISABLE_HATCH_ANIM=true,
