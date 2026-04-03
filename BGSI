@@ -5,7 +5,7 @@ HATCHING_SETTINGS={
   NEW_ACCOUNT=false, --unlock w1,w2,w3.
   NEW_ACCOUNT_SKIP_W3=true,
   OPEN_EGGS=true,
-  EGG="Hell Egg", --to find
+  EGG="Neon Egg", --to find
   REJOIN_IF_NO_HATCHING=true,
   REJOIN_IF_LOW_FPS=true,
   MINIMUM_HATCHRATE=10,
@@ -39,7 +39,7 @@ QUEST_SETTINGS={
   GENIE_IGNORE_W3_EGGS=false,
   DO_SAILOR_QUEST=false,
   DO_GEM_GENIE=false,
-  DO_SEASON_PASS_HOURLY=false,
+  DO_SEASON_PASS_HOURLY=true,
   DO_SEASON_PASS_DAILY=true,
   DO_MILESTONE_MINIGAMES=false,
   DO_MILESTONE_POTIONS=false,
@@ -48,15 +48,15 @@ QUEST_SETTINGS={
 POTION_SETTINGS={
   USE_POTIONS=true,
   CLAIM_BLESSING=true, --Gets W1,W3 Blessing
-  POTIONS_TO_USE={"Lucky","Speed","Mythic","Egg Elixir","Infinity Elixir"},
+  POTIONS_TO_USE={"Lucky","Speed","Mythic","Egg Elixir","Infinity Elixir","Tickets"},
  BLESSING_POTIONS={"Tickets","Coins"},
   BULK_POTION_USAGE=true, 
 },
 PET_SETTINGS={
   GAME_AUTO_DELETE=true,
-  GAME_AUTO_DELETE_TIER=2,
+  GAME_AUTO_DELETE_TIER=0,
   AUTO_DELETE=true,
-  AUTO_DELETE_TIER=2, --Deletes Legend Up to this Tier
+  AUTO_DELETE_TIER=0, --Deletes Legend Up to this Tier
   MANUAL_AUTO_DELETE={"Lucky Marshmallow","Inferno Dragon"},
   EQUIP_SECRETS=true,
   EQUIP_SUPER=true,
@@ -100,7 +100,7 @@ ENCHANT_SETTINGS={
   },
 },
 MISC_SETTINGS={
-  STARTER_WORLD=1, --1=The Overworld,2=Minigame Paradise, 3=Seven Seas
+  STARTER_WORLD=2, --1=The Overworld,2=Minigame Paradise, 3=Seven Seas
   AUTO_FRIEND=false,
   SKIP_PREMIUM_PASS=true,
   IGNORE_W3=false,
@@ -150,10 +150,14 @@ AUTO_TRADE_SETTINGS={
 },
 
 GRIND_CURRENCY_SETTINGS = {
-  GRIND_CURRENCY = false, --Enables currency grinding
-  CURRENCY_TO_FARM = "EasterEggs", --Currency to grind (Coins, Tickets, Pearls)
-  GRIND_CURRENCY_DURATION = 1, --in minutes. How long is gonna keep grinding currency without interruptions
+  GRIND_CURRENCY = true, --Enables currency grinding
+  CURRENCY_TO_FARM = "Tickets", --Currency to grind (Coins, Tickets, Pearls)
+  GRIND_CURRENCY_DURATION = 2, --in minutes. How long is gonna keep grinding currency without interruptions
   GRIND_CURRENCY_COOLDOWN = 30, --in minutes. Time to wait before going to grind currency once again
+    MINIMUM_COINS = "100m", --Minimum amount of coins if lower automatically grind to reach
+  MINIMUM_GEMS = "5m", --Minimum amount of gems if lower automatically grind to reach
+  MINIMUM_TICKETS = "100m", --Minimum amount of tickets if lower automatically grind to reach
+  MINIMUM_PEARLS = false, --Minimum amount of pearls if lower automatically grind to reach
 },
 DEBUG={
   FPS_LIMIT=5,
