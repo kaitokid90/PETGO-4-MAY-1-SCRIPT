@@ -141,7 +141,7 @@ EASTER_EVENT_SETTINGS = {
   MINIMUM_EGGS = "10m", -- minimum amount of Eggs required for hatching
   OPEN_EASTER_EGGS = true, -- Opens Powerup Easter Eggs
   DARK_ISLAND_EGGS = false, -- Loop Grinds for Dark island eggs (60 min, 4 min cooldown)
-  DO_STARGAZER = true, -- does stargazer quest and rerolls for wanted rewards
+  DO_STARGAZER = false, -- does stargazer quest and rerolls for wanted rewards
   STARGAZER_REWARDS = {"Easter Infinity Elixir"}, -- items to look for stargazer 
   EASTER_CHALLENGES = false, -- enables easter challenge quests indefinitely (can prevent hatching regular eggs)
 },
