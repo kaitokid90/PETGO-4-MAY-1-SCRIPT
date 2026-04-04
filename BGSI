@@ -159,8 +159,8 @@ GRIND_CURRENCY_SETTINGS = {
   GRIND_CURRENCY_DURATION = 2, --in minutes. How long is gonna keep grinding currency without interruptions
   GRIND_CURRENCY_COOLDOWN = 30, --in minutes. Time to wait before going to grind currency once again
     MINIMUM_COINS = "100m", --Minimum amount of coins if lower automatically grind to reach
-  MINIMUM_GEMS = "5m", --Minimum amount of gems if lower automatically grind to reach
-  MINIMUM_TICKETS = "100m", --Minimum amount of tickets if lower automatically grind to reach
+  MINIMUM_GEMS = "1m", --Minimum amount of gems if lower automatically grind to reach
+  MINIMUM_TICKETS = "50m", --Minimum amount of tickets if lower automatically grind to reach
   MINIMUM_PEARLS = false, --Minimum amount of pearls if lower automatically grind to reach
 },
 DEBUG={
