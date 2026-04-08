@@ -100,7 +100,7 @@ ENCHANT_SETTINGS={
   },
 },
 MISC_SETTINGS={
-  STARTER_WORLD=1, --1=The Overworld,2=Minigame Paradise, 3=Seven Seas
+  STARTER_WORLD=4, --1=The Overworld,2=Minigame Paradise, 3=Seven Seas
   AUTO_FRIEND=false,
   SKIP_PREMIUM_PASS=true,
   IGNORE_W3=false,
@@ -135,12 +135,12 @@ AUTO_RACE = false, --// Completes race for rewards
 },
 
 EASTER_EVENT_SETTINGS = {
-  USE_EASTER_ELIXIR = false, -- uses Easter elixir
-  EASTER_SHRINE = false, -- Claims Egg shrine Buff (Random Egg)
+  USE_EASTER_ELIXIR = true, -- uses Easter elixir
+  EASTER_SHRINE = true, -- Claims Egg shrine Buff (Random Egg)
   GRIND_EGGS_LOOP = false, -- Loop grinds for Eggs currency indefinitely until cap
   MINIMUM_EGGS = "10m", -- minimum amount of Eggs required for hatching
   OPEN_EASTER_EGGS = true, -- Opens Powerup Easter Eggs
-  DARK_ISLAND_EGGS = false, -- Loop Grinds for Dark island eggs (60 min, 4 min cooldown)
+  DARK_ISLAND_EGGS = true, -- Loop Grinds for Dark island eggs (60 min, 4 min cooldown)
   DO_STARGAZER = false, -- does stargazer quest and rerolls for wanted rewards
   STARGAZER_REWARDS = {"Easter Infinity Elixir"}, -- items to look for stargazer 
   EASTER_CHALLENGES = false, -- enables easter challenge quests indefinitely (can prevent hatching regular eggs)
