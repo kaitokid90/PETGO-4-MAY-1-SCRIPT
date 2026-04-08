@@ -39,7 +39,7 @@ QUEST_SETTINGS={
   GENIE_IGNORE_W3_EGGS=false,
   DO_SAILOR_QUEST=false,
   DO_GEM_GENIE=false,
-  DO_SEASON_PASS_HOURLY=true,
+  DO_SEASON_PASS_HOURLY=false,
   DO_SEASON_PASS_DAILY=true,
   DO_MILESTONE_MINIGAMES=false,
   DO_MILESTONE_POTIONS=false,
@@ -135,15 +135,15 @@ AUTO_RACE = false, --// Completes race for rewards
 },
 
 EASTER_EVENT_SETTINGS = {
-  USE_EASTER_ELIXIR = true, -- uses Easter elixir
-  EASTER_SHRINE = true, -- Claims Egg shrine Buff (Random Egg)
+  USE_EASTER_ELIXIR = false, -- uses Easter elixir
+  EASTER_SHRINE = false, -- Claims Egg shrine Buff (Random Egg)
   GRIND_EGGS_LOOP = false, -- Loop grinds for Eggs currency indefinitely until cap
   MINIMUM_EGGS = "10m", -- minimum amount of Eggs required for hatching
   OPEN_EASTER_EGGS = true, -- Opens Powerup Easter Eggs
-  DARK_ISLAND_EGGS = false, -- Loop Grinds for Dark island eggs (60 min, 4 min cooldown)
+  DARK_ISLAND_EGGS = true, -- Loop Grinds for Dark island eggs (60 min, 4 min cooldown)
   DO_STARGAZER = false, -- does stargazer quest and rerolls for wanted rewards
   STARGAZER_REWARDS = {"Easter Infinity Elixir"}, -- items to look for stargazer 
-  EASTER_CHALLENGES = true, -- enables easter challenge quests indefinitely (can prevent hatching regular eggs)
+  EASTER_CHALLENGES = false, -- enables easter challenge quests indefinitely (can prevent hatching regular eggs)
 },
 AUTO_TRADE_SETTINGS={
   AUTO_TRADE=false,
