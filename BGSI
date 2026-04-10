@@ -5,7 +5,7 @@ HATCHING_SETTINGS={
   NEW_ACCOUNT=false, --unlock w1,w2,w3.
   NEW_ACCOUNT_SKIP_W3=true,
   OPEN_EGGS=true,
-  EGG="Easter Bunny Egg", --to find
+  EGG="Anniversary Egg", --to find
   REJOIN_IF_NO_HATCHING=true,
   REJOIN_IF_LOW_FPS=true,
   MINIMUM_HATCHRATE=10,
@@ -28,7 +28,7 @@ RIFT_SETTINGS={
   MINIMUM_LUCK=5, -- Luck multi go for
   SUMMONED_RIFTS=true, --AA
   SERVERHOP_TILL_AA_PORTAL=false,
-  TARGETS={"Easter Bunny Egg","OG Rift Egg"},
+  TARGETS={"Anniversary Egg"},
   AUTO_SUMMON_RIFT=true,
   TO_SUMMON="", --Egg/Chest name
   },
@@ -48,7 +48,7 @@ QUEST_SETTINGS={
 POTION_SETTINGS={
   USE_POTIONS=true,
   CLAIM_BLESSING=true, --Gets W1,W3 Blessing
-  POTIONS_TO_USE={"Lucky","Speed","Mythic","Egg Elixir","Infinity Elixir","Tickets"},
+  POTIONS_TO_USE={"Lucky","Speed","Mythic","Egg Elixir","Infinity Elixir"},
  BLESSING_POTIONS={"Tickets","Coins"},
   BULK_POTION_USAGE=true, 
 },
@@ -100,7 +100,8 @@ ENCHANT_SETTINGS={
   },
 },
 MISC_SETTINGS={
-  STARTER_WORLD=4, --1=The Overworld,2=Minigame Paradise, 3=Seven Seas
+  STARTER_WORLD=1, --1=The Overworld,2=Minigame Paradise, 3=Seven Seas
+  AUTO_INDEX = false, --//Completes W1, W2, W3 Index (Overrides current egg, rifts and bounty hunting)
   AUTO_FRIEND=false,
   SKIP_PREMIUM_PASS=true,
   IGNORE_W3=false,
@@ -135,13 +136,13 @@ AUTO_RACE = false, --// Completes race for rewards
 },
 
 EASTER_EVENT_SETTINGS = {
-  USE_EASTER_ELIXIR = true, -- uses Easter elixir
-  EASTER_SHRINE = true, -- Claims Egg shrine Buff (Random Egg)
+  USE_EASTER_ELIXIR = false, -- uses Easter elixir
+  EASTER_SHRINE = false, -- Claims Egg shrine Buff (Random Egg)
   GRIND_EGGS_LOOP = false, -- Loop grinds for Eggs currency indefinitely until cap
   MINIMUM_EGGS = "10m", -- minimum amount of Eggs required for hatching
   OPEN_EASTER_EGGS = true, -- Opens Powerup Easter Eggs
   DARK_ISLAND_EGGS = false, -- Loop Grinds for Dark island eggs (60 min, 4 min cooldown)
-  DO_STARGAZER = true, -- does stargazer quest and rerolls for wanted rewards
+  DO_STARGAZER = false, -- does stargazer quest and rerolls for wanted rewards
   STARGAZER_REWARDS = {"Easter Infinity Elixir"}, -- items to look for stargazer 
   EASTER_CHALLENGES = false, -- enables easter challenge quests indefinitely (can prevent hatching regular eggs)
 },
@@ -159,8 +160,8 @@ GRIND_CURRENCY_SETTINGS = {
   GRIND_CURRENCY_DURATION = 2, --in minutes. How long is gonna keep grinding currency without interruptions
   GRIND_CURRENCY_COOLDOWN = 30, --in minutes. Time to wait before going to grind currency once again
     MINIMUM_COINS = "100m", --Minimum amount of coins if lower automatically grind to reach
-  MINIMUM_GEMS = false, --Minimum amount of gems if lower automatically grind to reach
-  MINIMUM_TICKETS = "50m", --Minimum amount of tickets if lower automatically grind to reach
+  MINIMUM_GEMS = "5m", --Minimum amount of gems if lower automatically grind to reach
+  MINIMUM_TICKETS = false, --Minimum amount of tickets if lower automatically grind to reach
   MINIMUM_PEARLS = false, --Minimum amount of pearls if lower automatically grind to reach
 },
 DEBUG={
