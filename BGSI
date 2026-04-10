@@ -164,6 +164,13 @@ GRIND_CURRENCY_SETTINGS = {
   MINIMUM_TICKETS = false, --Minimum amount of tickets if lower automatically grind to reach
   MINIMUM_PEARLS = false, --Minimum amount of pearls if lower automatically grind to reach
 },
+
+ANNIVERSARY_EVENT_SETTINGS = {
+  ANNIVERSARY_ELIXIR = true, -- uses Anniversary elixir 
+  OPEN_ANNIVERSARY_GIFTBOX = true, --Powerup
+  ANNIVERSARY_PASS = false, --enables anniversary challenge quests indefinitely (prevents hatching regular eggs)
+  ANNIVERSARY_SPIN_WHEEL = true, --enables anniversary challenge quests indefinitely (prevents hatching regular eggs)
+},
 DEBUG={
   FPS_LIMIT=4,
   FPS_COUNTER=true,
