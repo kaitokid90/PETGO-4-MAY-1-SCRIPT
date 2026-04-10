@@ -114,7 +114,7 @@ MISC_SETTINGS={
   AUTO_CHEST=true,
   AUTO_MERCHANT=true,
   MERCHANT_REROLL="traveling-merchant",
-AUTO_MERCHANT_BLACKLIST = {"easter-shop", "carrot-shop", "fishing-shop"}, --// List of Shops to prevent buying from.
+AUTO_MERCHANT_BLACKLIST = {"shadow-shop","easter-shop", "carrot-shop", "fishing-shop"}, --// List of Shops to prevent buying from.
   OPEN_POWERUP_EGGS=true,
   POWERUP_EGG_BLACKLIST={},
   OPEN_MYSTERY_BOXES=true,
@@ -160,7 +160,7 @@ GRIND_CURRENCY_SETTINGS = {
   GRIND_CURRENCY_DURATION = 2, --in minutes. How long is gonna keep grinding currency without interruptions
   GRIND_CURRENCY_COOLDOWN = 30, --in minutes. Time to wait before going to grind currency once again
     MINIMUM_COINS = "100m", --Minimum amount of coins if lower automatically grind to reach
-  MINIMUM_GEMS = "5m", --Minimum amount of gems if lower automatically grind to reach
+  MINIMUM_GEMS = "1m", --Minimum amount of gems if lower automatically grind to reach
   MINIMUM_TICKETS = false, --Minimum amount of tickets if lower automatically grind to reach
   MINIMUM_PEARLS = false, --Minimum amount of pearls if lower automatically grind to reach
 },
