@@ -5,13 +5,13 @@ HATCHING_SETTINGS={
   NEW_ACCOUNT=false, --unlock w1,w2,w3.
   NEW_ACCOUNT_SKIP_W3=true,
   OPEN_EGGS=true,
-  EGG="Anniversary Egg", --to find
+  EGG="Easter Bunny Egg", --to find
   REJOIN_IF_NO_HATCHING=true,
   REJOIN_IF_LOW_FPS=true,
   MINIMUM_HATCHRATE=10,
   REJOIN_IF_X_HATCHRATE=true,
   INFINITY_EGG_WORLD=1,
-  AUTO_EGG_HUNTING="", --Bounty,XL
+  AUTO_EGG_HUNTING="Bounty", --Bounty,XL
 WEBHOOK_SETTINGS={
  WEBHOOK="https://discord.com/api/webhooks/1452928474917503041/clybSS2sMkuPTQo-195f3NaDskHBvMN6DejuEF5nU-u44i34_-XiIK4c_8SCnjiFE_oG", -- Discord Webhook URL to see your own Hatches
   DISCORD_ID="", --User ID to mention when you hatch something
@@ -24,11 +24,11 @@ WEBHOOK_SETTINGS={
   },
 RIFT_SETTINGS={
   LOOK_FOR_RIFTS=true,
-  AUTO_RIFT_EGG_HUNTING="",
-  MINIMUM_LUCK=10, -- Luck multi go for
+  AUTO_RIFT_EGG_HUNTING="Bounty",
+  MINIMUM_LUCK=5, -- Luck multi go for
   SUMMONED_RIFTS=true, --AA
   SERVERHOP_TILL_AA_PORTAL=false,
-  TARGETS={"Anniversary Egg","Easter Bunny Egg"},
+  TARGETS={"Easter Bunny Egg"},
   AUTO_SUMMON_RIFT=true,
   TO_SUMMON="", --Egg/Chest name
   },
@@ -100,7 +100,7 @@ ENCHANT_SETTINGS={
   },
 },
 MISC_SETTINGS={
-  STARTER_WORLD=1, --1=The Overworld,2=Minigame Paradise, 3=Seven Seas
+  STARTER_WORLD=4, --1=The Overworld,2=Minigame Paradise, 3=Seven Seas
   AUTO_INDEX = false, --//Completes W1, W2, W3 Index (Overrides current egg, rifts and bounty hunting)
   AUTO_FRIEND=false,
   SKIP_PREMIUM_PASS=true,
@@ -160,13 +160,13 @@ GRIND_CURRENCY_SETTINGS = {
   GRIND_CURRENCY_DURATION = 2, --in minutes. How long is gonna keep grinding currency without interruptions
   GRIND_CURRENCY_COOLDOWN = 30, --in minutes. Time to wait before going to grind currency once again
     MINIMUM_COINS = "100m", --Minimum amount of coins if lower automatically grind to reach
-  MINIMUM_GEMS = "5m", --Minimum amount of gems if lower automatically grind to reach
+  MINIMUM_GEMS = false, --Minimum amount of gems if lower automatically grind to reach
   MINIMUM_TICKETS = false, --Minimum amount of tickets if lower automatically grind to reach
   MINIMUM_PEARLS = false, --Minimum amount of pearls if lower automatically grind to reach
 },
 
 ANNIVERSARY_EVENT_SETTINGS = {
-  ANNIVERSARY_ELIXIR = true, -- uses Anniversary elixir 
+  ANNIVERSARY_ELIXIR = false, -- uses Anniversary elixir 
   OPEN_ANNIVERSARY_GIFTBOX = true, --Powerup
   ANNIVERSARY_PASS = false, --enables anniversary challenge quests indefinitely (prevents hatching regular eggs)
   ANNIVERSARY_SPIN_WHEEL = true, --enables anniversary challenge quests indefinitely (prevents hatching regular eggs)
