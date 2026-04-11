@@ -11,7 +11,7 @@ HATCHING_SETTINGS={
   MINIMUM_HATCHRATE=10,
   REJOIN_IF_X_HATCHRATE=true,
   INFINITY_EGG_WORLD=1,
-  AUTO_EGG_HUNTING="", --Bounty,XL
+  AUTO_EGG_HUNTING="Bounty", --Bounty,XL
 WEBHOOK_SETTINGS={
  WEBHOOK="https://discord.com/api/webhooks/1452928474917503041/clybSS2sMkuPTQo-195f3NaDskHBvMN6DejuEF5nU-u44i34_-XiIK4c_8SCnjiFE_oG", -- Discord Webhook URL to see your own Hatches
   DISCORD_ID="", --User ID to mention when you hatch something
@@ -24,7 +24,7 @@ WEBHOOK_SETTINGS={
   },
 RIFT_SETTINGS={
   LOOK_FOR_RIFTS=true,
-  AUTO_RIFT_EGG_HUNTING="",
+  AUTO_RIFT_EGG_HUNTING="Bounty",
   MINIMUM_LUCK=5, -- Luck multi go for
   SUMMONED_RIFTS=true, --AA
   SERVERHOP_TILL_AA_PORTAL=false,
