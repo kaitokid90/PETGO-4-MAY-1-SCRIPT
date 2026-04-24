@@ -54,9 +54,9 @@ POTION_SETTINGS={
 },
 PET_SETTINGS={
   GAME_AUTO_DELETE=true,
-  GAME_AUTO_DELETE_TIER=2,
+  GAME_AUTO_DELETE_TIER=1,
   AUTO_DELETE=true,
-  AUTO_DELETE_TIER=2, --Deletes Legend Up to this Tier
+  AUTO_DELETE_TIER=1, --Deletes Legend Up to this Tier
   MANUAL_AUTO_DELETE={"Golden Serpent","Demonic Bunny","Pristine Hybrid","Lucky Marshmallow","Inferno Dragon"},
   EQUIP_SECRETS=true,
   EQUIP_SUPER=true,
