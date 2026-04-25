@@ -25,10 +25,10 @@ WEBHOOK_SETTINGS={
 RIFT_SETTINGS={
   LOOK_FOR_RIFTS=true,
   AUTO_RIFT_EGG_HUNTING="",
-  MINIMUM_LUCK=5, -- Luck multi go for
+MINIMUM_LUCK = 1, --//Minimum Rift Luck multiplier to be considered to go for
   SUMMONED_RIFTS=true, --AA
   SERVERHOP_TILL_AA_PORTAL=false,
-  TARGETS={"Anniversary Egg"},
+ TARGETS = {"Wonderland Egg", "OG Rift Egg"},    -- List of Eggs that will be looked on rifts
   AUTO_SUMMON_RIFT=true,
   TO_SUMMON="", --Egg/Chest name
   },
@@ -48,9 +48,10 @@ QUEST_SETTINGS={
 POTION_SETTINGS={
   USE_POTIONS=true,
   CLAIM_BLESSING=true, --Gets W1,W3 Blessing
-  POTIONS_TO_USE={"Lucky","Speed","Mythic","Egg Elixir","Infinity Elixir"},
+  POTIONS_TO_USE = { "Lucky", "Speed", "Mythic", "Infinity Elixir", "Egg Elixir", "Wonderland Elixir"},
  BLESSING_POTIONS={"Tickets","Coins"},
   BULK_POTION_USAGE=true, 
+
 },
 PET_SETTINGS={
   GAME_AUTO_DELETE=true,
@@ -62,6 +63,9 @@ PET_SETTINGS={
   EQUIP_SUPER=true,
   EQUIP_BEST=false,
   ALLOWED_SECRETS={},
+  EQUIP_CELESTIALS = true, --// Enables or disables Celestial pet equipping when Going to hatch. (Prioritizes Shiny)
+
+  ALLOWED_CELESTIALS = {} --//List of Celestial pets to consider equipping.
 },
 REBIRTH_MACHINE_SETTINGS={ 
   USE_REBIRTH_MACHINE=true,
@@ -83,6 +87,7 @@ MINIGAME_SETTINGS={
   GOLDEN_DICE_AMOUNT=2,
   BLUE_FRAGMENT=true,
   INFINITY_ELIXIR = true, --// focus for infinity elixir in dice board
+  RIFT_TILE = true, --// focus for rift tiles
 
 },
 ENCHANT_SETTINGS={
