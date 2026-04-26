@@ -182,7 +182,7 @@ DEBUG={
   FPS_COUNTER=true,
   BEST_HATCH=true,
   DISABLE_HATCH_ANIM=true,
-  DISABLE_UI=True,
+  DISABLE_UI=true,
 ENABLE_DEV = false, --// Enables Roblox Dev Console for even more debugging.
 },
 }
