@@ -57,7 +57,7 @@ POTION_SETTINGS={
 },
 PET_SETTINGS={
   GAME_AUTO_DELETE=true,
-  AUTO_DELETE_WHITELIST = {"Egg Mimic","Azure Lily","Cyber Comet","Tetra Cube","Cyborg Bunny"}, --//Lists of Pets to prevent deleting and disables game auto delete         
+  AUTO_DELETE_WHITELIST = {"Egg Mimic","Azure Lily","Cyber Comet","Tetra Cube","Cyborg Bunny","CORE"}, --//Lists of Pets to prevent deleting and disables game auto delete         
   GAME_AUTO_DELETE_TIER=1,
   AUTO_DELETE=true,
   AUTO_DELETE_TIER=1, --Deletes Legend Up to this Tier
