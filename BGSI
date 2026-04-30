@@ -69,7 +69,7 @@ PET_SETTINGS={
 },
 REBIRTH_MACHINE_SETTINGS={ 
   USE_REBIRTH_MACHINE=true,
-  SECRETS_TO_FUSE={"Anniversary Overlord","Andromeda","Anniversary Trophy","Celestial Stardust Racers","Faithless Virtue","OG Eternal Carrot","Quamatic's Creation","SUPER BIG ROUND","Hermit Crab","The Overlord","Petal Spirit","Lucky Dogcat"},
+  SECRETS_TO_FUSE={"Anniversary Overlord","Andromeda","Anniversary Trophy","Celestial Stardust Racers","Faithless Virtue","OG Eternal Carrot","Quamatic's Creation","SUPER BIG ROUND","Hermit Crab","The Overlord","Petal Spirit","Lucky Dogcat","Incredible Emerald","OG Holy Egg"},
   FUSE_RARITY="Normal", --Normal,Shiny,Mythic,Shiny Mythic
   USE_ADMIN_REBIRTH_MACHINE = true, --//Enables or disables Admin Rebirth machine entirely
     AA_SECRETS_TO_FUSE = {"The Superlord","Retro Kraken", "Retro Pyramidium", "Giftbox King Doggy", "FutureWebsiteOwner Giftbox", "ObscureEntity Giftbox", "Quamatic Giftbox", "Sircfenner Giftbox", "Sylently Giftbox", "Nert Giftbox" , "Giant Bongo Kitty"}, --// List AA Secret pets you want to sacrifice for Admin rebirth machine
