@@ -5,7 +5,7 @@ HATCHING_SETTINGS={
   NEW_ACCOUNT=false, --unlock w1,w2,w3.
   NEW_ACCOUNT_SKIP_W3=true,
   OPEN_EGGS=true,
-  EGG="Anniversary Egg", --to find
+  EGG="Golf Egg", --to find
   REJOIN_IF_NO_HATCHING=false,
   REJOIN_IF_LOW_FPS=false,
   MINIMUM_HATCHRATE=10,
@@ -28,7 +28,7 @@ RIFT_SETTINGS={
   MINIMUM_LUCK=1, -- Luck multi go for
   SUMMONED_RIFTS=true, --AA
   SERVERHOP_TILL_AA_PORTAL=false,
-  TARGETS = {"Wonderland Egg", "OG Rift Egg"},    -- List of Eggs that will be looked on rifts
+  TARGETS = {"Golf Egg", "Wonderland Egg", "OG Rift Egg"},    -- List of Eggs that will be looked on rifts
   AUTO_SUMMON_RIFT=true,
   TO_SUMMON="", --Egg/Chest name
   },
