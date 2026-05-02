@@ -139,6 +139,9 @@ AUTO_MERCHANT_BLACKLIST = {"shadow-shop","easter-shop", "carrot-shop", "fishing-
   OPEN_RUNE_ROCK = true, --// Opens Rune Rocks
 AUTO_RACE = false, --// Completes race for rewards
   GEM_MINE_LOOP = false, --// Goes to Shadow Realm Gem Mine (60 min, 4 min cooldown)
+  USE_PERM_SHRINE = true, --// Toggles Permanent Shrine Usage
+  BOUNTY_PERM_SHRINE = true, --// Automatically sets Perm Shrine Egg to Current Bounty
+  PERM_SHRINE_EGG = "", --// Uses Selected Egg for Perm Shrine Buff (Only w1, w2, w3 Eggs)
 },
 
 EASTER_EVENT_SETTINGS = {
