@@ -5,7 +5,7 @@ HATCHING_SETTINGS={
   NEW_ACCOUNT=false, --unlock w1,w2,w3.
   NEW_ACCOUNT_SKIP_W3=true,
   OPEN_EGGS=true,
-  EGG="Golf Egg", --to find
+  EGG="Trophical Egg", --to find
   REJOIN_IF_NO_HATCHING=false,
   REJOIN_IF_LOW_FPS=false,
   MINIMUM_HATCHRATE=10,
@@ -28,7 +28,7 @@ RIFT_SETTINGS={
   MINIMUM_LUCK=1, -- Luck multi go for
   SUMMONED_RIFTS=true, --AA
   SERVERHOP_TILL_AA_PORTAL=false,
-  TARGETS = {"Golf Egg", "Wonderland Egg", "OG Rift Egg"},    -- List of Eggs that will be looked on rifts
+  TARGETS = {"Trophical Egg", "Wonderland Egg", "OG Rift Egg"},    -- List of Eggs that will be looked on rifts
   AUTO_SUMMON_RIFT=true,
   TO_SUMMON="", --Egg/Chest name
   },
@@ -174,16 +174,13 @@ GRIND_CURRENCY_SETTINGS = {
   MINIMUM_PEARLS = false, --Minimum amount of pearls if lower automatically grind to reach
 },
 
-ANNIVERSARY_EVENT_SETTINGS = {
-  ANNIVERSARY_ELIXIR = true, -- uses Anniversary elixir 
-  OPEN_ANNIVERSARY_GIFTBOX = true, --Powerup
-  ANNIVERSARY_PASS = false, --enables anniversary challenge quests indefinitely (prevents hatching regular eggs)
-  ANNIVERSARY_SPIN_WHEEL = true, --enables anniversary challenge quests indefinitely (prevents hatching regular eggs)
-  ANNIVERSARY_SHRINE = true, -- Claims Anniversary shrine Buff (Random Egg)
-  CLAIM_GLOBAL_ANNIVERSARY = true, -- Claims Celebration Track, Quest and Global Rewards
-  DO_GLOBAL_ANNIVERSARY_HOURLY = false, -- Completes Hourly Celebration Quests (requires AUTO_QUEST set to true) (strong bubble pets recommended)
-  OPEN_CELEBRATION_EGG = true, -- Opens Celebration Egg (Global Anniversary) (Powerup)
-  OPEN_SHADOW_EGG = true, -- Opens Shadow Realm Egg (Gem Mine) (Powerup)
+SUMMER_EVENT_SETTINGS = {
+  MINIMUM_SEASHELLS = "3m", --// Minimum seashells for hatching
+  AUTO_DIG_LOOP = false, --// Digs indefinitly. (Other tasks are ignored)
+  SUMMER_ELIXIR = true, --// Auto uses summer elixir (infinity aswell)
+  SUMMER_CHEST = true, -- claims summer chest
+  CAPTAIN_KITTY = false, --completes captain kitty quest
+  AUTO_UPGRADE = true, -- buys upgrades if can afford
 },
 DEBUG={
   FPS_LIMIT=4,
