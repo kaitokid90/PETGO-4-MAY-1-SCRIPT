@@ -5,7 +5,7 @@ HATCHING_SETTINGS={
   NEW_ACCOUNT=false, --unlock w1,w2,w3.
   NEW_ACCOUNT_SKIP_W3=true,
   OPEN_EGGS=true,
-  EGG="Trophical Egg", --to find
+  EGG="Tropical Egg", --to find
   REJOIN_IF_NO_HATCHING=false,
   REJOIN_IF_LOW_FPS=false,
   MINIMUM_HATCHRATE=10,
@@ -175,7 +175,7 @@ GRIND_CURRENCY_SETTINGS = {
 },
 
 SUMMER_EVENT_SETTINGS = {
-  MINIMUM_SEASHELLS = "3m", --// Minimum seashells for hatching
+  MINIMUM_SEASHELLS = "100k", --// Minimum seashells for hatching
   AUTO_DIG_LOOP = false, --// Digs indefinitly. (Other tasks are ignored)
   SUMMER_ELIXIR = true, --// Auto uses summer elixir (infinity aswell)
   SUMMER_CHEST = true, -- claims summer chest
