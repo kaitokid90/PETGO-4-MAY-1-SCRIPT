@@ -1,8 +1,8 @@
-script_key = "FoACmMfjCFWumbIBwPpFMXRaEQgrgdAw";
+script_key = "IOXddLPnRFVqmLKxgQSfqOKguMxjAmyM";
 getgenv().UserConfig = {
     ["Webhook URL"] = "https://discord.com/api/webhooks/1504717071093858305/JYP8RaIN5abpKjgSMWcZ2Mc50gqIQiphjptXdOLwzFsfhOXswgeTuQZaOPnGFV8tzzki", 
     ["Webhook Slime Name"] = {"BIG Orbit", "Shiny BIG Inverted Orbit"},
-    ["Webhook Odds"] = "999b",
+    ["Webhook Odds"] = "999m",
     ["Webhook Mutation"] = {},
     ["Webhook Rarity"] = {"Secret", "Celestial", "Astral", "Nova", "Solar", "Lunar", "Galactic", "Stellar", "Nebula", "Quantum", "Void", "Paradox" },  
     ["Webhook Note"] = "nhox",   
