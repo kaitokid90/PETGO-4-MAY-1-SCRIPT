@@ -109,11 +109,12 @@ getgenv().UserConfig = {
     ["Mail To Username"] = {"huythu902025"},
     ["Items To Mail"] = {
         ["Pet"] = {"Golden Dragonfly","Unicorn","Raccoon"},
-        ["Seed"] = {"Rainbow", "Gold", "Bamboo", "Mushroom"},
+        ["Seed"] = {"Rainbow", "Gold","Mushroom","Venus Fly Trap","Pomegranate","Poison Apple","Moon Bloom","Dragon's Breath"},    
+
     },
     ["Claim Mail"] = true,
     ["Auto Plant"] = true,
-    ["Limit Auto Plant"] = 200,
-    ["Blacklist Seed"] = {"Bamboo", "Rainbow", "Gold","Mushroom"},
+    ["Limit Auto Plant"] = 250,
+    ["Blacklist Seed"] = {"Rainbow", "Gold","Mushroom","Venus Fly Trap","Pomegranate","Poison Apple","Moon Bloom","Dragon's Breath"},
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/66adeacbfb46c0ea4883aefee367292a.lua"))()
