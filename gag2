@@ -107,9 +107,29 @@ getgenv().UserConfig = {
     ["Webhook Note"] = "nhox",
     ["Discord ID"] = "885836894032764968",
     ["Mail To Username"] = {"huythu902025"},
-    ["Items To Mail"] = {
-        ["Pet"] = {"Golden Dragonfly","Unicorn","Raccoon","Monkey","Robin","Bee"},
+    ["Items To Mail"] = {     
+         ["Pet"] = {
+            ["Golden Dragonfly"] = 1,
+            ["Unicorn"] = 1,
+            ["Raccoon"] = 1,
+            ["Monkey"] = 5,
+            ["Bee"] = 5,
+            ["Ice Serpent"] = 1,
+            ["Robin"] = 20,         
+        },
         ["Seed"] = {"Rainbow", "Gold","Mushroom","Venus Fly Trap","Pomegranate","Poison Apple","Moon Bloom","Dragon's Breath"},    
+  ["Seed"] = {
+            ["Rainbow"] = 1,
+            ["Gold"] = 20,
+            ["Bamboo"] = 500,
+            ["Mushroom"] = 500,
+              ["Venus Fly Trap"] = 1,
+            ["Pomegranate"] = 1,
+            ["Poison Apple"] = 1,
+            ["Moon Bloom"] = 1,
+              ["Dragon's Breath"] = 1,
+          
+        },
 
     },
     ["Claim Mail"] = true,
