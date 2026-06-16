@@ -117,7 +117,7 @@ getgenv().UserConfig = {
             ["Ice Serpent"] = 1,
             ["Robin"] = 3,         
         },
-        ["Seed"] = {"Rainbow", "Gold","Mushroom","Venus Fly Trap","Pomegranate","Poison Apple","Moon Bloom","Dragon's Breath"},    
+      
   ["Seed"] = {
             ["Rainbow"] = 1,
             ["Gold"] = 10,
@@ -127,8 +127,7 @@ getgenv().UserConfig = {
             ["Pomegranate"] = 1,
             ["Poison Apple"] = 1,
             ["Moon Bloom"] = 1,
-              ["Dragon's Breath"] = 1,
-          
+              ["Dragon's Breath"] = 1,          
         },
 
     },
