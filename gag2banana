@@ -41,9 +41,7 @@ getgenv().Config = {
         },
         ["Seed"] = {
             ["Rainbow"] = true,
-            ["Gold"]    = true,
-			["Pomegranate"]     = true,   -- $200K
-            ["Pineapple"]       = true,   -- $250K
+            ["Gold"]    = true,		
             ["Dragon Fruit"]    = true,   -- $500K
             ["Poison Apple"]    = true,   -- $1M
             ["Moon Bloom"]      = true,   -- $1M
