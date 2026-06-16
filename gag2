@@ -72,9 +72,7 @@ getgenv().UserConfig = {
         ["Deer"] = 5,
     },
     ["Equip Pets"] = {
-        {"Unicorn", 5, 1},
-        {"Golden Dragonfly", 10, 2},
-        {"Deer", 5, 3},
+          {"Deer", 5, 3},
     },
     ["Expand Plot"] = true,
     ["Plot Expansions"] = 1,
