@@ -4,17 +4,17 @@ getgenv().UserConfig = {
     ["Auto Buy Seed"] = true,
     ["Auto Plant Seed"] = true,
     ["Limit Plant Seed"] = {
-        ["Carrot"] = 10, 
+        ["Carrot"] = 1000, 
         ["Strawberry"] = 10,
         ["Blueberry"] = 10,
-        ["Tulip"] = 10,
+        ["Tulip"] = 1000,
         ["Tomato"] = 10,
         ["Apple"] = 10,
-        ["Bamboo"] = 20,
+        ["Bamboo"] = 1000,
         ["Corn"] = 10,
         ["Cactus"] = 10,
         ["Pineangle"] = 10,
-        ["Mushroom"] = 20,
+        ["Mushroom"] = 1000,
         ["Green Bean"] = 20,
         ["Banana"] = 20,
         ["Grape"] = 20,
@@ -57,9 +57,7 @@ getgenv().UserConfig = {
         ["Moon Bloom"] = 999,
         ["Dragon's Breath"] = 999,
     },
-    ["Favorite"] = {
-        ["Horned Melon"] = {"Rainbow", "Gold"},
-    },
+    ["Favorite"] = {},
     ["Buy Pets"] = {
         ["Monkey"] = 99,
         ["Bee"] = 99,
@@ -72,7 +70,7 @@ getgenv().UserConfig = {
         ["Deer"] = 5,
     },
     ["Equip Pets"] = {
-          {"Deer", 5, 3},
+          {"Deer", 6, 1},
     },
     ["Expand Plot"] = true,
     ["Plot Expansions"] = 1,
@@ -99,7 +97,7 @@ getgenv().UserConfig = {
         },
     },
     ["Webhook URL"] = "https://discord.com/api/webhooks/1515634105717493841/7CsFcAa1oq41IetnW3f-pTN-XgV8cSdgmIrfRyRqwT9FDNOWoDyLRiFSqXHDbt6vWFod",
-    ["Webhook Pet Name"] = {"Frog"},
+    ["Webhook Pet Name"] = {"Golden Dragonfly","Unicorn","Raccoon"},
     ["Webhook Pet Rarity"] = {"Mythic", "Super", "Secret"},
     ["Webhook Seed Name"] = {"Rainbow", "Gold"},
     ["Webhook Note"] = "nhox",
@@ -130,8 +128,8 @@ getgenv().UserConfig = {
 
     },
     ["Claim Mail"] = true,
-    ["Auto Plant"] = true,
-    ["Limit Auto Plant"] = 250,
+    ["Auto Plant"] = false,
+    ["Limit Auto Plant"] = 200,
     ["Blacklist Seed"] = {"Rainbow", "Gold","Mushroom","Venus Fly Trap","Pomegranate","Poison Apple","Moon Bloom","Dragon's Breath"},
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/cbe5e2d7d845580db3cfd92d7c3ad9bd.lua"))()
