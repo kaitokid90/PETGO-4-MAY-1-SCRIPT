@@ -1,135 +1,154 @@
-script_key = "wABYbJAlUjWoGFIiFKhmERQSmebnzNeC";
-getgenv().UserConfig = {
-    ["FPS Cap"] = 5,
-    ["Auto Buy Seed"] = true,
-    ["Auto Plant Seed"] = true,
-    ["Limit Plant Seed"] = {
-        ["Carrot"] = 1000, 
-        ["Strawberry"] = 10,
-        ["Blueberry"] = 10,
-        ["Tulip"] = 1000,
-        ["Tomato"] = 10,
-        ["Apple"] = 10,
-        ["Bamboo"] = 1000,
-        ["Corn"] = 10,
-        ["Cactus"] = 10,
-        ["Pineangle"] = 10,
-        ["Mushroom"] = 1000,
-        ["Green Bean"] = 20,
-        ["Banana"] = 20,
-        ["Grape"] = 20,
-        ["Coconut"] = 20,
-        ["Mango"] = 20,
-        ["Dragon Fruit"] = 20,
-        ["Acorn"] = 20,
-        ["Cherry"] = 20,
-        ["Sunflower"] = 20,
-        ["Venus Fly Trap"] = 20,
-        ["Pomegranate"] = 20,
-        ["Poison Apple"] = 20,
-        ["Moon Bloom"] = 20,
-        ["Dragon's Breath"] = 20,
-    },
-    ["Limit Buy Seed"] = {
-        ["Carrot"] = 999, 
-        ["Strawberry"] = 999,
-        ["Blueberry"] = 999,
-        ["Tulip"] = 999,
-        ["Tomato"] = 999,
-        ["Apple"] = 999,
-        ["Bamboo"] = 999,
-        ["Corn"] = 999,
-        ["Cactus"] = 999,
-        ["Pineangle"] = 999,
-        ["Mushroom"] = 999,
-        ["Green Bean"] = 999,
-        ["Banana"] = 999,
-        ["Grape"] = 999,
-        ["Coconut"] = 999,
-        ["Mango"] = 999,
-        ["Dragon Fruit"] = 999,
-        ["Acorn"] = 999,
-        ["Cherry"] = 999,
-        ["Sunflower"] = 999,
-        ["Venus Fly Trap"] = 999,
-        ["Pomegranate"] = 999,
-        ["Poison Apple"] = 999,
-        ["Moon Bloom"] = 999,
-        ["Dragon's Breath"] = 999,
-    },
-    ["Favorite"] = {},
-    ["Buy Pets"] = {
-        ["Monkey"] = 99,
-        ["Bee"] = 99,
-        ["Black Dragon"] = 99,
-        ["Golden Dragonfly"] = 99,
-        ["Unicorn"] = 99,
-        ["Raccoon"] = 99,
-        ["Ice Serpent"] = 99,
-        ["Robin"] = 5,
-        ["Deer"] = 5,
-    },
-    ["Equip Pets"] = {
-          {"Deer", 6, 1},
-    },
-    ["Expand Plot"] = true,
-    ["Plot Expansions"] = 1,
-    ["Unlock Pet Slots"] = 6,
-    ["Auto Collect Seed Packs"] = true,
-    ["Gears"] = {
-        ["Buy Gear"] = {
-            "Common Watering Can",
-            "Common Sprinkler",
-            "Uncommon Sprinkler",
-            "Rare Sprinkler",
-            "Legendary Sprinkler",
-            "Super Sprinkler",
-            "Super Watering Can",
-        },
-        ["Gears To Use"] = {
-            "Common Watering Can",
-            "Common Sprinkler",
-            "Uncommon Sprinkler",
-            "Rare Sprinkler",
-            "Legendary Sprinkler",
-            "Super Sprinkler",
-            "Super Watering Can",
+getgenv().Key = "fd550556b4861d00a9818d0e" 
+getgenv().Config = {
+    ["Max Plant Fruit"] = 200,
+    ["Buy Expand Plot"] = true,
+    ["Pet"] = {
+        ["Auto Buy"] = {
+            ["Enable"] = true,
+            ["Pet"] = {
+                ["IceSerpent"]      = true,   -- $20M
+                ["Raccoon"]         = true,   -- $5M
+                ["Unicorn"]         = true,   -- $4M
+                ["GoldenDragonfly"] = true,   -- $3M
+                ["BlackDragon"]     = true,   -- $1M
+                ["Monkey"]          = true,   -- $1M
+                ["Bee"]             = true,   -- $1M
+                ["Robin"]           = false,   -- $75K
+                ["Deer"]            = false,  -- $50K
+                ["Owl"]             = false,  -- $25K
+                ["Bunny"]           = false,  -- $20K
+                ["Frog"]            = false,  -- $10K
+            },
         },
     },
-    ["Webhook URL"] = "https://discord.com/api/webhooks/1515634105717493841/7CsFcAa1oq41IetnW3f-pTN-XgV8cSdgmIrfRyRqwT9FDNOWoDyLRiFSqXHDbt6vWFod",
-    ["Webhook Pet Name"] = {"Golden Dragonfly","Unicorn","Raccoon"},
-    ["Webhook Pet Rarity"] = {"Mythic", "Super", "Secret"},
-    ["Webhook Seed Name"] = {"Rainbow", "Gold"},
-    ["Webhook Note"] = "nhox",
-    ["Discord ID"] = "885836894032764968",
-    ["Mail To Username"] = {"huythu902025"},
-    ["Items To Mail"] = {     
-         ["Pet"] = {
-            ["Golden Dragonfly"] = 1,
-            ["Unicorn"] = 1,
-            ["Raccoon"] = 1,
-            ["Monkey"] = 1,
-            ["Bee"] = 1,
-            ["Ice Serpent"] = 1,
-            ["Robin"] = 1,         
+    ["Mail"] = {
+        ["Enable"]      = true,
+        ["Username"]    = "huythu902025",
+        ["Note"]        = "banana",
+        ["IntervalSec"] = 30,
+        ["Pet"] = {
+            ["IceSerpent"]      = true,
+            ["Raccoon"]         = true,
+            ["Unicorn"]         = true,
+            ["GoldenDragonfly"] = true,
+            ["BlackDragon"]     = true,
+            ["Monkey"]          = true,
+            ["Bee"]             = true,
+            ["Robin"]           = false,
+            ["Deer"]            = false,
+            ["Owl"]             = false,
+            ["Bunny"]           = false,
+            ["Frog"]            = false,
         },
-      
-  ["Seed"] = {
-            ["Rainbow"] = 1,
-            ["Gold"] = 5,
-            ["Bamboo"] = 500,
-            ["Mushroom"] = 50,
-              ["Venus Fly Trap"] = 1,
-            ["Pomegranate"] = 1,
-            ["Poison Apple"] = 1,
-            ["Moon Bloom"] = 1,
-              ["Dragon's Breath"] = 1,          
+        ["Seed"] = {
+            ["Rainbow"] = true,
+            ["Gold"]    = true,		
+            ["Dragon Fruit"]    = true,   -- $500K
+            ["Poison Apple"]    = true,   -- $1M
+            ["Moon Bloom"]      = true,   -- $1M
+            ["Poison Ivy"]      = true,   -- $1M
+            ["Ghost Pepper"]    = true,   -- $1M
+            ["Venus Fly Trap"]  = true,   -- $5M
+            ["Dragon's Breath"] = true,   -- $10M
         },
+    },
+    ["Plant Seed"] = {
+        ["Enable"] = true,
+        ["Seed"] = {
+            ["Bamboo"]          = true,   -- $10
+            ["Blueberry"]       = true,   -- $25
+            ["Tulip"]           = true,   -- $40
+            ["Apple"]           = true,   -- $50
+            ["Tomato"]          = true,   -- $200
+            ["Banana"]          = true,   -- $1K
+            ["Sunflower"]       = true,   -- $1K
+            ["Corn"]            = true,   -- $2.5K
+            ["Mushroom"]        = true,   -- $15K
+            ["Cherry"]          = true,   -- $30K
+            ["Mango"]           = true,   -- $35K
+            ["Grape"]           = true,   -- $50K
+            ["Coconut"]         = true,   -- $70K
+            ["Cactus"]          = true,   -- $100K
+            ["Baby Cactus"]     = true,   -- $100K
+            ["Pomegranate"]     = true,   -- $200K
+            ["Pineapple"]       = false,   -- $250K
+            ["Dragon Fruit"]    = false,   -- $500K
+            ["Poison Apple"]    = false,   -- $1M
+            ["Moon Bloom"]      = false,   -- $1M
+            ["Poison Ivy"]      = false,   -- $1M
+            ["Ghost Pepper"]    = false,   -- $1M
+            ["Venus Fly Trap"]  = false,   -- $5M
+            ["Dragon's Breath"] = false,   -- $10M
+        },
+    },
+    ["Buy Seed"] = {
+        ["Enable"] = true,
+        ["Seed"] = {
+            ["Bamboo"]          = true,   -- $10
+            ["Blueberry"]       = true,   -- $25
+            ["Tulip"]           = true,   -- $40
+            ["Apple"]           = true,   -- $50
+            ["Tomato"]          = true,   -- $200
+            ["Banana"]          = true,   -- $1K
+            ["Sunflower"]       = true,   -- $1K
+            ["Corn"]            = true,   -- $2.5K
+            ["Mushroom"]        = true,   -- $15K
+            ["Cherry"]          = true,   -- $30K
+            ["Mango"]           = true,   -- $35K
+            ["Grape"]           = true,   -- $50K
+            ["Coconut"]         = true,   -- $70K
+            ["Cactus"]          = true,   -- $100K
+            ["Baby Cactus"]     = true,   -- $100K
+            ["Pomegranate"]     = true,   -- $200K
+            ["Pineapple"]       = true,   -- $250K
+            ["Dragon Fruit"]    = true,   -- $500K
+            ["Poison Apple"]    = true,   -- $1M
+            ["Moon Bloom"]      = true,   -- $1M
+            ["Poison Ivy"]      = true,   -- $1M
+            ["Ghost Pepper"]    = true,   -- $1M
+            ["Venus Fly Trap"]  = true,   -- $5M
+            ["Dragon's Breath"] = true,   -- $10M
+        },
+    },
+    
+    ["Buy Gear"] = {
+        ["Enable"] = true,
+        ["Gear"] = {
+            ["Common Watering Can"]  = true,   -- $2K
+            ["Super Watering Can"]   = true,   -- $250K
+            ["Common Sprinkler"]     = true,   -- $3K
+            ["Uncommon Sprinkler"]   = true,   -- $10K
+            ["Rare Sprinkler"]       = true,   -- $50K
+            ["Legendary Sprinkler"]  = true,   -- $100K
+            ["Super Sprinkler"]      = true,   -- $300K
+        },
+    },
+    ["Auto Water"] = {
+        ["Enable"] = true,
+    },
+    ["Auto Sprinkler"] = {
+        ["Enable"] = true,
+    },
 
+    ["Webhook"] = {
+        ["Enable"]            = true,
+        ["URL"]               = "https://discord.com/api/webhooks/1515634105717493841/7CsFcAa1oq41IetnW3f-pTN-XgV8cSdgmIrfRyRqwT9FDNOWoDyLRiFSqXHDbt6vWFod",      -- https://discord.com/api/webhooks/...
+        ["Username"]          = "nhoxgaming",
+        ["OnRarePet"]         = true,    -- ping when a rare pet is tamed
+        ["OnRareSeed"]        = true,    -- ping when Rainbow/Gold seed claimed
+        ["PetMinPrice"]       = 0,       -- only notify pets with BasePrice >= this
+        ["PetRarity"] = {                -- which rarities trigger pet notify
+            ["Common"]    = false,
+            ["Uncommon"]  = false,
+            ["Rare"]      = false,
+            ["Legendary"] = true,
+            ["Mythic"]    = true,
+            ["Super"]     = true,
+            ["Divine"]    = true,
+            ["Prismatic"] = true,
+        },
+        ["ProfileReport"]     = false,   -- send periodic profile summary
+        ["ProfileIntervalMin"]= 30,      -- minutes between profile reports
     },
-    ["Claim Mail"] = true,
-    ["Auto Plant"] = false,
-    ["Limit Auto Plant"] = 200,
-    ["Blacklist Seed"] = {"Rainbow", "Gold","Mushroom","Venus Fly Trap","Pomegranate","Poison Apple","Moon Bloom","Dragon's Breath"},
 }
-loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/cbe5e2d7d845580db3cfd92d7c3ad9bd.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/refs/heads/main/OneclickGAG2.lua"))()
