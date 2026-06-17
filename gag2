@@ -70,11 +70,11 @@ getgenv().UserConfig = {
         ["Deer"] = 5,
     },
     ["Equip Pets"] = {
-          {"Deer", 6, 1},
+          {"Deer", 5, 1},
     },
     ["Expand Plot"] = true,
     ["Plot Expansions"] = 1,
-    ["Unlock Pet Slots"] = 6,
+    ["Unlock Pet Slots"] = 5,
     ["Auto Collect Seed Packs"] = true,
     ["Gears"] = {
         ["Buy Gear"] = {
