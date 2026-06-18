@@ -109,9 +109,9 @@ getgenv().UserConfig = {
             ["Unicorn"] = 1,
             ["Raccoon"] = 1,
             ["Monkey"] = 1,
-            ["Bee"] = 1,
+            ["Bee"] = {All = 1, To = "bocute30102015"},
             ["Ice Serpent"] = 1,
-            ["Robin"] = 1,         
+            ["Robin"] = {All = 1, To = "huythu902025"},     
         },
       
   ["Seed"] = {   
