@@ -73,7 +73,7 @@ getgenv().UserConfig = {
           {"Deer", 5, 1},
     },
     ["Expand Plot"] = true,
-    ["Plot Expansions"] = 1,
+    ["Plot Expansions"] = 2,
     ["Unlock Pet Slots"] = 5,
     ["Auto Collect Seed Packs"] = true,
     ["Gears"] = {
@@ -128,7 +128,7 @@ getgenv().UserConfig = {
     },
     ["Claim Mail"] = true,
     ["Auto Plant"] = true,
-    ["Limit Auto Plant"] = 500,
+    ["Limit Auto Plant"] = 600,
     ["Blacklist Seed"] = {"Rainbow", "Gold","Mushroom","Venus Fly Trap","Pomegranate","Poison Apple","Moon Bloom","Dragon's Breath"},
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/cbe5e2d7d845580db3cfd92d7c3ad9bd.lua"))()
