@@ -3,6 +3,8 @@ getgenv().UserConfig = {
     ["FPS Cap"] = 5,
     ["Auto Buy Seed"] = true,
     ["Auto Plant Seed"] = true,
+    ["Auto Double Or Nothing"] = true, -- bật true để có thể chơi tài xỉu (mặc định là false nếu chưa set trong config)
+    ["Double Or Nothing Target Wins"] = 1 -- đặt số lượt muốn thắng ví dụ thắng (mặc đinh là 1)
     ["Limit Plant Seed"] = {
         ["Carrot"] = 10, 
         ["Strawberry"] = 10,
@@ -29,6 +31,7 @@ getgenv().UserConfig = {
         ["Poison Apple"] = 20,
         ["Moon Bloom"] = 20,
         ["Dragon's Breath"] = 20,
+          ["Venom Spitter"] = 50,
     },
     ["Limit Buy Seed"] = {
         ["Carrot"] = 999, 
@@ -56,9 +59,11 @@ getgenv().UserConfig = {
         ["Poison Apple"] = 999,
         ["Moon Bloom"] = 999,
         ["Dragon's Breath"] = 999,
+  ["Venom Spitter"] = 9999,
     },
     ["Favorite"] = {},
     ["Buy Pets"] = {
+    ["Bear"] = {Normal = 6, Big = 99, Huge = 99, Rainbow = 99},
         ["Monkey"] = 99,
         ["Bee"] = 99,
         ["Black Dragon"] = 99,
@@ -105,6 +110,7 @@ getgenv().UserConfig = {
     ["Mail To Username"] = {"kaitokid9020154"},
     ["Items To Mail"] = {     
          ["Pet"] = {
+            ["Bear"] = 1,
             ["Golden Dragonfly"] = 1,
             ["Unicorn"] = 1,
             ["Raccoon"] = 1,
