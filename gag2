@@ -1,4 +1,4 @@
-script_key = "wABYbJAlUjWoGFIiFKhmERQSmebnzNeC";
+script_key = "";
 getgenv().UserConfig = {
     ["FPS Cap"] = 5,
     ["Auto Buy Seed"] = true,
