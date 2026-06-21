@@ -114,7 +114,7 @@ getgenv().UserConfig = {
             ["Dragon's Breath"] = 1,          
         },
         ["Gear"] = {
-            ["Super Watering Can"] = {Amount = 1, To = "thanhdinh9020"}
+            ["Super Watering Can"] = {Amount = 1, To = "thanhdinh9020"} ,
             ["Super Sprinkler"] = 1,
         },
     },
