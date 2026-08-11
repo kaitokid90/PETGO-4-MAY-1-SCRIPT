@@ -114,8 +114,8 @@ getgenv().SettingFarm = {
 
     -- Không webhook
     ["Webhook"] = {
-        ["Enabled"] = false,
-        ["WebhookUrl"] = "",
+        ["Enabled"] = true,
+        ["WebhookUrl"] = "https://discord.com/api/webhooks/1536577727644176402/u1WXSn53-2c8JpC5F6bTh0JMu0f4fIHZ0344uIToZVty_SDLo0NNgYri6nGSx-e2wIQH",
     }
 }
 
