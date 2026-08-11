@@ -1,0 +1,122 @@
+repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
+getgenv().Key = "e6eee2c3567958665b75fcb8"
+getgenv().SettingFarm = {
+
+    -- Giao diện
+    ["Hide UI"] = false,
+
+    -- Không reset nhân vật để giữ trái
+    ["Reset Teleport"] = {
+        ["Enabled"] = false,
+
+        ["Delay Reset"] = 3,
+
+        ["Item Dont Reset"] = {
+            ["Fruit"] = {
+                ["Enabled"] = true,
+
+                ["All Fruit"] = true,
+
+                ["Select Fruit"] = {
+                    ["Enabled"] = false,
+                    ["Fruit"] = {},
+                },
+            },
+        },
+    },
+
+    -- Hiệu năng
+    ["White Screen"] = true,
+
+    ["Lock Fps"] = {
+        ["Enabled"] = true,
+        ["FPS"] = 20,
+    },
+
+    -- TẮT TOÀN BỘ FARM ITEM END-GAME
+    ["Get Items"] = {
+        ["Saber"] = false,
+        ["Godhuman"] = false,
+        ["Skull Guitar"] = false,
+        ["Mirror Fractal"] = false,
+        ["Cursed Dual Katana"] = false,
+        ["Upgrade Race V2-V3"] = false,
+        ["Auto Pull Lever"] = false,
+        ["Shark Anchor"] = false,
+    },
+
+    -- Không farm các item phụ
+    ["Get Rare Items"] = {
+        ["Rengoku"] = false,
+        ["Dragon Trident"] = false,
+        ["Pole (1st Form)"] = false,
+        ["Gravity Blade"] = false,
+    },
+
+    -- Không farm Fragment
+    ["Farm Fragments"] = {
+        ["Enabled"] = false,
+        ["Fragment"] = 50000,
+    },
+
+    -- Không tự chat
+    ["Auto Chat"] = {
+        ["Enabled"] = false,
+        ["Text"] = "",
+    },
+
+    -- Không cần Rip Indra
+    ["Auto Summon Rip Indra"] = false,
+
+    -- Tắt server hop phục vụ CDK / SG / Tushita / Mirage...
+    ["Select Hop"] = {
+        ["Hop Server If Have Player Near"] = false,
+        ["Hop Find Rip Indra Get Valkyrie Helm or Get Tushita"] = false,
+        ["Hop Find Dough King Get Mirror Fractal"] = false,
+        ["Hop Find Raids Castle [CDK]"] = false,
+        ["Hop Find Cake Queen [CDK]"] = false,
+        ["Hop Find Soul Reaper [CDK]"] = false,
+        ["Hop Find Darkbeard [SG]"] = false,
+        ["Hop Find Mirage [ Pull Lever ]"] = false,
+    },
+
+    -- Không cần mastery
+    ["Farm Mastery"] = {
+        ["Melee"] = false,
+        ["Sword"] = false,
+    },
+
+    -- Giữ các Haki cơ bản để hỗ trợ quá trình farm level
+    ["Buy Haki"] = {
+        ["Enhancement"] = true,
+        ["Skyjump"] = true,
+        ["Flash Step"] = true,
+        ["Observation"] = true,
+    },
+
+    -- Tự mua các trái bạn muốn
+    ["Sniper Fruit Shop"] = {
+        ["Enabled"] = true,
+
+        ["Fruit"] = {
+            "Leopard-Leopard",
+            "Kitsune-Kitsune",
+            "Dragon-Dragon",
+            "Yeti-Yeti",
+            "Gas-Gas"
+        },
+    },
+
+    -- Không khóa thêm trái
+    ["Lock Fruit"] = {},
+
+    -- Không webhook
+    ["Webhook"] = {
+        ["Enabled"] = false,
+        ["WebhookUrl"] = "",
+    }
+}
+
+loadstring(game:HttpGet(
+    "https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaCat-kaitunBF.lua"
+))()
