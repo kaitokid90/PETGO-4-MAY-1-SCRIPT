@@ -2,23 +2,15 @@ repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
 
 getgenv().Key = "4d17da77d22460f19f8d92b6"
 
-getgenv().SettingFarm = {
-
-    -- Giao diện
+getgenv().SettingFarm ={
     ["Hide UI"] = false,
-
-    -- Không reset nhân vật để giữ trái
     ["Reset Teleport"] = {
         ["Enabled"] = false,
-
         ["Delay Reset"] = 3,
-
         ["Item Dont Reset"] = {
             ["Fruit"] = {
                 ["Enabled"] = true,
-
-                ["All Fruit"] = true,
-
+                ["All Fruit"] = true, 
                 ["Select Fruit"] = {
                     ["Enabled"] = false,
                     ["Fruit"] = {},
@@ -26,99 +18,76 @@ getgenv().SettingFarm = {
             },
         },
     },
-
-    -- Hiệu năng
-    ["White Screen"] = true,
-
+    ["White Screen"] = false,
     ["Lock Fps"] = {
-        ["Enabled"] = true,
+        ["Enabled"] = false,
         ["FPS"] = 20,
     },
-
-    -- TẮT TOÀN BỘ FARM ITEM END-GAME
     ["Get Items"] = {
-        ["Saber"] = false,
-        ["Godhuman"] = false,
-        ["Skull Guitar"] = false,
-        ["Mirror Fractal"] = false,
-        ["Cursed Dual Katana"] = false,
-        ["Upgrade Race V2-V3"] = false,
-        ["Auto Pull Lever"] = false,
-        ["Shark Anchor"] = false,
+        ["Saber"] = true,
+        ["Godhuman"] =  true,
+        ["Skull Guitar"] = true,
+        ["Mirror Fractal"] = true,
+        ["Cursed Dual Katana"] = true,
+        ["Upgrade Race V2-V3"] = true,
+        ["Auto Pull Lever"] = true,
+        ["Shark Anchor"] = true, --- if have cdk,sg,godhuman
     },
-
-    -- Không farm các item phụ
     ["Get Rare Items"] = {
         ["Rengoku"] = false,
-        ["Dragon Trident"] = false,
+        ["Dragon Trident"] = false, 
         ["Pole (1st Form)"] = false,
-        ["Gravity Blade"] = false,
+        ["Gravity Blade"]  = false,
     },
-
-    -- Không farm Fragment
     ["Farm Fragments"] = {
-        ["Enabled"] = false,
+        ["Enabled"]  = false,
         ["Fragment"] = 50000,
     },
-
-    -- Không tự chat
     ["Auto Chat"] = {
         ["Enabled"] = false,
         ["Text"] = "",
     },
-
-    -- Không cần Rip Indra
-    ["Auto Summon Rip Indra"] = false,
-
-    -- Tắt server hop phục vụ CDK / SG / Tushita / Mirage...
-    ["Select Hop"] = {
-        ["Hop Server If Have Player Near"] = false,
-        ["Hop Find Rip Indra Get Valkyrie Helm or Get Tushita"] = false,
+    ["Auto Summon Rip Indra"] = true, --- auto buy haki and craft haki legendary 
+    ["Select Hop"] = { -- 70% will have it
+        ["Hop Server If Have Player Near"] = false, 
+        ["Hop Find Rip Indra Get Valkyrie Helm or Get Tushita"] = true, 
         ["Hop Find Dough King Get Mirror Fractal"] = false,
-        ["Hop Find Raids Castle [CDK]"] = false,
-        ["Hop Find Cake Queen [CDK]"] = false,
-        ["Hop Find Soul Reaper [CDK]"] = false,
-        ["Hop Find Darkbeard [SG]"] = false,
-        ["Hop Find Mirage [ Pull Lever ]"] = false,
+        ["Hop Find Raids Castle [CDK]"] = true,
+        ["Hop Find Cake Queen [CDK]"] = true,
+        ["Hop Find Soul Reaper [CDK]"] = true,
+        ["Hop Find Darkbeard [SG]"] = true,
+        ["Hop Find Mirage [ Pull Lever ]"] = true,
     },
-
-    -- Không cần mastery
     ["Farm Mastery"] = {
         ["Melee"] = false,
-        ["Sword"] = false,
+        ["Sword"] = true,
     },
-
-    -- Giữ các Haki cơ bản để hỗ trợ quá trình farm level
     ["Buy Haki"] = {
         ["Enhancement"] = true,
         ["Skyjump"] = true,
         ["Flash Step"] = true,
         ["Observation"] = true,
     },
-
-    -- Tự mua các trái bạn muốn
     ["Sniper Fruit Shop"] = {
-        ["Enabled"] = true,
-
-        ["Fruit"] = {
-            "Leopard-Leopard",
-            "Kitsune-Kitsune",
-            "Dragon-Dragon",
-            "Yeti-Yeti",
-            "Gas-Gas"
-        },
+        ["Enabled"] = true, -- Auto Buy Fruit in Shop Mirage and Normal
+        ["Fruit"] = {"Leopard-Leopard","Kitsune-Kitsune","Dragon-Dragon","Yeti-Yeti","Gas-Gas"},
     },
-
-    -- Không khóa thêm trái
     ["Lock Fruit"] = {},
-
-    -- Không webhook
     ["Webhook"] = {
-        ["Enabled"] = true,
-        ["WebhookUrl"] = "https://discord.com/api/webhooks/1536577727644176402/u1WXSn53-2c8JpC5F6bTh0JMu0f4fIHZ0344uIToZVty_SDLo0NNgYri6nGSx-e2wIQH",
+        ["Enabled"] = false,
+        ["WebhookUrl"] = "",
     }
 }
+loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaCat-kaitunBF.lua"))()
 
-loadstring(game:HttpGet(
-    "https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaCat-kaitunBF.lua"
-))()
+task.spawn(function()
+    while task.wait(0.1) do
+        local player = game.Players.LocalPlayer
+        local character = player.Character
+        local humanoid = character and character:FindFirstChildOfClass("Humanoid")
+
+        if humanoid then
+            humanoid.WalkSpeed = 250
+        end
+    end
+end)
