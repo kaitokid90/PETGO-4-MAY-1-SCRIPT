@@ -18,9 +18,9 @@ getgenv().SettingFarm ={
             },
         },
     },
-    ["White Screen"] = false,
+    ["White Screen"] = true,
     ["Lock Fps"] = {
-        ["Enabled"] = false,
+        ["Enabled"] = true,
         ["FPS"] = 20,
     },
     ["Get Items"] = {
@@ -56,11 +56,11 @@ getgenv().SettingFarm ={
         ["Hop Find Cake Queen [CDK]"] = true,
         ["Hop Find Soul Reaper [CDK]"] = true,
         ["Hop Find Darkbeard [SG]"] = true,
-        ["Hop Find Mirage [ Pull Lever ]"] = true,
+        ["Hop Find Mirage [ Pull Lever ]"] = false,
     },
     ["Farm Mastery"] = {
         ["Melee"] = false,
-        ["Sword"] = true,
+        ["Sword"] = false,
     },
     ["Buy Haki"] = {
         ["Enhancement"] = true,
@@ -79,15 +79,3 @@ getgenv().SettingFarm ={
     }
 }
 loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaCat-kaitunBF.lua"))()
-
-task.spawn(function()
-    while task.wait(0.1) do
-        local player = game.Players.LocalPlayer
-        local character = player.Character
-        local humanoid = character and character:FindFirstChildOfClass("Humanoid")
-
-        if humanoid then
-            humanoid.WalkSpeed = 250
-        end
-    end
-end)
