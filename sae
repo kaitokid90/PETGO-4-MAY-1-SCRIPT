@@ -1,0 +1,21 @@
+repeat task.wait() until game:IsLoaded()
+setfpscap(30) --  10
+script_key = "XPnuSwSPbhfXRknfmqbRCxCUUBtCeTOc";
+getgenv().UserConfig = {
+    ["Target Areas"] = { "Titan Temple" },
+    ["Target Rarity"] = { "Secret", "Cosmic", "Eternal", "Divine", "Demonic" },
+    ["Target Weight"] = "500k",
+    ["Sell When Full"] = 200,
+    ["Protect Min Rate"] = "500m",
+    ["Protect Min Kg"] = "500k",
+    ["Protect Mutations"] = false,
+    ["Protect Pets"] = {},
+    ["Webhook URL"] = "https://discord.com/api/webhooks/1543670614760493109/ZSAeb9RbwCGZqm5uj6wWqki_oElf-rFfy9J84JB3e6j2iUt1SsjiyyclTLIGq7DQtYxB",
+    ["Discord ID"] = "885836894032764968",
+    ["Webhook Note"] = "nhox",
+    ["Webhook Rarity"] = { "Secret", "Eternal", "Divine", "Demonic" },
+    ["Webhook KG"] = "500k",
+    ["Webhook Rate"] = "100m",
+    ["Webhook Mutations"] = {"Rainbow", "Diamond" },
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/dannyhuynh25/Duck-Hub/refs/heads/main/sae.lua"))()
