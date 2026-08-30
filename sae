@@ -15,7 +15,7 @@ getgenv().UserConfig = {
     ["Webhook Note"] = "nhox",
     ["Webhook Rarity"] = { "Secret", "Eternal", "Divine", "Demonic" },
     ["Webhook KG"] = "500k",
-    ["Webhook Rate"] = "100m",
-    ["Webhook Mutations"] = {"Diamond" },
+    ["Webhook Rate"] = "200m",
+    ["Webhook Mutations"] = {},
 }
 loadstring(game:HttpGet("https://raw.githubusercontent.com/dannyhuynh25/Duck-Hub/refs/heads/main/sae.lua"))()
