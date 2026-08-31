@@ -1,5 +1,5 @@
 repeat task.wait() until game:IsLoaded()
-setfpscap(30) --  10
+setfpscap(20) --  10
 script_key = "XPnuSwSPbhfXRknfmqbRCxCUUBtCeTOc";
 getgenv().UserConfig = {
     ["Target Areas"] = { "Titan Temple" },
