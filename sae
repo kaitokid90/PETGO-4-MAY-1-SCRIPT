@@ -14,8 +14,8 @@ getgenv().UserConfig = {
     ["Discord ID"] = "885836894032764968",
     ["Webhook Note"] = "nhox",
     ["Webhook Rarity"] = {},
-    ["Webhook KG"] = "500m",
-    ["Webhook Rate"] = "500m",
+    ["Webhook KG"] = "999m",
+    ["Webhook Rate"] = "999m",
     ["Webhook Mutations"] = {},
 }
 loadstring(game:HttpGet("https://raw.githubusercontent.com/dannyhuynh25/Duck-Hub/refs/heads/main/sae.lua"))()
