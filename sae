@@ -14,7 +14,7 @@ getgenv().UserConfig = {
     ["Discord ID"] = "885836894032764968",
     ["Webhook Note"] = "nhox",
     ["Webhook Rarity"] = {},
-    ["Webhook KG"] = "900k",
+    ["Webhook KG"] = "500m",
     ["Webhook Rate"] = "500m",
     ["Webhook Mutations"] = {},
 }
