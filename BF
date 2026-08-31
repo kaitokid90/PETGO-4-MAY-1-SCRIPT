@@ -1,4 +1,56 @@
 getgenv().Key = "MARU-TI21-ZDA43-O7NF-CM2IW-V5RO"
 getgenv().id = "885836894032764968"
+if not game:IsLoaded() then repeat game.Loaded:Wait() until game:IsLoaded() end
 getgenv().Script_Mode = "Kaitun_Script"
+_G.OneClickSettings = {
+    ["MainIsFarmLevel"] = false, -- โฟกัสฟาร์มเวลเป็นหลัก
+
+    -- กันโดนใช้ไปกินหรือลงดันหรือต่างๆ
+    ["LockFruits"] = {
+        "Dough-Dough",
+        "Dragon-Dragon",
+        "Yeti-Yeti"
+    },
+    -- ซื้อ (จาก NPC) + กิน — ลำดับแรกก่อน Regular
+    -- ถ้าตอนนี้กินผลที่อยู่ในลิสต์นี้อยู่แล้ว = ไม่ไปกินผลอื่น
+    ["MainFruits"] = {
+        "Dough-Dough",
+        "Pain-Pain",
+        "T-Rex-T-Rex",
+        "Shadow-Shadow",
+        "Tiger-Tiger",
+        "Kitsune-Kitsune",
+		"Leopard-Leopard",
+        "Dragon-Dragon",
+        "Yeti-Yeti",
+		"Gas-Gas",
+		"Dragon-Dragon",
+        "Yeti-Yeti",
+		"Portal-Portal",
+		"Spirit-Spirit",
+		"Mammoth-Mammoth",
+		"Venom-Venom"
+    },
+    -- ซื้อ + กิน ตัวสำรองระหว่างรอ MainFruits ใส่ { } = ไม่กิน
+    ["RegularFruits"] = {
+        "Flame-Flame",
+        "Magmag-Magma",
+        "Dark-Dark",
+        "Light-Light"
+    },
+    ["FragmentsCap"] = 50000,
+    ["Upgrade Race"] = false,
+    ["Pull Lever"] = true,
+    ["Saber"] = true, -- ถ้าเป็น true จะย้อนไปทำถ้ามันข้ามมา เป็น false จะทำ ถ้ามีโอกาสตีบอสตอนฟาร์มโลก 1 ถ้าไม่ต้องการ Ken กับ Saber ขนาดนั้นปิดไว้ได้
+    ["Farm Shark Anchor"]  = true,
+    ["Cursed Dual Katana"] = true,
+    ["Skull Guitar"] = true,
+    ["Farm Sword Mastery"] = {
+        ["Enabled"] = true,
+        ["Mode"] = "All", -- "All" = ทุกเล่มที่มี · "Selected" = เฉพาะที่ใส่ชื่อไว้ข้างล่าง
+        ["Swords"] = { },  -- ใช้ตอน Mode = "Selected" เช่น { "Yama", "Tushita", "Shark Anchor" }
+        -- 0 = Common · 1 = Uncommon · 2 = Rare · 3 = Legendary · 4 = Mythical
+        ["MinRarity"] = 3, -- 3 = เอาตั้งแต่ Legendary ขึ้นไป (เท่ากับของเดิมที่ฮาร์ดโค้ด > 2)
+    }
+}
 loadstring(game:HttpGet("https://cdn.maruhub.online/s/mobile"))()
