@@ -1,0 +1,46 @@
+getgenv().UserConfig = {
+    ["FPS"] = 3,
+    ["Webhook URL"] = "https://discord.com/api/webhooks/1559421752415621280/18sqKPHF6AXTUdf8Ct2SLL5CW_qfV1DjGRcdSuNstDpq3fFFcnbfqFsFfS6r6rjg0xgb",
+    ["Discord ID"] = "885836894032764968",
+    ["Webhook Note"] = "roblox68",
+    ["Webhook Rarity Units"] = {"Secret I", "Secret II", "Heavenly", "Galactic", "Exclusive"},
+    ["Webhook CPS Unit"] = "1b",
+    ["Webhook Name Units"] = {},
+    ["Ticket Exchange"] = {
+        "Ultra Luck",
+        "Luck",
+        "Roll Speed",
+        "More Cash",
+        "Lucky Spin"
+    },
+    ["Tower Target Quota"] = 3,
+    ["Max Level Budget %"] = 25,
+    ["Upgrade Max Level"] = {
+        ["Common"] = 5,
+        ["Uncommon"] = 10,
+        ["Rare"] = 15,
+        ["Epic"] = 20,
+        ["Legendary"] = 25,
+        ["Mythical"] = 30,
+        ["Divine"] = 35,
+        ["Celestial"] = 40,
+        ["Exotic"] = 45,
+        ["Secret I"] = 50,
+        ["Secret II"] = 55,
+        ["Heavenly"] = 60,
+        ["Galactic"] = 65,
+        ["Exclusive"] = 70
+    },
+    ["Auto Fuse"] = true,
+    ["Fuse Max Rarity"] = "Secret I",
+    ["Rebirth Stats"] = {
+        ["Luck"] = 16,
+        ["Money"] = 0,
+        ["Damage"] = 0,
+        ["Health"] = 0,
+        ["Trait Luck"] = 0,
+        ["Grade Luck"] = 0
+    },
+    ["Gear Priority"] = {"Luck", "Money Multiplier", "Damage Multiplier", "Trait Luck", "Grade Luck", "Walkspeed"}
+}
+loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/fee7689402b6218fde9b107556d424d6.lua"))()
