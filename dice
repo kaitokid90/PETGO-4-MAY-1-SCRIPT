@@ -4,7 +4,7 @@ getgenv().UserConfig = {
     ["Discord ID"] = "885836894032764968",
     ["Webhook Note"] = "roblox68",
     ["Webhook Rarity Units"] = {"Secret I", "Secret II", "Heavenly", "Galactic", "Exclusive"},
-    ["Webhook CPS Unit"] = "5b",
+    ["Webhook CPS Unit"] = "10b",
     ["Webhook Name Units"] = {},
     ["Ticket Exchange"] = {
         "Ultra Luck",
